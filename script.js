@@ -11,6 +11,20 @@ function toggleCard(header) {
         if (video) {
             video.play();
         }
+        
+        // Scroll to show the entire card after expansion completes
+        setTimeout(() => {
+            const cardBottom = card.getBoundingClientRect().bottom;
+            const windowHeight = window.innerHeight;
+            
+            // If card extends beyond viewport, scroll to show it fully
+            if (cardBottom > windowHeight) {
+                card.scrollIntoView({ 
+                    behavior: 'smooth', 
+                    block: 'end'
+                });
+            }
+        }, 600);
     } else {
         content.style.maxHeight = null;
         // Pause video when section closes

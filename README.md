@@ -192,26 +192,6 @@ Contributions are welcome! Here's how:
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 👨‍💻 Author
-
-Created with 💙 by [Your Name]
-
-## 🙏 Acknowledgments
-
-- Background video from [Pexels](https://www.pexels.com/)
-- Icons from [Flaticon](https://www.flaticon.com/)
-- Font from [Google Fonts](https://fonts.google.com/)
-- Inspired by modern web design trends
-
-## 📧 Contact
-
-Have questions or suggestions? Reach out:
-
-- 📧 Email: your.email@example.com
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- 💼 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-
 ---
 
 ⭐ **Star this repo** if you find it helpful!

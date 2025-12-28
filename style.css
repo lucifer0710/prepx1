@@ -274,25 +274,25 @@
         }
 
         .view-btn {
-            background: rgba(0, 242, 254, 0.1);
+            background: rgba(79, 172, 254, 0.1);
             color: var(--primary);
         }
 
         .view-btn:hover {
-            background: var(--primary);
+            background: #007bff;
             color: #000;
-            box-shadow: 0 0 15px var(--primary);
+            box-shadow: 0 0 15px #88b4ff;
         }
 
         .dl-btn {
             background: rgba(79, 172, 254, 0.1);
-            color: var(--secondary);
+            color: #fff;
         }
 
         .dl-btn:hover {
-            background: var(--secondary);
-            color: #000;
-            box-shadow: 0 0 15px var(--secondary);
+            background: #28a745;
+            color: #ffffff;
+            box-shadow: 0 0 15px #6aff8d;
         }
 
         @media (max-width: 600px) {

@@ -81,8 +81,7 @@ function extractFileId(url) {
             return match ? match[0] : null;
         }
         function openGPACalculator() {
-            alert('GPA Calculator feature coming soon!');
-            // You can replace this with actual GPA calculator functionality
+           window.open('https://gpacalcxx.vercel.app/' , '_blank');
         }
 
         function openTimetable() {

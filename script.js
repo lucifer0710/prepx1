@@ -86,5 +86,5 @@ function extractFileId(url) {
         }
 
         function openTimetable() {
-    window.location.href = 'https://timetablexx.vercel.app/';
+    window.open('https://timetablexx.vercel.app/', '_blank');
 }

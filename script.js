@@ -76,3 +76,15 @@ function toggleCard(header) {
             const match = url.match(/[-\w]{25,}/);
             return match ? match[0] : null;
         }
+function extractFileId(url) {
+            const match = url.match(/[-\w]{25,}/);
+            return match ? match[0] : null;
+        }
+        function openGPACalculator() {
+            alert('GPA Calculator feature coming soon!');
+            // You can replace this with actual GPA calculator functionality
+        }
+
+        function openTimetable() {
+    window.location.href = 'https://timetablexx.vercel.app/';
+}

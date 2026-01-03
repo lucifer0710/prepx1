@@ -322,3 +322,88 @@
     display: block;
     border-radius: 12px;
 }
+/* --- UTILITY BUTTONS --- */
+        .utility-buttons-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px 100px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .utility-btn {
+            background: var(--glass);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 10px 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: white;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .utility-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--primary);
+            box-shadow: 0 0 15px var(--primary);
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .utility-btn:hover {
+            transform: scale(1.02) translateY(-3px);
+            border-color: rgba(255, 255, 255, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 242, 254, 0.2);
+        }
+
+        .utility-btn:hover::before {
+            opacity: 1;
+        }
+
+        .btn-icon-text {
+            font-size: 1.8rem;
+        }
+
+        .btn-text {
+            font-size: 1.1rem;
+        }
+
+        .gpa-btn:hover {
+            background: rgba(0, 242, 254, 0.05);
+        }
+
+        .timetable-btn:hover {
+            background: rgba(79, 172, 254, 0.05);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .year-header {
+                font-size: 1.1rem;
+            }
+
+            .notes-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .utility-buttons-container {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+        }

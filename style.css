@@ -20,20 +20,39 @@
             overflow-x: hidden;
         }
 
-        /* --- BACKGROUND LAYERS --- */
-        #bg-video {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -3;
-            transform: translate(-50%, -50%);
-            object-fit: cover;
-            opacity: 0.6;
-        }
+                /* --- BACKGROUND CONFIGURATION --- */
+
+/* 1. Shared Styles (Positioning for both) */
+#bg-desktop, #bg-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    opacity: 0.6;      /* Adjust brightness here */
+    object-fit: fill;  /* Stretches to fit the screen exactly */
+}
+
+/* 2. Desktop Mode (Default) */
+#bg-desktop {
+    display: block;    /* Show the GIF */
+}
+
+#bg-mobile {
+    display: none;     /* Hide the Video */
+}
+
+/* 3. Mobile Mode (Triggered on screens narrower than 768px) */
+@media (max-width: 768px) {
+    #bg-desktop {
+        display: none;  /* Hide the GIF */
+    }
+
+    #bg-mobile {
+        display: block; /* Show the Video */
+    }
+}
 
         .css-fallback-bg {
             position: fixed;

@@ -87,3 +87,8 @@ function extractFileId(url) {
         function openTimetable() {
     window.open('https://timetablexx.vercel.app/', '_blank');
 }
+window.toggleCard = toggleCard;
+window.filterContent = filterContent;
+window.openLink = openLink;
+window.openGPACalculator = openGPACalculator;
+window.openTimetable = openTimetable;

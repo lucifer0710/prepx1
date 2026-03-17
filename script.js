@@ -76,10 +76,6 @@ function toggleCard(header) {
             const match = url.match(/[-\w]{25,}/);
             return match ? match[0] : null;
         }
-function extractFileId(url) {
-            const match = url.match(/[-\w]{25,}/);
-            return match ? match[0] : null;
-        }
         function openGPACalculator() {
            window.open('https://gpacalcxx.vercel.app/' , '_blank');
         }

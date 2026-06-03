@@ -1,3 +1,6 @@
+import { parseGIF, decompressFrames } from 'gifuct-js';
+import faviconGifUrl from './favicon4.gif';
+
 function toggleCard(header) {
     const card = header.parentElement;
     const content = header.nextElementSibling;
@@ -88,3 +91,81 @@ window.filterContent = filterContent;
 window.openLink = openLink;
 window.openGPACalculator = openGPACalculator;
 window.openTimetable = openTimetable;
+
+async function initAnimatedFavicon() {
+    try {
+        const response = await fetch(faviconGifUrl);
+        const arrayBuffer = await response.arrayBuffer();
+        
+        const gif = parseGIF(arrayBuffer);
+        const frames = decompressFrames(gif, true);
+        
+        if (!frames || frames.length === 0) return;
+        
+        const size = gif.lsd.width; // favicon size matching the source GIF
+        const canvas = document.createElement('canvas');
+        canvas.width = size;
+        canvas.height = size;
+        const ctx = canvas.getContext('2d');
+        
+        const tempCanvas = document.createElement('canvas');
+        tempCanvas.width = gif.lsd.width;
+        tempCanvas.height = gif.lsd.height;
+        const tempCtx = tempCanvas.getContext('2d');
+        
+        const faviconLink = document.getElementById('favicon');
+        if (!faviconLink) return;
+        
+        // Pre-render all frames to data URLs on load for maximum smoothness and 0% runtime CPU lag
+        const renderedFrames = [];
+        for (let i = 0; i < frames.length; i++) {
+            const frame = frames[i];
+            
+            if (i === 0) {
+                tempCtx.clearRect(0, 0, tempCanvas.width, tempCanvas.height);
+            } else {
+                const prevFrame = frames[i - 1];
+                if (prevFrame.disposalType === 2) {
+                    tempCtx.clearRect(
+                        prevFrame.dims.left, 
+                        prevFrame.dims.top, 
+                        prevFrame.dims.width, 
+                        prevFrame.dims.height
+                    );
+                }
+            }
+            
+            const imgData = tempCtx.createImageData(frame.dims.width, frame.dims.height);
+            imgData.data.set(frame.patch);
+            tempCtx.putImageData(imgData, frame.dims.left, frame.dims.top);
+            
+            ctx.clearRect(0, 0, size, size);
+            ctx.drawImage(tempCanvas, 0, 0, size, size);
+            
+            renderedFrames.push({
+                dataUrl: canvas.toDataURL('image/png'),
+                delay: frame.delay
+            });
+        }
+        
+        let frameIndex = 0;
+        
+        function renderFrame() {
+            const frame = renderedFrames[frameIndex];
+            faviconLink.href = frame.dataUrl;
+            frameIndex = (frameIndex + 1) % renderedFrames.length;
+            setTimeout(renderFrame, frame.delay);
+        }
+        
+        renderFrame();
+    } catch (e) {
+        console.error('Failed to animate favicon:', e);
+    }
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAnimatedFavicon);
+} else {
+    initAnimatedFavicon();
+}
+

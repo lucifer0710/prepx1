@@ -447,26 +447,57 @@ function downloadMapImage() {
     link.click();
 }
 
+function wrapDownloadWithAnimation(btnId, downloadFn) {
+    const btn = document.getElementById(btnId);
+    if (!btn) return;
+    
+    btn.addEventListener('click', async () => {
+        if (btn.classList.contains('loading') || btn.classList.contains('saved')) return;
+        
+        const originalContent = btn.innerHTML;
+        
+        btn.classList.add('loading');
+        btn.innerHTML = `
+            <div class="spinner"></div>
+            <span>Downloading...</span>
+        `;
+        
+        // Simulate download delay
+        await new Promise(resolve => setTimeout(resolve, 1500));
+        
+        // Execute actual download
+        downloadFn();
+        
+        btn.classList.remove('loading');
+        btn.classList.add('saved');
+        btn.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Saved</span>
+        `;
+        
+        setTimeout(() => {
+            btn.classList.remove('saved');
+            btn.innerHTML = originalContent;
+        }, 2000);
+    });
+}
+
 // Initialize button event listeners once DOM is ready
 function initFeatures() {
     const wifiBtn = document.getElementById('wifi-btn');
     if (wifiBtn) {
         wifiBtn.addEventListener('click', openWifiModal);
     }
-    const downloadBtn = document.getElementById('wifi-download-btn');
-    if (downloadBtn) {
-        downloadBtn.addEventListener('click', downloadWifiListImage);
-    }
+    wrapDownloadWithAnimation('wifi-download-btn', downloadWifiListImage);
     
     // Map features
     const mapBtn = document.getElementById('map-btn');
     if (mapBtn) {
         mapBtn.addEventListener('click', openMapModal);
     }
-    const mapDownloadBtn = document.getElementById('map-download-btn');
-    if (mapDownloadBtn) {
-        mapDownloadBtn.addEventListener('click', downloadMapImage);
-    }
+    wrapDownloadWithAnimation('map-download-btn', downloadMapImage);
 }
 
 if (document.readyState === 'loading') {
@@ -474,4 +505,5 @@ if (document.readyState === 'loading') {
 } else {
     initFeatures();
 }
+
 

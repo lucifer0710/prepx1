@@ -198,10 +198,11 @@ function populateWifiList() {
         
         wifiItem.onclick = (e) => handleWifiClick(e, index, wifi.pass);
         
+        const isHostelJ = wifi.name === "Hostel J";
         wifiItem.innerHTML = `
             <span class="wifi-name">${wifi.name}</span>
             <div class="wifi-pass-container">
-                <span class="wifi-pass" id="wifi-pass-${index}">${wifi.pass}</span>
+                <span class="wifi-pass${isHostelJ ? ' wifi-pass-hostel-j' : ''}" id="wifi-pass-${index}">${wifi.pass}</span>
             </div>
             <div class="copy-indicator" id="copy-indicator-${index}">Copied!</div>
         `;
@@ -494,7 +495,7 @@ function wrapDownloadWithAnimation(btnId, downloadFn) {
         setTimeout(() => {
             btn.classList.remove('saved');
             btn.innerHTML = originalContent;
-        }, 2000);
+        }, 5000);
     });
 }
 

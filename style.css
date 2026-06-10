@@ -426,40 +426,265 @@
                 gap: 15px;
             }
         }
+/* --- UPDATED TOP BUTTONS --- */
+.secret-btn, .secret-btn-right {
+    position: fixed;
+    top: 20px;
+    z-index: 9999;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--glass);
+    border: 1px solid var(--border);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-svg-icon {
+    stroke: #ffffff;
+    transition: stroke 0.3s ease, transform 0.3s ease;
+}
+
+.secret-btn:hover .btn-svg-icon, .secret-btn-right:hover .btn-svg-icon {
+    stroke: var(--primary);
+    transform: scale(1.05);
+}
+
+
 .secret-btn {
-        position: fixed;
-        top: 16px;
-        left: 16px;
-        z-index: 9999;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        background: transparent;
-        border: none;
-        cursor: pointer;
-        opacity: 0;
-        transition: opacity 0.2s;
-    }
-    .secret-btn:hover {
-        opacity: 0;
-        background: rgba(255,255,255,0.3);
-    }
- .secret-btn-right {
-        position: fixed;
-        top: 16px;
-        right: 16px;
-        z-index: 9999;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        background: transparent;
-        border: none;
-        cursor: pointer;
-        opacity: 0;
-        transition: opacity 0.2s;
-    }
-    .secret-btn-right:hover {
-        opacity: 0;
-        background: rgba(255,255,255,0.3);
-    }
+    left: 20px;
+}
+
+.secret-btn-right {
+    right: 20px;
+}
+
+.secret-btn:hover, .secret-btn-right:hover {
+    transform: scale(1.1) translateY(-2px);
+    border-color: var(--primary);
+    box-shadow: 0 0 20px rgba(0, 242, 254, 0.4);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.secret-btn:active, .secret-btn-right:active {
+    transform: scale(0.95);
+}
+
+/* --- WIFI MODAL --- */
+.wifi-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.wifi-modal.show {
+    display: flex;
+    opacity: 1;
+}
+
+.wifi-modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.wifi-modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    background: var(--glass);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 242, 254, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transform: scale(0.9) translateY(20px);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 10001;
+}
+
+.wifi-modal.show .wifi-modal-content {
+    transform: scale(1) translateY(0);
+}
+
+.wifi-modal-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wifi-modal-header h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #fff, var(--primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wifi-modal-close {
+    background: transparent;
+    border: none;
+    color: #ccc;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: color 0.2s;
+    line-height: 1;
+}
+
+.wifi-modal-close:hover {
+    color: #fff;
+}
+
+.wifi-modal-body {
+    padding: 20px 24px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.wifi-subtitle {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.wifi-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.wifi-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.wifi-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--secondary);
+    transform: translateY(-2px);
+}
+
+.wifi-name {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.wifi-pass-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wifi-pass {
+    font-family: monospace;
+    font-size: 0.95rem;
+    padding: 4px 8px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    color: var(--primary);
+    transition: all 0.3s ease;
+    filter: blur(4px);
+    user-select: none;
+}
+
+.wifi-item.revealed .wifi-pass {
+    filter: blur(0);
+    user-select: text;
+}
+
+.copy-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(40, 167, 69, 0.9);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.wifi-item.copied .copy-indicator {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.wifi-modal-footer {
+    padding: 16px 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.download-btn {
+    background: transparent;
+    border: 1.5px solid #00f2fe;
+    color: #00f2fe;
+    font-weight: 700;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 4px 15px rgba(0, 242, 254, 0.15);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.download-btn:hover {
+    transform: scale(1.05) translateY(-2px);
+    background: rgba(0, 242, 254, 0.10);
+    box-shadow: 0 6px 20px rgba(0, 242, 254, 0.4);
+}
+
+.download-btn:active {
+    transform: scale(0.98);
+}
 

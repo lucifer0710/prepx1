@@ -169,3 +169,309 @@ if (document.readyState === 'loading') {
     initAnimatedFavicon();
 }
 
+// --- WIFI CREDENTIALS FEATURE ---
+const wifiData = [
+    { name: "Audi", pass: "audi@net" },
+    { name: "CSED", pass: "csed@123#" },
+    { name: "CSED_LAB", pass: "hecllab768" },
+    { name: "Directorate", pass: "dir@tu&98765" },
+    { name: "EACCESS", pass: "hostelnet" },
+    { name: "Hostel J", pass: "LetMeC@@nnectViaCISH2010@Thapar" },
+    { name: "Machine Tool", pass: "workshop@54321" },
+    { name: "Placement Cell", pass: "Cilp@98765" },
+    { name: "THights", pass: "abcd1234" },
+    { name: "TU", pass: "tu@inet1" },
+    { name: "LC", pass: "lc@tiet1" },
+    { name: "E-Block", pass: "hostelnet" },
+    { name: "F-Block", pass: "hostelnet" }
+];
+
+function populateWifiList() {
+    const wifiListContainer = document.getElementById('wifi-list');
+    if (!wifiListContainer) return;
+    wifiListContainer.innerHTML = '';
+    
+    wifiData.forEach((wifi, index) => {
+        const wifiItem = document.createElement('div');
+        wifiItem.className = 'wifi-item';
+        wifiItem.id = `wifi-item-${index}`;
+        
+        wifiItem.onclick = (e) => handleWifiClick(e, index, wifi.pass);
+        
+        wifiItem.innerHTML = `
+            <span class="wifi-name">${wifi.name}</span>
+            <div class="wifi-pass-container">
+                <span class="wifi-pass" id="wifi-pass-${index}">${wifi.pass}</span>
+            </div>
+            <div class="copy-indicator" id="copy-indicator-${index}">Copied!</div>
+        `;
+        wifiListContainer.appendChild(wifiItem);
+    });
+}
+
+function handleWifiClick(event, index, password) {
+    const item = document.getElementById(`wifi-item-${index}`);
+    if (!item) return;
+    
+    if (!item.classList.contains('revealed')) {
+        item.classList.add('revealed');
+    } else {
+        // Copy to clipboard
+        navigator.clipboard.writeText(password).then(() => {
+            item.classList.add('copied');
+            const indicator = document.getElementById(`copy-indicator-${index}`);
+            if (indicator) {
+                indicator.style.opacity = '1';
+                indicator.style.transform = 'translate(-50%, -50%) scale(1.1)';
+            }
+            setTimeout(() => {
+                item.classList.remove('copied');
+                if (indicator) {
+                    indicator.style.opacity = '0';
+                    indicator.style.transform = 'translate(-50%, -50%) scale(1)';
+                }
+            }, 1200);
+        }).catch(err => {
+            console.error('Could not copy password: ', err);
+        });
+    }
+}
+
+function openWifiModal() {
+    const modal = document.getElementById('wifi-modal');
+    if (modal) {
+        modal.style.display = 'flex';
+        // Force reflow
+        modal.offsetHeight;
+        modal.classList.add('show');
+        populateWifiList();
+    }
+}
+
+function closeWifiModal() {
+    const modal = document.getElementById('wifi-modal');
+    if (modal) {
+        modal.classList.remove('show');
+        setTimeout(() => {
+            modal.style.display = 'none';
+        }, 300);
+    }
+}
+
+function downloadWifiListImage() {
+    const cardWidth = 600;
+    const cardHeight = 780;
+    const scale = 2; // For high-DPI crisp rendering
+    
+    const canvas = document.createElement('canvas');
+    canvas.width = cardWidth * scale;
+    canvas.height = cardHeight * scale;
+    
+    const ctx = canvas.getContext('2d');
+    ctx.scale(scale, scale);
+    
+    // Background gradient
+    const bgGrad = ctx.createLinearGradient(0, 0, cardWidth, cardHeight);
+    bgGrad.addColorStop(0, '#0a0a16');
+    bgGrad.addColorStop(1, '#020205');
+    ctx.fillStyle = bgGrad;
+    ctx.fillRect(0, 0, cardWidth, cardHeight);
+    
+    // Subtle grid pattern
+    ctx.strokeStyle = 'rgba(0, 242, 254, 0.03)';
+    ctx.lineWidth = 1;
+    for (let x = 0; x < cardWidth; x += 30) {
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, cardHeight);
+        ctx.stroke();
+    }
+    for (let y = 0; y < cardHeight; y += 30) {
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(cardWidth, y);
+        ctx.stroke();
+    }
+
+    // Outer Border with Cyan Glow
+    ctx.strokeStyle = 'rgba(0, 242, 254, 0.25)';
+    ctx.lineWidth = 1.5;
+    ctx.strokeRect(12, 12, cardWidth - 24, cardHeight - 24);
+    
+    // Glowing corners
+    ctx.strokeStyle = '#00f2fe';
+    ctx.lineWidth = 3.5;
+    const len = 20;
+    
+    // Top-Left
+    ctx.beginPath();
+    ctx.moveTo(12, 12 + len);
+    ctx.lineTo(12, 12);
+    ctx.lineTo(12 + len, 12);
+    ctx.stroke();
+    
+    // Top-Right
+    ctx.beginPath();
+    ctx.moveTo(cardWidth - 12, 12 + len);
+    ctx.lineTo(cardWidth - 12, 12);
+    ctx.lineTo(cardWidth - 12 - len, 12);
+    ctx.stroke();
+    
+    // Bottom-Left
+    ctx.beginPath();
+    ctx.moveTo(12, cardHeight - 12 - len);
+    ctx.lineTo(12, cardHeight - 12);
+    ctx.lineTo(12 + len, cardHeight - 12);
+    ctx.stroke();
+    
+    // Bottom-Right
+    ctx.beginPath();
+    ctx.moveTo(cardWidth - 12, cardHeight - 12 - len);
+    ctx.lineTo(cardWidth - 12, cardHeight - 12);
+    ctx.lineTo(cardWidth - 12 - len, cardHeight - 12);
+    ctx.stroke();
+
+    // Title text
+    ctx.shadowColor = 'rgba(0, 242, 254, 0.4)';
+    ctx.shadowBlur = 8;
+    ctx.fillStyle = '#ffffff';
+    ctx.font = "bold 24px 'Outfit', sans-serif";
+    ctx.textAlign = 'center';
+    ctx.fillText("WIFI CREDENTIALS", cardWidth / 2, 60);
+    
+    ctx.shadowBlur = 0; // Reset shadow
+    
+    ctx.fillStyle = '#888888';
+    ctx.font = "14px 'Outfit', sans-serif";
+    ctx.fillText("Quick-Connect Network Guide", cardWidth / 2, 85);
+    
+    // Table Headers
+    ctx.fillStyle = '#e0e0e3';
+    ctx.font = "bold 13px 'Outfit', sans-serif";
+    ctx.textAlign = 'left';
+    ctx.fillText("NETWORK NAME", 50, 115);
+    ctx.textAlign = 'right';
+    ctx.fillText("PASSWORD", cardWidth - 50, 115);
+    
+    // Separator line (now below the headers)
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(35, 130);
+    ctx.lineTo(cardWidth - 35, 130);
+    ctx.stroke();
+    
+    // Table rows
+    const startY = 160;
+    const rowHeight = 42;
+    
+    wifiData.forEach((wifi, index) => {
+        const rowY = startY + (index * rowHeight);
+        
+        // Background for each row
+        ctx.fillStyle = index % 2 === 0 ? 'rgba(255, 255, 255, 0.02)' : 'rgba(255, 255, 255, 0.05)';
+        ctx.beginPath();
+        const rx = 35;
+        const ry = rowY - 18;
+        const rw = cardWidth - 70;
+        const rh = 30;
+        const radius = 6;
+        if (ctx.roundRect) {
+            ctx.roundRect(rx, ry, rw, rh, radius);
+        } else {
+            ctx.rect(rx, ry, rw, rh);
+        }
+        ctx.fill();
+        
+        // Network Name
+        ctx.fillStyle = '#ffffff';
+        ctx.font = "500 14px 'Outfit', sans-serif";
+        ctx.textAlign = 'left';
+        ctx.fillText(wifi.name, 50, rowY);
+        
+        // Password
+        ctx.fillStyle = '#00f2fe';
+        ctx.font = "bold 13px monospace";
+        ctx.textAlign = 'right';
+        ctx.fillText(wifi.pass, cardWidth - 50, rowY);
+    });
+    
+    // Footer line
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+    ctx.beginPath();
+    ctx.moveTo(35, cardHeight - 65);
+    ctx.lineTo(cardWidth - 35, cardHeight - 65);
+    ctx.stroke();
+    
+    ctx.fillStyle = '#555555';
+    ctx.font = "12px 'Outfit', sans-serif";
+    ctx.textAlign = 'center';
+    ctx.fillText("© prepx.fun • Access your entire syllabus in one click.", cardWidth / 2, cardHeight - 40);
+    
+    // Download trigger
+    const link = document.createElement('a');
+    link.download = 'prepx-wifi-credentials.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+}
+
+// Expose open/close functions globally for inline onclick handlers
+window.openWifiModal = openWifiModal;
+window.closeWifiModal = closeWifiModal;
+window.openMapModal = openMapModal;
+window.closeMapModal = closeMapModal;
+
+function openMapModal() {
+    const modal = document.getElementById('map-modal');
+    if (modal) {
+        modal.style.display = 'flex';
+        modal.offsetHeight; // Force reflow
+        modal.classList.add('show');
+    }
+}
+
+function closeMapModal() {
+    const modal = document.getElementById('map-modal');
+    if (modal) {
+        modal.classList.remove('show');
+        setTimeout(() => {
+            modal.style.display = 'none';
+        }, 300);
+    }
+}
+
+function downloadMapImage() {
+    const link = document.createElement('a');
+    link.download = 'tiet-campus-map.png';
+    link.href = 'map.png';
+    link.click();
+}
+
+// Initialize button event listeners once DOM is ready
+function initFeatures() {
+    const wifiBtn = document.getElementById('wifi-btn');
+    if (wifiBtn) {
+        wifiBtn.addEventListener('click', openWifiModal);
+    }
+    const downloadBtn = document.getElementById('wifi-download-btn');
+    if (downloadBtn) {
+        downloadBtn.addEventListener('click', downloadWifiListImage);
+    }
+    
+    // Map features
+    const mapBtn = document.getElementById('map-btn');
+    if (mapBtn) {
+        mapBtn.addEventListener('click', openMapModal);
+    }
+    const mapDownloadBtn = document.getElementById('map-download-btn');
+    if (mapDownloadBtn) {
+        mapDownloadBtn.addEventListener('click', downloadMapImage);
+    }
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFeatures);
+} else {
+    initFeatures();
+}
+

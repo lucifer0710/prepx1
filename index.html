@@ -12,8 +12,20 @@
 </head>
 
 <body>
-<a href="" target="_blank" rel="noopener noreferrer" class="secret-btn"></a>
-  <a href="acc.png" target="_blank" rel="noopener noreferrer" class="secret-btn-right"></a>
+    <button id="wifi-btn" class="secret-btn" aria-label="WiFi Networks">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-svg-icon">
+          <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+          <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+          <path d="M8.53 16.1a6 6 0 0 1 6.95 0"></path>
+          <line x1="12" y1="20" x2="12.01" y2="20" stroke-width="3"></line>
+        </svg>
+    </button>
+    <button id="map-btn" class="secret-btn-right" aria-label="Campus Map">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-svg-icon">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+    </button>
     <div class="css-fallback-bg"></div>
 
     <img src="mario.gif" id="bg-desktop" alt="Desktop Background">
@@ -221,16 +233,83 @@
             </div>
         </div>
         <div class="utility-buttons-container">
-        <button class="utility-btn gpa-btn" onclick="openGPACalculator()">
-            <span class="btn-icon-text">📊</span>
-            <span class="btn-text">Calculate GPA</span>
-        </button>
         <button class="utility-btn timetable-btn" onclick="openTimetable()">
             <span class="btn-icon-text">📅</span>
             <span class="btn-text">Timetable</span>
         </button>
+        <button class="utility-btn gpa-btn" onclick="openGPACalculator()">
+            <span class="btn-icon-text">📊</span>
+            <span class="btn-text">Calculate GPA</span>
+        </button>
     </div>
 
+    </div>
+
+    <!-- WiFi Modal -->
+    <div id="wifi-modal" class="wifi-modal">
+        <div class="wifi-modal-backdrop" onclick="window.closeWifiModal()"></div>
+        <div class="wifi-modal-content">
+            <div class="wifi-modal-header">
+                <h2 style="display: flex; align-items: center; gap: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--primary);">
+                      <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                      <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                      <path d="M8.53 16.1a6 6 0 0 1 6.95 0"></path>
+                      <line x1="12" y1="20" x2="12.01" y2="20" stroke-width="3"></line>
+                    </svg>
+                    WiFi Credentials
+                </h2>
+                <button class="wifi-modal-close" onclick="window.closeWifiModal()">&times;</button>
+            </div>
+            <div class="wifi-modal-body">
+                <p class="wifi-subtitle">Click on a network to reveal the password.</p>
+                <div id="wifi-list" class="wifi-list">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+            <div class="wifi-modal-footer">
+                <button class="download-btn" id="wifi-download-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor; margin-right: 4px;">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Download
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Modal -->
+    <div id="map-modal" class="wifi-modal">
+        <div class="wifi-modal-backdrop" onclick="window.closeMapModal()"></div>
+        <div class="wifi-modal-content" style="max-width: 800px;">
+            <div class="wifi-modal-header">
+                <h2 style="display: flex; align-items: center; gap: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--primary);">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    Campus Map
+                </h2>
+                <button class="wifi-modal-close" onclick="window.closeMapModal()">&times;</button>
+            </div>
+            <div class="wifi-modal-body" style="text-align: center; padding: 15px;">
+                <div class="map-container" style="overflow: auto; max-height: 60vh; border-radius: 12px;">
+                    <img src="map.png" alt="Campus Map" style="max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 8px; border: 1px solid var(--border);">
+                </div>
+            </div>
+            <div class="wifi-modal-footer">
+                <button class="download-btn" id="map-download-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor; margin-right: 4px;">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Download
+                </button>
+            </div>
+        </div>
     </div>
 
     <script type="module" src="script.js"></script>

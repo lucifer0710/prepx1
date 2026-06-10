@@ -440,11 +440,25 @@ function closeMapModal() {
     }
 }
 
-function downloadMapImage() {
-    const link = document.createElement('a');
-    link.download = 'tiet-campus-map.png';
-    link.href = 'map.png';
-    link.click();
+async function downloadMapImage() {
+    try {
+        const response = await fetch('map.png');
+        const blob = await response.blob();
+        const reader = new FileReader();
+        reader.onloadend = function() {
+            const link = document.createElement('a');
+            link.download = 'tiet-campus-map.png';
+            link.href = reader.result;
+            link.click();
+        };
+        reader.readAsDataURL(blob);
+    } catch (error) {
+        console.error("Failed to download map as data URL, falling back to direct link", error);
+        const link = document.createElement('a');
+        link.download = 'tiet-campus-map.png';
+        link.href = 'map.png';
+        link.click();
+    }
 }
 
 function wrapDownloadWithAnimation(btnId, downloadFn) {

@@ -721,3 +721,9 @@
     background: rgba(0, 242, 254, 0.1);
     box-shadow: 0 6px 20px rgba(0, 242, 254, 0.4);
 }
+
+@media (max-width: 768px) {
+    .secret-btn, .secret-btn-right {
+        position: absolute;
+    }
+}

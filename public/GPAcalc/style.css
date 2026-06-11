@@ -1,0 +1,423 @@
+
+        :root {
+            --primary: #00f2fe;
+            --secondary: #4facfe;
+            --glass: rgba(20, 20, 30, 0.75);
+            --border: rgba(255, 255, 255, 0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: #000;
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .css-fallback-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            background: linear-gradient(-45deg, #000000, #1a0b2e, #0f2027, #000000);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, transparent 0%, #000 100%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .header-content {
+            text-align: center;
+            padding: 80px 20px 40px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #fff, var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+            filter: drop-shadow(0 0 15px rgba(0, 242, 254, 0.3));
+            animation: floatText 3s ease-in-out infinite;
+        }
+
+        @keyframes floatText {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        .subtitle {
+            color: #ccc;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px 100px;
+        }
+
+        .year-tabs {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .year-tab {
+            padding: 15px 30px;
+            border-radius: 50px;
+            border: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .year-tab:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .year-tab.active {
+            border-color: var(--primary);
+            background: rgba(0, 242, 254, 0.1);
+            color: var(--primary);
+            box-shadow: 0 0 30px rgba(0, 242, 254, 0.2);
+        }
+
+        .content-card {
+            background: var(--glass);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .content-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--primary);
+            box-shadow: 0 0 15px var(--primary);
+        }
+
+        .content-inner {
+            padding: 30px;
+        }
+
+        .pool-selector {
+            margin-top: 30px;
+        }
+
+        .pool-label {
+            color: var(--primary);
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            display: block;
+        }
+
+        .pool-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .pool-btn {
+            padding: 50px 30px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            background: rgba(0, 242, 254, 0.05);
+            color: white;
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .pool-btn:hover {
+            transform: scale(1.05) translateY(-5px);
+            border-color: var(--primary);
+            box-shadow: 0 10px 30px rgba(0, 242, 254, 0.3);
+            background: rgba(0, 242, 254, 0.1);
+        }
+
+        .pool-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .change-pool-btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .change-pool-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--primary);
+        }
+
+        .subjects-container {
+            margin-top: 20px;
+        }
+
+        .subjects-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+
+        .subject-card {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid transparent;
+            transition: all 0.3s;
+            gap: 20px;
+            position: relative;
+        }
+
+        .subject-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--secondary);
+            transform: translateY(-5px);
+        }
+
+        .subject-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .subject-name {
+            font-weight: 500;
+            font-size: 1rem;
+            color: white;
+        }
+
+        .subject-credits {
+            font-size: 0.9rem;
+            color: var(--primary);
+            font-weight: 600;
+            min-width: 80px;
+            text-align: center;
+        }
+
+        .grade-select {
+            min-width: 140px;
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+            outline: none;
+        }
+
+        .grade-select:focus {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--primary);
+            box-shadow: 0 0 30px rgba(0, 242, 254, 0.2);
+        }
+
+        .grade-select option {
+            background: #1a1a2e;
+            color: white;
+        }
+
+        .gpa-display {
+            margin-top: 30px;
+            background: linear-gradient(135deg, rgba(0, 242, 254, 0.1), rgba(79, 172, 254, 0.1));
+            padding: 30px;
+            border-radius: 16px;
+            text-align: center;
+            border: 1px solid rgba(0, 242, 254, 0.3);
+            box-shadow: 0 0 30px rgba(0, 242, 254, 0.1);
+        }
+
+        .gpa-label {
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .gpa-value {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #fff, var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 15px rgba(0, 242, 254, 0.3));
+        }
+
+        .not-available {
+            text-align: center;
+            padding: 80px 20px;
+            color: #888;
+        }
+
+        .not-available-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .not-available-text {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .subject-actions {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .delete-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            color: white;
+            border-radius: 8px;
+            width: 45px;
+            height: 45px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .delete-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 0 20px rgba(0, 242, 254, 0.25);
+        }
+
+        .delete-btn:active {
+            transform: translateY(0);
+        }
+
+        .add-bootcamp-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 242, 254, 0.02);
+            border: 2px dashed rgba(0, 242, 254, 0.25);
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: var(--primary);
+            font-weight: 600;
+            gap: 10px;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: 100%;
+        }
+
+        .add-bootcamp-card:hover {
+            background: rgba(0, 242, 254, 0.08);
+            border-color: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 0 25px rgba(0, 242, 254, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .year-tab {
+                font-size: 1rem;
+                padding: 12px 20px;
+            }
+
+            .pool-btn {
+                font-size: 1.5rem;
+                padding: 40px 20px;
+            }
+
+            .gpa-value {
+                font-size: 2.5rem;
+            }
+
+            .subject-card {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+
+            .subject-info {
+                padding-right: 55px; /* Leave space for the absolute delete button on the right */
+                width: 100%;
+            }
+
+            .subject-actions {
+                width: 100%;
+                display: flex;
+                gap: 10px;
+            }
+
+            .grade-select {
+                flex: 1;
+                width: auto;
+            }
+
+            .delete-btn {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+        }

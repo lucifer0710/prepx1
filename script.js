@@ -80,11 +80,11 @@ function toggleCard(header) {
             return match ? match[0] : null;
         }
         function openGPACalculator() {
-           window.open('/GPAcalc/' , '_blank');
+           window.open('https://gpacalcxx.vercel.app/' , '_blank');
         }
 
         function openTimetable() {
-    window.open('/timetable/', '_blank');
+    window.open('https://timetablexx.vercel.app/', '_blank');
 }
 window.toggleCard = toggleCard;
 window.filterContent = filterContent;

@@ -1,4 +1,3 @@
-
 const gradePoints = {
     'A+': 10, 'A': 10, 'A-': 9, 'B': 8, 'B-': 7, 'C': 6, 'C-': 5, 'E': 2, 'F': 0
 };
@@ -21,63 +20,74 @@ const poolB = [
     { name: 'Boot Camp (UTA032)', credits: 1, isBootcamp: true }
 ];
 
-let currentPool = null;
-let grades = {};
+let activeView = 'dashboard'; // 'dashboard' or 'calculator'
+let currentYear = null;       // 1, 2, 3, 4
+let currentPool = null;       // 'A' or 'B'
+let grades = {
+    'A': {},
+    'B': {}
+};
 let bootcampIncluded = {
     'A': true,
     'B': true
 };
 
-function switchYear(year) {
-    // Update tabs
-    document.querySelectorAll('.year-tab').forEach(tab => {
-        tab.classList.remove('active');
-    });
-    event.target.classList.add('active');
-
-    // Hide all year contents
-    document.querySelectorAll('[id$="-content"]').forEach(content => {
-        content.classList.add('hidden');
-    });
-
-    // Show selected year content
-    document.getElementById(year + '-content').classList.remove('hidden');
-
-    // Reset pool selection when switching from year 1
-    if (year !== 'year1') {
-        currentPool = null;
-        grades = {};
-    } else {
-        // When returning to year 1, show pool selector if no pool is selected
+function openYear(yearNum) {
+    currentYear = yearNum;
+    activeView = 'calculator';
+    
+    document.getElementById('dashboard-view').classList.add('hidden');
+    document.getElementById('calculator-view').classList.remove('hidden');
+    document.getElementById('calc-title').textContent = `Year ${yearNum} Calculator`;
+    
+    if (yearNum === 1) {
+        document.getElementById('year1-calc-content').classList.remove('hidden');
+        document.getElementById('other-years-calc-content').classList.add('hidden');
+        
+        // Show pool selector or active pool content based on state
         if (!currentPool) {
             document.getElementById('pool-selector').classList.remove('hidden');
             document.getElementById('pool-content').classList.add('hidden');
         } else {
             document.getElementById('pool-selector').classList.add('hidden');
             document.getElementById('pool-content').classList.remove('hidden');
+            document.getElementById('current-pool').textContent = 'POOL ' + currentPool;
+            renderSubjects();
+            calculateGPA();
         }
+    } else {
+        document.getElementById('year1-calc-content').classList.add('hidden');
+        document.getElementById('other-years-calc-content').classList.remove('hidden');
     }
+}
+
+function showDashboard() {
+    activeView = 'dashboard';
+    currentYear = null;
+    
+    document.getElementById('dashboard-view').classList.remove('hidden');
+    document.getElementById('calculator-view').classList.add('hidden');
 }
 
 function selectPool(pool) {
     currentPool = pool;
-    grades = {};
     bootcampIncluded[pool] = true; // reset to included when selecting a pool
     document.getElementById('pool-selector').classList.add('hidden');
     document.getElementById('pool-content').classList.remove('hidden');
     document.getElementById('current-pool').textContent = 'POOL ' + pool;
     renderSubjects();
+    calculateGPA();
 }
 
 function changePool() {
     currentPool = null;
-    grades = {};
     document.getElementById('pool-selector').classList.remove('hidden');
     document.getElementById('pool-content').classList.add('hidden');
     document.getElementById('gpa-value').textContent = '0.00';
 }
 
 function renderSubjects() {
+    if (!currentPool) return;
     const subjects = currentPool === 'A' ? poolA : poolB;
     const grid = document.getElementById('subjects-grid');
     grid.innerHTML = '';
@@ -115,7 +125,7 @@ function renderSubjects() {
                         <select class="grade-select" onchange="updateGrade('${subject.name}', this.value)">
                             <option value="">Select Grade</option>
                             ${Object.keys(gradePoints).map(grade => {
-            const selected = grades[subject.name] === grade ? 'selected' : '';
+            const selected = grades[currentPool][subject.name] === grade ? 'selected' : '';
             return `<option value="${grade}" ${selected}>${grade}</option>`;
         }).join('')}
                         </select>
@@ -129,9 +139,9 @@ function renderSubjects() {
 
 function updateGrade(subjectName, grade) {
     if (grade) {
-        grades[subjectName] = grade;
+        grades[currentPool][subjectName] = grade;
     } else {
-        delete grades[subjectName];
+        delete grades[currentPool][subjectName];
     }
     calculateGPA();
 }
@@ -139,8 +149,7 @@ function updateGrade(subjectName, grade) {
 function deleteBootcamp(event) {
     if (event) event.stopPropagation();
     bootcampIncluded[currentPool] = false;
-    // Clear the grade of the bootcamp subject from grades
-    delete grades['Boot Camp (UTA032)'];
+    delete grades[currentPool]['Boot Camp (UTA032)'];
     renderSubjects();
     calculateGPA();
 }
@@ -152,6 +161,7 @@ function addBootcamp() {
 }
 
 function calculateGPA() {
+    if (!currentPool) return;
     const subjects = currentPool === 'A' ? poolA : poolB;
     let totalPoints = 0;
     let totalCredits = 0;
@@ -160,7 +170,7 @@ function calculateGPA() {
         if (subject.isBootcamp && !bootcampIncluded[currentPool]) {
             return;
         }
-        const grade = grades[subject.name];
+        const grade = grades[currentPool][subject.name];
         if (grade) {
             totalPoints += gradePoints[grade] * subject.credits;
             totalCredits += subject.credits;
@@ -169,4 +179,70 @@ function calculateGPA() {
 
     const gpa = totalCredits > 0 ? (totalPoints / totalCredits).toFixed(2) : '0.00';
     document.getElementById('gpa-value').textContent = gpa;
+
+    // Trigger CGPA calculation
+    calculateCGPA();
+}
+
+function calculateCGPA() {
+    // 1. Calculate Pool A Stats
+    let poolAPoints = 0;
+    let poolACredits = 0;
+    poolA.forEach(subject => {
+        if (subject.isBootcamp && !bootcampIncluded['A']) return;
+        const grade = grades['A'][subject.name];
+        if (grade) {
+            poolAPoints += gradePoints[grade] * subject.credits;
+            poolACredits += subject.credits;
+        }
+    });
+    const poolAGPA = poolACredits > 0 ? (poolAPoints / poolACredits).toFixed(2) : '0.00';
+
+    // 2. Calculate Pool B Stats
+    let poolBPoints = 0;
+    let poolBCredits = 0;
+    poolB.forEach(subject => {
+        if (subject.isBootcamp && !bootcampIncluded['B']) return;
+        const grade = grades['B'][subject.name];
+        if (grade) {
+            poolBPoints += gradePoints[grade] * subject.credits;
+            poolBCredits += subject.credits;
+        }
+    });
+    const poolBGPA = poolBCredits > 0 ? (poolBPoints / poolBCredits).toFixed(2) : '0.00';
+
+
+
+    // 3. Calculate Overall CGPA (weighted)
+    const totalPoints = poolAPoints + poolBPoints;
+    const totalCredits = poolACredits + poolBCredits;
+
+    const cgpa = totalCredits > 0 ? (totalPoints / totalCredits).toFixed(2) : '0.00';
+    
+    // Update CGPA displays
+    const cgpaValEl = document.getElementById('cgpa-value');
+    if (cgpaValEl) cgpaValEl.textContent = cgpa;
+
+    const yearCgpaValEl = document.getElementById('year-cgpa-value');
+    if (yearCgpaValEl) yearCgpaValEl.textContent = cgpa;
+}
+
+function resetAll() {
+    grades = {
+        'A': {},
+        'B': {}
+    };
+    bootcampIncluded = {
+        'A': true,
+        'B': true
+    };
+    
+    // Update UI elements
+    document.getElementById('gpa-value').textContent = '0.00';
+    
+    if (currentPool) {
+        renderSubjects();
+    }
+    
+    calculateCGPA();
 }

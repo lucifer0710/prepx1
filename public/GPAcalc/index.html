@@ -3,157 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> PrepX GPA Calculator</title>
+    <title>PrepX GPA & CGPA Calculator</title>
     <link rel="icon" type="image/gif" href="favicon4.gif" id="favicon">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<script type="module">
-    import { parseGIF, decompressFrames } from 'https://cdn.jsdelivr.net/npm/gifuct-js@2.1.2/+esm';
-    
-    async function initAnimatedFavicon() {
-        try {
-            const response = await fetch('favicon4.gif');
-            const arrayBuffer = await response.arrayBuffer();
-            
-            const gif = parseGIF(arrayBuffer);
-            const frames = decompressFrames(gif, true);
-            
-            if (!frames || frames.length === 0) return;
-            
-            const size = gif.lsd.width;
-            const canvas = document.createElement('canvas');
-            canvas.width = size;
-            canvas.height = size;
-            const ctx = canvas.getContext('2d');
-            
-            const tempCanvas = document.createElement('canvas');
-            tempCanvas.width = gif.lsd.width;
-            tempCanvas.height = gif.lsd.height;
-            const tempCtx = tempCanvas.getContext('2d');
-            
-            const faviconLink = document.getElementById('favicon');
-            if (!faviconLink) return;
-            
-            const renderedFrames = [];
-            for (let i = 0; i < frames.length; i++) {
-                const frame = frames[i];
+    <link rel="stylesheet" href="style.css">
+    <script type="module">
+        import { parseGIF, decompressFrames } from 'https://cdn.jsdelivr.net/npm/gifuct-js@2.1.2/+esm';
+        
+        async function initAnimatedFavicon() {
+            try {
+                const response = await fetch('favicon4.gif');
+                const arrayBuffer = await response.arrayBuffer();
                 
-                if (i === 0) {
-                    tempCtx.clearRect(0, 0, tempCanvas.width, tempCanvas.height);
-                } else {
-                    const prevFrame = frames[i - 1];
-                    if (prevFrame.disposalType === 2) {
-                        tempCtx.clearRect(
-                            prevFrame.dims.left, 
-                            prevFrame.dims.top, 
-                            prevFrame.dims.width, 
-                            prevFrame.dims.height
-                        );
+                const gif = parseGIF(arrayBuffer);
+                const frames = decompressFrames(gif, true);
+                
+                if (!frames || frames.length === 0) return;
+                
+                const size = gif.lsd.width;
+                const canvas = document.createElement('canvas');
+                canvas.width = size;
+                canvas.height = size;
+                const ctx = canvas.getContext('2d');
+                
+                const tempCanvas = document.createElement('canvas');
+                tempCanvas.width = gif.lsd.width;
+                tempCanvas.height = gif.lsd.height;
+                const tempCtx = tempCanvas.getContext('2d');
+                
+                const faviconLink = document.getElementById('favicon');
+                if (!faviconLink) return;
+                
+                const renderedFrames = [];
+                for (let i = 0; i < frames.length; i++) {
+                    const frame = frames[i];
+                    
+                    if (i === 0) {
+                        tempCtx.clearRect(0, 0, tempCanvas.width, tempCanvas.height);
+                    } else {
+                        const prevFrame = frames[i - 1];
+                        if (prevFrame.disposalType === 2) {
+                            tempCtx.clearRect(
+                                prevFrame.dims.left, 
+                                prevFrame.dims.top, 
+                                prevFrame.dims.width, 
+                                prevFrame.dims.height
+                            );
+                        }
                     }
+                    
+                    const imgData = tempCtx.createImageData(frame.dims.width, frame.dims.height);
+                    imgData.data.set(frame.patch);
+                    tempCtx.putImageData(imgData, frame.dims.left, frame.dims.top);
+                    
+                    ctx.clearRect(0, 0, size, size);
+                    ctx.drawImage(tempCanvas, 0, 0, size, size);
+                    
+                    renderedFrames.push({
+                        dataUrl: canvas.toDataURL('image/png'),
+                        delay: frame.delay
+                    });
                 }
                 
-                const imgData = tempCtx.createImageData(frame.dims.width, frame.dims.height);
-                imgData.data.set(frame.patch);
-                tempCtx.putImageData(imgData, frame.dims.left, frame.dims.top);
+                let frameIndex = 0;
                 
-                ctx.clearRect(0, 0, size, size);
-                ctx.drawImage(tempCanvas, 0, 0, size, size);
+                function renderFrame() {
+                    const frame = renderedFrames[frameIndex];
+                    faviconLink.href = frame.dataUrl;
+                    frameIndex = (frameIndex + 1) % renderedFrames.length;
+                    setTimeout(renderFrame, frame.delay);
+                }
                 
-                renderedFrames.push({
-                    dataUrl: canvas.toDataURL('image/png'),
-                    delay: frame.delay
-                });
+                renderFrame();
+            } catch (e) {
+                console.error('Failed to animate favicon:', e);
             }
-            
-            let frameIndex = 0;
-            
-            function renderFrame() {
-                const frame = renderedFrames[frameIndex];
-                faviconLink.href = frame.dataUrl;
-                frameIndex = (frameIndex + 1) % renderedFrames.length;
-                setTimeout(renderFrame, frame.delay);
-            }
-            
-            renderFrame();
-        } catch (e) {
-            console.error('Failed to animate favicon:', e);
         }
-    }
-    
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initAnimatedFavicon);
-    } else {
-        initAnimatedFavicon();
-    }
-</script>
+        
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initAnimatedFavicon);
+        } else {
+            initAnimatedFavicon();
+        }
+    </script>
 </head>
 <body>
     <div class="css-fallback-bg"></div>
     <div class="overlay"></div>
 
     <div class="header-content">
-        <h1>GPA Calculator</h1>
-        <p class="subtitle">Calculate your Grade Point Average</p>
+        <h1 id="main-title">CGPA Calculator</h1>
+        <p class="subtitle" id="main-subtitle">Calculate your Cumulative Grade Point Average</p>
     </div>
 
     <div class="container">
-        <div class="year-tabs">
-            <button class="year-tab active" onclick="switchYear('year1')">Year 1</button>
-            <button class="year-tab" onclick="switchYear('year2')">Year 2</button>
-            <button class="year-tab" onclick="switchYear('year3')">Year 3</button>
-            <button class="year-tab" onclick="switchYear('year4')">Year 4</button>
-        </div>
-
         <div class="content-card">
             <div class="content-inner">
-                <!-- Year 1 Content -->
-                <div id="year1-content">
-                    <div id="pool-selector" class="pool-selector">
-                        <span class="pool-label">SELECT YOUR POOL</span>
-                        <div class="pool-buttons">
-                            <button class="pool-btn" onclick="selectPool('A')">Pool A</button>
-                            <button class="pool-btn" onclick="selectPool('B')">Pool B</button>
+                <!-- Dashboard View -->
+                <div id="dashboard-view">
+                    <div class="cgpa-dashboard-grid">
+                        <div class="cgpa-dashboard-card interactive" onclick="openYear(1)">
+                            <div class="card-year">Year 1 <span class="arrow-indicator">→</span></div>
+                        </div>
+                        <div class="cgpa-dashboard-card interactive" onclick="openYear(2)">
+                            <div class="card-year">Year 2 <span class="arrow-indicator">→</span></div>
+                        </div>
+                        <div class="cgpa-dashboard-card interactive" onclick="openYear(3)">
+                            <div class="card-year">Year 3 <span class="arrow-indicator">→</span></div>
+                        </div>
+                        <div class="cgpa-dashboard-card interactive" onclick="openYear(4)">
+                            <div class="card-year">Year 4 <span class="arrow-indicator">→</span></div>
                         </div>
                     </div>
-
-                    <div id="pool-content" class="hidden">
-                        <div class="pool-header">
-                            <span class="pool-label" id="current-pool"></span>
-                            <button class="change-pool-btn" onclick="changePool()">Change Pool</button>
-                        </div>
-                        <div class="subjects-container">
-                            <div class="subjects-grid" id="subjects-grid"></div>
-                            <div class="gpa-display">
-                                <div class="gpa-label">Your Current GPA</div>
-                                <div class="gpa-value" id="gpa-value">0.00</div>
+                    <div class="gpa-display cgpa-display-section">
+                        <div class="gpa-stats-container">
+                            <div class="gpa-stat">
+                                <div class="gpa-label" id="cgpa-summary">Cumulative CGPA</div>
+                                <div class="gpa-value" id="cgpa-value">0.00</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Year 2, 3, 4 Content -->
-                <div id="year2-content" class="hidden">
-                    <div class="not-available">
-                        <div class="not-available-icon">📚</div>
-                        <div class="not-available-text">NOT there yet!</div>
+                <!-- Calculator View -->
+                <div id="calculator-view" class="hidden">
+                    <div class="pool-header">
+                        <button class="back-btn" onclick="showDashboard()">← <span class="btn-text">Back to Dashboard</span></button>
+                        <span class="pool-label" id="calc-title">Year 1 Calculator</span>
                     </div>
-                </div>
-                <div id="year3-content" class="hidden">
-                    <div class="not-available">
-                        <div class="not-available-icon">📚</div>
-                        <div class="not-available-text">NOT there yet!</div>
+
+                    <!-- Year 1 Content -->
+                    <div id="year1-calc-content">
+                        <div id="pool-selector" class="pool-selector">
+                            <span class="pool-label">SELECT YOUR POOL</span>
+                            <div class="pool-buttons">
+                                <button class="pool-btn" onclick="selectPool('A')">Pool A</button>
+                                <button class="pool-btn" onclick="selectPool('B')">Pool B</button>
+                            </div>
+                        </div>
+
+                        <div id="pool-content" class="hidden">
+                            <div class="pool-header-sub">
+                                <span class="pool-label-sub" id="current-pool">POOL A</span>
+                                <button class="change-pool-btn" onclick="changePool()">Change Pool</button>
+                            </div>
+                            <div class="subjects-container">
+                                <div class="subjects-grid" id="subjects-grid"></div>
+                                <div class="gpa-display">
+                                    <div class="gpa-stats-container">
+                                        <div class="gpa-stat">
+                                            <div class="gpa-label">Semester GPA</div>
+                                            <div class="gpa-value" id="gpa-value">0.00</div>
+                                        </div>
+                                        <div class="gpa-stat-divider"></div>
+                                        <div class="gpa-stat">
+                                            <div class="gpa-label">Cumulative CGPA</div>
+                                            <div class="gpa-value" id="year-cgpa-value">0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div id="year4-content" class="hidden">
-                    <div class="not-available">
-                        <div class="not-available-icon">📚</div>
-                        <div class="not-available-text">NOT there yet!</div>
+
+                    <!-- Other Years Placeholder Content -->
+                    <div id="other-years-calc-content" class="hidden">
+                        <div class="not-available">
+                            <div class="not-available-icon">📚</div>
+                            <div class="not-available-text">NOT there yet!</div>
+                            <div class="not-available-sub">Subjects for this year will be added soon.</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -73,6 +73,7 @@
         .subtitle {
             color: #ccc;
             margin-bottom: 30px;
+            opacity : 0;
         }
 
         .container {

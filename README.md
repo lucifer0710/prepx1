@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="favicon4.gif" alt="PrepX Logo" width="120" height="120" style="border-radius: 20px;">
+  <img src="favicon5.gif" alt="PrepX Logo" width="120" height="120" style="border-radius: 20px;">
 
   # 📚 PrepX
 

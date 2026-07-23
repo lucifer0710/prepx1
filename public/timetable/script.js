@@ -30,7 +30,7 @@ const dayMap = {
 
 // --- Page Load Handler ---
 window.onload = function () {
-    fetch('schedule.json')
+    fetch('schedule1.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error("HTTP error " + response.status);
@@ -66,7 +66,7 @@ window.onload = function () {
             populateBatchDatalist(Object.keys(data));
         })
         .catch(error => {
-            console.error("Error loading schedule.json:", error);
+            console.error("Error loading schedule1.json:", error);
         });
 };
 

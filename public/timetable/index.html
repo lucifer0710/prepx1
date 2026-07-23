@@ -196,6 +196,13 @@
                     <div class="slot empty" onclick="openModal(this)"><div class="edit-icon">✎</div></div>
                     <div class="slot empty" onclick="openModal(this)"><div class="edit-icon">✎</div></div>
                     <div class="slot empty" onclick="openModal(this)"><div class="edit-icon">✎</div></div>
+                    
+                    <div class="time-slot">06:00<span>PM</span></div>
+                    <div class="slot empty" onclick="openModal(this)"><div class="edit-icon">✎</div></div>
+                    <div class="slot empty" onclick="openModal(this)"><div class="edit-icon">✎</div></div>
+                    <div class="slot empty" onclick="openModal(this)"><div class="edit-icon">✎</div></div>
+                    <div class="slot empty" onclick="openModal(this)"><div class="edit-icon">✎</div></div>
+                    <div class="slot empty" onclick="openModal(this)"><div class="edit-icon">✎</div></div>
                 </div>
             </div>
         </div>
@@ -267,6 +274,18 @@
         <div class="modal-glass" style="text-align: center;">
             <p id="alertMessage" style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 20px; line-height: 1.5;"></p>
             <button class="action-btn save-btn" onclick="closeAlertModal()" style="width: 100%;">OK</button>
+        </div>
+    </div>
+
+    <!-- Elective Picker Modal -->
+    <div class="modal-overlay" id="electiveModal">
+        <div class="modal-glass" style="max-width: 420px;">
+            <h2 style="margin-bottom: 6px;">🎓 Choose Your Elective</h2>
+            <p style="color:#94a3b8; font-size:0.8rem; text-align:center; margin-bottom:14px;">Select one subject for this slot</p>
+            <div id="electiveList" style="display:flex; flex-direction:column; gap:8px; max-height:60vh; overflow-y:auto;"></div>
+            <div class="action-buttons" style="margin-top:14px;">
+                <button class="action-btn cancel-btn" onclick="closeElectiveModal()" style="width:100%;">Cancel</button>
+            </div>
         </div>
     </div>
 

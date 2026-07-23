@@ -17,7 +17,8 @@ const timeSlotMap = {
     "02:40 PM": 8,
     "03:30 PM": 9,
     "04:20 PM": 10,
-    "05:10 PM": 11
+    "05:10 PM": 11,
+    "06:00 PM": 12
 };
 
 const dayMap = {
@@ -274,17 +275,78 @@ function clearSlot(event, slotElement) {
 
 // Close modal when clicking outside
 window.onclick = function (event) {
-    const entryModal = document.getElementById('entryModal');
-    const batchModal = document.getElementById('batchModal');
-    const alertModal = document.getElementById('alertModal');
-    if (event.target == entryModal) closeModal();
-    if (event.target == batchModal) closeBatchModal();
-    if (event.target == alertModal) closeAlertModal();
+    const entryModal    = document.getElementById('entryModal');
+    const batchModal    = document.getElementById('batchModal');
+    const alertModal    = document.getElementById('alertModal');
+    const electiveModal = document.getElementById('electiveModal');
+    if (event.target == entryModal)    closeModal();
+    if (event.target == batchModal)    closeBatchModal();
+    if (event.target == alertModal)    closeAlertModal();
+    if (event.target == electiveModal) closeElectiveModal();
+}
+
+// --- Elective Modal ---
+let currentElectiveSlot = null;
+
+function openElectiveModal(slotEl, encodedOptions) {
+    currentElectiveSlot = slotEl;
+    const options = JSON.parse(decodeURIComponent(encodedOptions));
+    const list = document.getElementById('electiveList');
+    list.innerHTML = '';
+
+    options.forEach((opt, i) => {
+        const card = document.createElement('button');
+        card.className = 'elective-card';
+        card.innerHTML = `
+            <div class="elective-card-name">${opt.subject}</div>
+            <div class="elective-card-meta">
+                <span class="tag ${opt.type.toLowerCase()}" style="font-size:0.7rem;padding:2px 7px;">${opt.type}</span>
+                ${opt.code ? `<span class="tag code" style="font-size:0.7rem;padding:2px 7px;">${opt.code}</span>` : ''}
+                ${opt.room ? `<span class="elective-card-room">📍 ${opt.room}</span>` : ''}
+            </div>
+        `;
+        card.onclick = () => pickElective(opt);
+        list.appendChild(card);
+    });
+
+    document.getElementById('electiveModal').style.display = 'flex';
+}
+
+function closeElectiveModal() {
+    document.getElementById('electiveModal').style.display = 'none';
+    currentElectiveSlot = null;
+}
+
+function pickElective(opt) {
+    if (!currentElectiveSlot) return;
+    const tagClass = opt.type.toLowerCase();
+    currentElectiveSlot.innerHTML = `
+        <div class="delete-btn" onclick="clearElectiveSlot(event, this.parentElement)">×</div>
+        <div class="subject-info">
+            <div class="subject-name" title="${opt.subject}">${opt.subject}</div>
+            <div class="room-number">${opt.room}</div>
+        </div>
+        <div class="tags">
+            <span class="tag ${tagClass}">${opt.type}</span>
+            ${opt.code ? `<span class="tag code">${opt.code}</span>` : ''}
+        </div>
+    `;
+    currentElectiveSlot.classList.remove('elective-slot');
+    currentElectiveSlot.classList.add('filled');
+    currentElectiveSlot.removeAttribute('onclick');
+    resetDownloadButton();
+    closeElectiveModal();
+}
+
+function clearElectiveSlot(event, slotEl) {
+    // Same as clearSlot — reset back to empty
+    clearSlot(event, slotEl);
 }
 
 // --- Download Function ---
 function downloadImage() {
-    const hasFilledSlot = document.querySelector('.slot.filled') !== null;
+    const hasFilledSlot = document.querySelector('.slot.filled') !== null ||
+                          document.querySelector('.slot.elective-slot') !== null;
     if (!hasFilledSlot) {
         showAlert("Please select a batch or fill in a slot first.");
         return;
@@ -302,13 +364,26 @@ function downloadImage() {
     const captureElement = document.getElementById('timetable-capture-area');
     const bgColor = '#0f0f15';
 
+    // Temporarily scroll to top so html2canvas captures from origin
+    const prevScrollX = window.scrollX;
+    const prevScrollY = window.scrollY;
+    window.scrollTo(0, 0);
+
     html2canvas(captureElement, {
-        scale: 3, // Increased scale from 2 to 3 for higher quality export
+        scale: 3,
         backgroundColor: bgColor,
         useCORS: true,
-        logging: false
+        logging: false,
+        scrollX: 0,
+        scrollY: 0,
+        width: captureElement.scrollWidth,
+        height: captureElement.scrollHeight,
+        windowWidth: captureElement.scrollWidth,
+        windowHeight: captureElement.scrollHeight
     }).then(canvas => {
-        // Output lossless PNG format for text & grid sharpness, which is much higher quality
+        // Restore scroll position
+        window.scrollTo(prevScrollX, prevScrollY);
+
         const image = canvas.toDataURL("image/png");
         const link = document.createElement('a');
         link.download = 'my-timetable.png';
@@ -321,13 +396,13 @@ function downloadImage() {
         btn.innerHTML = `<span class="btn-tick">✓</span> Saved`;
 
         if (downloadTimeout) clearTimeout(downloadTimeout);
-        // Revert to original text after 10 seconds
         downloadTimeout = setTimeout(() => {
             btn.classList.remove('btn-success');
             btn.innerHTML = originalHTML;
             downloadTimeout = null;
         }, 10000);
     }).catch(err => {
+        window.scrollTo(prevScrollX, prevScrollY);
         console.error("Export failed:", err);
         btn.classList.remove('btn-loading');
         btn.innerHTML = originalHTML;
@@ -411,25 +486,59 @@ function loadBatch(batchName) {
             const slotData = daySlots[timeStr];
             if (!Array.isArray(slotData) || slotData.length < 4) continue;
 
-            let code = slotData[0];
-            const room = slotData[1];
-            const subject = slotData[2];
+            const rawCode = slotData[0];
+            const rawRoom = slotData[1];
+            const rawSubject = slotData[2];
             const type = slotData[3];
-
-            // Strip trailing L, P, T suffix from code if present
-            if (code && code.length > 3 && /[LPT]$/i.test(code.trim())) {
-                code = code.trim().slice(0, -1);
-            }
 
             const index = 6 + (tIdx * 6) + dIdx;
             const slot = gridChildren[index];
-            if (slot) {
-                let tagClass = type.toLowerCase();
+            if (!slot) continue;
+
+            // --- Elective detection ---
+            // A slot is a true multi-elective only when BOTH the subject AND the code
+            // contain multiple '/'-separated parts. If only the subject has a slash
+            // (e.g. "Chemistry / Applied Chemistry" with a single code) it's just an alias.
+            const codeParts = rawCode ? rawCode.split('/').map(s => s.trim()).filter(Boolean) : [];
+            const isMultiElective = rawSubject && rawSubject.includes('/') && codeParts.length > 1;
+
+            if (isMultiElective) {
+                const codes    = rawCode.split('/');
+                const rooms    = rawRoom.split('/');
+                const subjects = rawSubject.split('/');
+
+                // Build a JSON-safe array of elective option objects
+                const options = subjects.map((sub, i) => ({
+                    subject: sub.trim(),
+                    code: (codes[i] || '').trim().replace(/\(.*?\)/g, '').trim(),
+                    room: (rooms[i] || '').trim(),
+                    type: type
+                }));
+
+                const optionsAttr = encodeURIComponent(JSON.stringify(options));
+                slot.innerHTML = `
+                    <div class="elective-banner">
+                        <span class="elective-icon">🎓</span>
+                        <span class="elective-label">Elective</span>
+                    </div>
+                    <div class="elective-hint">Tap to choose your subject</div>
+                    <div class="tags"><span class="tag ${type.toLowerCase()}">${type}</span></div>
+                `;
+                slot.classList.remove('empty');
+                slot.classList.add('elective-slot');
+                slot.setAttribute('onclick', `openElectiveModal(this, '${optionsAttr}')`);
+            } else {
+                // Normal single subject
+                let code = rawCode;
+                if (code && code.length > 3 && /[LPT]$/i.test(code.trim())) {
+                    code = code.trim().slice(0, -1);
+                }
+                const tagClass = type.toLowerCase();
                 const htmlContent = `
                     <div class="delete-btn" onclick="clearSlot(event, this.parentElement)">×</div>
                     <div class="subject-info">
-                        <div class="subject-name" title="${subject}">${subject}</div>
-                        <div class="room-number">${room}</div>
+                        <div class="subject-name" title="${rawSubject}">${rawSubject}</div>
+                        <div class="room-number">${rawRoom}</div>
                     </div>
                     <div class="tags">
                         <span class="tag ${tagClass}">${type}</span>
@@ -449,7 +558,7 @@ function clearAllSlots() {
     const slots = document.querySelectorAll('.slot');
     slots.forEach(slot => {
         slot.innerHTML = '<div class="edit-icon">✎</div>';
-        slot.classList.remove('filled');
+        slot.classList.remove('filled', 'elective-slot');
         slot.classList.add('empty');
         slot.setAttribute('onclick', 'openModal(this)');
     });

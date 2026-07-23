@@ -71,6 +71,8 @@ const predefinedCodes = {
     "Object Oriented Programming": "UTA018",
     "Data Structures": "UCS301",
     "Discrete Mathematical Structures": "UCS405",
+    "Discrete Mathematics": "UNC305",
+    "Electronics Devices and Circuits": "UEC304",
     "Engineering Design Project I": "UTA016",
     "Numerical Linear Algebra": "UMA021",
     "The Evolutionary Basis of Human Behaviour for Engineers": "UHU052",

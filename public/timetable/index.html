@@ -220,25 +220,10 @@
             </div>
 
             <div class="input-group" id="dataForm">
-                <select id="selSubject" class="glass-input" onchange="onSubjectSelectChange()">
-                    <option value="" disabled selected>Select Subject</option>
-                    <option value="Programming for Problem Solving">Programming for Problem Solving</option>
-                    <option value="Energy and Environment">Energy and Environment</option>
-                    <option value="Electrical & Electronics Engineering">Electrical & Electronics Engineering</option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Calculus for Engineers">Calculus for Engineers</option>
-                    <option value="Programming for Professional Communication">Programming for Professional Communication</option>
-                    <option value="Manufacturing Processes">Manufacturing Processes</option>
-                    <option value="Differential Equations and Linear Algebra">Differential Equations and Linear Algebra</option>
-                    <option value="Physics">Physics</option>
-                    <option value="Engineering Drawing">Engineering Drawing</option>
-                    <option value="other">Other...</option>
-                </select>
-
-                <input type="text" id="inpName" class="glass-input" placeholder="Subject Name" list="subjectList" oninput="autoFillCode()" onkeypress="handleEnter(event)" style="display: none;">
+                <input type="text" id="inpName" class="glass-input" placeholder="Enter Subject (e.g. Operating Systems)" list="subjectList" oninput="autoFillCode()" onkeypress="handleEnter(event)">
                 
                 <datalist id="subjectList">
-                    <!-- Populated dynamically via JS from schedule.json -->
+                    <!-- Populated dynamically via JS -->
                 </datalist>
 
                 <input type="text" id="inpVenue" class="glass-input" placeholder="Venue (e.g. LT103)" onkeypress="handleEnter(event)">

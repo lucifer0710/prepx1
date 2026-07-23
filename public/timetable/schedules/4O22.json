@@ -63,7 +63,7 @@
         },
         {
           "subject_code": "UCS760P",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Practical",
           "place": "L429",
           "teacher": "HMK"
@@ -109,7 +109,7 @@
         },
         {
           "subject_code": "UCS760P",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Practical",
           "place": "L429",
           "teacher": "HMK"
@@ -151,7 +151,7 @@
         },
         {
           "subject_code": "UCS751L",
-          "subject_name": "Simulation and Modelling",
+          "subject_name": "Simulation & Modelling",
           "type": "Lecture",
           "place": "LP106",
           "teacher": "PSR"
@@ -193,28 +193,28 @@
         },
         {
           "subject_code": "UCS760L",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Lecture",
           "place": "T102",
           "teacher": "HMK"
         },
         {
           "subject_code": "UCS748L",
-          "subject_name": null,
+          "subject_name": "Generative AI",
           "type": "Lecture",
           "place": "E205",
           "teacher": "RKT"
         },
         {
           "subject_code": "UCS745L",
-          "subject_name": "Cloud & Devops",
+          "subject_name": "Cloud & DevOps",
           "type": "Lecture",
           "place": "F105",
           "teacher": "SMG"
         },
         {
           "subject_code": "UCS772L",
-          "subject_name": null,
+          "subject_name": "Data Science: Computer Vision & NLP",
           "type": "Lecture",
           "place": "E104",
           "teacher": "GEK"
@@ -246,7 +246,7 @@
         },
         {
           "subject_code": "UCS751L",
-          "subject_name": "Simulation and Modelling",
+          "subject_name": "Simulation & Modelling",
           "type": "Lecture",
           "place": "LP106",
           "teacher": "MFD"
@@ -288,28 +288,28 @@
         },
         {
           "subject_code": "UCS760L",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Lecture",
           "place": "T102",
           "teacher": "RAH"
         },
         {
           "subject_code": "UCS748L",
-          "subject_name": null,
+          "subject_name": "Generative AI",
           "type": "Lecture",
           "place": "E205",
           "teacher": "HMK"
         },
         {
           "subject_code": "UCS745L",
-          "subject_name": "Cloud & Devops",
+          "subject_name": "Cloud & DevOps",
           "type": "Lecture",
           "place": "F105",
           "teacher": "RKT"
         },
         {
           "subject_code": "UCS772L",
-          "subject_name": null,
+          "subject_name": "Data Science: Computer Vision & NLP",
           "type": "Lecture",
           "place": "E104",
           "teacher": "SMG"
@@ -397,7 +397,7 @@
       "day": "Wednesday",
       "start_time": "13:00",
       "end_time": "13:50",
-      "subject": "UTD004L",
+      "subject": "Campus 2 Corporate",
       "code": "UTD004L",
       "type": "Lecture",
       "room": "LT102",
@@ -427,7 +427,7 @@
       "day": "Thursday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "UTD004L",
+      "subject": "Campus 2 Corporate",
       "code": "UTD004L",
       "type": "Lecture",
       "room": "LT102",

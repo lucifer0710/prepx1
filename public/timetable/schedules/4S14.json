@@ -68,21 +68,21 @@
       "day": "Tuesday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "Game Design and Development",
+      "subject": "Game Design & Development",
       "code": "UCS646L",
       "type": "Lecture",
       "room": "B208",
       "options": [
         {
           "subject_code": "UCS646L",
-          "subject_name": "Game Design and Development",
+          "subject_name": "Game Design & Development",
           "type": "Lecture",
           "place": "B208",
           "teacher": "SSH"
         },
         {
           "subject_code": "UCS635L",
-          "subject_name": "Gpu Computing",
+          "subject_name": "GPU Computing",
           "type": "Lecture",
           "place": "B301",
           "teacher": "JPK"
@@ -93,21 +93,21 @@
       "day": "Tuesday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "Game Design and Development",
+      "subject": "Game Design & Development",
       "code": "UCS646L",
       "type": "Lecture",
       "room": "B208",
       "options": [
         {
           "subject_code": "UCS646L",
-          "subject_name": "Game Design and Development",
+          "subject_name": "Game Design & Development",
           "type": "Lecture",
           "place": "B208",
           "teacher": "SSH"
         },
         {
           "subject_code": "UCS635L",
-          "subject_name": "Gpu Computing",
+          "subject_name": "GPU Computing",
           "type": "Lecture",
           "place": "B301",
           "teacher": "JPK"
@@ -118,21 +118,21 @@
       "day": "Wednesday",
       "start_time": "09:40",
       "end_time": "10:30",
-      "subject": "Game Design and Development",
+      "subject": "Game Design & Development",
       "code": "UCS646P",
       "type": "Practical",
       "room": "BMC(C323)",
       "options": [
         {
           "subject_code": "UCS646P",
-          "subject_name": "Game Design and Development",
+          "subject_name": "Game Design & Development",
           "type": "Practical",
           "place": "BMC(C323)",
           "teacher": "SSH"
         },
         {
           "subject_code": "UCS635P",
-          "subject_name": "Gpu Computing",
+          "subject_name": "GPU Computing",
           "type": "Practical",
           "place": "ISD(C223)",
           "teacher": "JPK"
@@ -143,21 +143,21 @@
       "day": "Wednesday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "Game Design and Development",
+      "subject": "Game Design & Development",
       "code": "UCS646P",
       "type": "Practical",
       "room": "BMC(C323)",
       "options": [
         {
           "subject_code": "UCS646P",
-          "subject_name": "Game Design and Development",
+          "subject_name": "Game Design & Development",
           "type": "Practical",
           "place": "BMC(C323)",
           "teacher": "SSH"
         },
         {
           "subject_code": "UCS635P",
-          "subject_name": "Gpu Computing",
+          "subject_name": "GPU Computing",
           "type": "Practical",
           "place": "ISD(C223)",
           "teacher": "JPK"
@@ -193,7 +193,7 @@
       "day": "Wednesday",
       "start_time": "13:00",
       "end_time": "13:50",
-      "subject": "UTD004L",
+      "subject": "Campus 2 Corporate",
       "code": "UTD004L",
       "type": "Lecture",
       "room": "LT102",
@@ -258,7 +258,7 @@
       "day": "Thursday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "UTD004L",
+      "subject": "Campus 2 Corporate",
       "code": "UTD004L",
       "type": "Lecture",
       "room": "LT102",
@@ -268,21 +268,21 @@
       "day": "Thursday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "Game Design and Development",
+      "subject": "Game Design & Development",
       "code": "UCS646P",
       "type": "Practical",
       "room": "BMC(C323)",
       "options": [
         {
           "subject_code": "UCS646P",
-          "subject_name": "Game Design and Development",
+          "subject_name": "Game Design & Development",
           "type": "Practical",
           "place": "BMC(C323)",
           "teacher": "SSH"
         },
         {
           "subject_code": "UCS635P",
-          "subject_name": "Gpu Computing",
+          "subject_name": "GPU Computing",
           "type": "Practical",
           "place": "ISD(C223)",
           "teacher": "JPK"
@@ -293,21 +293,21 @@
       "day": "Thursday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "Game Design and Development",
+      "subject": "Game Design & Development",
       "code": "UCS646P",
       "type": "Practical",
       "room": "BMC(C323)",
       "options": [
         {
           "subject_code": "UCS646P",
-          "subject_name": "Game Design and Development",
+          "subject_name": "Game Design & Development",
           "type": "Practical",
           "place": "BMC(C323)",
           "teacher": "SSH"
         },
         {
           "subject_code": "UCS635P",
-          "subject_name": "Gpu Computing",
+          "subject_name": "GPU Computing",
           "type": "Practical",
           "place": "ISD(C223)",
           "teacher": "JPK"

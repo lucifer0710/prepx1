@@ -78,14 +78,14 @@
       "day": "Monday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "Edge Ai and Robotics: Reinforcement Learning",
+      "subject": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
       "code": "UCS760L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UCS760L",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Lecture",
           "place": "F206",
           "teacher": "HMK"
@@ -110,14 +110,14 @@
       "day": "Monday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "Edge Ai and Robotics: Reinforcement Learning",
+      "subject": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
       "code": "UCS760L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UCS760L",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Lecture",
           "place": "F206",
           "teacher": "HMK"
@@ -253,7 +253,7 @@
         },
         {
           "subject_code": "UME715L",
-          "subject_name": null,
+          "subject_name": "UME715T",
           "type": "Lecture",
           "place": "F109",
           "teacher": "ASO"
@@ -264,14 +264,14 @@
       "day": "Tuesday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "Edge Ai and Robotics: Embedded Vision",
+      "subject": "Edge AI and Robotics: Embedded Vision",
       "code": "UCS671L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UCS671L",
-          "subject_name": "Edge Ai and Robotics: Embedded Vision",
+          "subject_name": "Edge AI and Robotics: Embedded Vision",
           "type": "Lecture",
           "place": "F206",
           "teacher": "HMG"
@@ -296,14 +296,14 @@
       "day": "Tuesday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "Edge Ai and Robotics: Embedded Vision",
+      "subject": "Edge AI and Robotics: Embedded Vision",
       "code": "UCS671L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UCS671L",
-          "subject_name": "Edge Ai and Robotics: Embedded Vision",
+          "subject_name": "Edge AI and Robotics: Embedded Vision",
           "type": "Lecture",
           "place": "F206",
           "teacher": "HMG"
@@ -378,14 +378,14 @@
       "day": "Tuesday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "Edge Ai and Robotics: Embedded Vision",
+      "subject": "Edge AI and Robotics: Embedded Vision",
       "code": "UCS671P",
       "type": "Practical",
       "room": "PL2(L008)",
       "options": [
         {
           "subject_code": "UCS671P",
-          "subject_name": "Edge Ai and Robotics: Embedded Vision",
+          "subject_name": "Edge AI and Robotics: Embedded Vision",
           "type": "Practical",
           "place": "PL2(L008)",
           "teacher": "HMG"
@@ -403,14 +403,14 @@
       "day": "Tuesday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "Edge Ai and Robotics: Embedded Vision",
+      "subject": "Edge AI and Robotics: Embedded Vision",
       "code": "UCS671P",
       "type": "Practical",
       "room": "PL2(L008)",
       "options": [
         {
           "subject_code": "UCS671P",
-          "subject_name": "Edge Ai and Robotics: Embedded Vision",
+          "subject_name": "Edge AI and Robotics: Embedded Vision",
           "type": "Practical",
           "place": "PL2(L008)",
           "teacher": "HMG"
@@ -428,7 +428,7 @@
       "day": "Wednesday",
       "start_time": "08:00",
       "end_time": "08:50",
-      "subject": "Edge Ai and Robotics: Data Centre Vision",
+      "subject": "Edge AI and Robotics: Data Centre Vision",
       "code": "UCS668P",
       "type": "Practical",
       "room": "NS(L102)",
@@ -438,7 +438,7 @@
       "day": "Wednesday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "Edge Ai and Robotics: Data Centre Vision",
+      "subject": "Edge AI and Robotics: Data Centre Vision",
       "code": "UCS668P",
       "type": "Practical",
       "room": "NS(L102)",
@@ -468,7 +468,7 @@
       "day": "Wednesday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "Edge Ai and Robotics: Reinforcement Learning",
+      "subject": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
       "code": "UCS760P",
       "type": "Practical",
       "room": "IOT(L302)",
@@ -478,7 +478,7 @@
       "day": "Wednesday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "Edge Ai and Robotics: Reinforcement Learning",
+      "subject": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
       "code": "UCS760P",
       "type": "Practical",
       "room": "IOT(L302)",
@@ -508,7 +508,7 @@
       "day": "Thursday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "Edge Ai and Robotics: Data Centre Vision",
+      "subject": "Edge AI and Robotics: Data Centre Vision",
       "code": "UCS668L",
       "type": "Lecture",
       "room": null,
@@ -518,14 +518,14 @@
       "day": "Thursday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "Edge Ai and Robotics: Data Centre Vision",
+      "subject": "Edge AI and Robotics: Data Centre Vision",
       "code": "UCS668L",
       "type": "Lecture",
       "room": "B303",
       "options": [
         {
           "subject_code": "UCS668L",
-          "subject_name": "Edge Ai and Robotics: Data Centre Vision",
+          "subject_name": "Edge AI and Robotics: Data Centre Vision",
           "type": "Lecture",
           "place": "B303",
           "teacher": "CSED"
@@ -597,7 +597,7 @@
         },
         {
           "subject_code": "UME715L",
-          "subject_name": null,
+          "subject_name": "UME715T",
           "type": "Lecture",
           "place": "F110",
           "teacher": "ASO"

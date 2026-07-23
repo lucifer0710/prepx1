@@ -8,7 +8,7 @@
       "day": "Monday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "Concepts In Biomedical Instrumentation",
+      "subject": "Concepts in Biomedical Instrumentation",
       "code": "UBT832L",
       "type": "Lecture",
       "room": "F206",
@@ -58,7 +58,7 @@
       "day": "Tuesday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "Concepts In Biomedical Instrumentation",
+      "subject": "Concepts in Biomedical Instrumentation",
       "code": "UBT832L",
       "type": "Lecture",
       "room": "F206",
@@ -148,7 +148,7 @@
       "day": "Wednesday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "Concepts In Biomedical Instrumentation",
+      "subject": "Concepts in Biomedical Instrumentation",
       "code": "UBT832L",
       "type": "Lecture",
       "room": "F206",
@@ -198,14 +198,14 @@
       "day": "Wednesday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "UBT510L",
+      "subject": "Biology for Engineers",
       "code": "UBT510L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UBT510L",
-          "subject_name": null,
+          "subject_name": "Biology for Engineers",
           "type": "Lecture",
           "place": "F206",
           "teacher": "ND"
@@ -219,7 +219,7 @@
         },
         {
           "subject_code": "UHU016L",
-          "subject_name": "Introductory Course In French",
+          "subject_name": "Introductory Course in French",
           "type": "Lecture",
           "place": "F203",
           "teacher": null
@@ -237,7 +237,7 @@
       "day": "Thursday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "Concepts In Biomedical Instrumentation",
+      "subject": "Concepts in Biomedical Instrumentation",
       "code": "UBT832P",
       "type": "Practical",
       "room": "IEE Lab",
@@ -382,14 +382,14 @@
       "day": "Friday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "UBT510L",
+      "subject": "Biology for Engineers",
       "code": "UBT510L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UBT510L",
-          "subject_name": null,
+          "subject_name": "Biology for Engineers",
           "type": "Lecture",
           "place": "F206",
           "teacher": "ND"
@@ -403,7 +403,7 @@
         },
         {
           "subject_code": "UHU016L",
-          "subject_name": "Introductory Course In French",
+          "subject_name": "Introductory Course in French",
           "type": "Lecture",
           "place": "F203",
           "teacher": null

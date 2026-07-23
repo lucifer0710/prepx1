@@ -49,9 +49,135 @@ const allBatchNames = [
     "4A11","4B11","4B12","4B13","4C11","4C12","4C13","4C14","4C15","4C16","4C17","4C18","4C19","4C20","4C21","4C22","4C23","4C24","4C25","4C26","4C27","4C28","4C29","4C30","4C31","4C32","4C33","4C34","4C35","4C36","4C37","4C38","4C39","4C40","4C41","4C42","4C43","4C44","4C45","4C46","4C47","4C48","4D11","4D12","4D13","4D14","4E11","4E12","4F11","4F12","4F13","4F14","4F15","4F21","4F22","4F23","4F24","4G11","4G12","4G13","4G14","4H11","4H12","4H13","4H21","4H22","4H23","4I11","4I12","4I13","4J11","4O11","4O12","4O13","4O14","4O15","4O16","4O21","4O22","4O23","4O24","4O25","4O31","4O32","4O33","4Q11","4Q12","4Q13","4Q14","4Q15","4Q16","4Q17","4Q18","4Q21","4Q22","4Q23","4Q24","4Q25","4Q26","4Q27","4Q28","4R11","4R12","4R13","4S11","4S12","4S13","4S14","4S15","4U11","4V11","4V12","4V13","4W11","4W12","4W13"
 ];
 
+let subjectDisplayNames = new Set();
+
+// Master PDF & Curriculum Subject Codes
+const predefinedCodes = {
+    // Semester I & II
+    "Chemistry": "UCB009",
+    "Applied Chemistry": "UCB008",
+    "Programming for Problem Solving": "UES103",
+    "Electrical & Electronics Engineering": "UES013",
+    "Energy and Environment": "UEN008",
+    "Calculus for Engineers": "UMA022",
+    "Physics": "UPH013",
+    "Engineering Drawing": "UES101",
+    "Professional Communication": "UHU003",
+    "Manufacturing Processes": "UES102",
+    "Differential Equations and Linear Algebra": "UMA023",
+
+    // Semester III & IV
+    "Operating Systems": "UCS303",
+    "Object Oriented Programming": "UTA018",
+    "Data Structures": "UCS301",
+    "Discrete Mathematical Structures": "UCS405",
+    "Engineering Design Project I": "UTA016",
+    "Numerical Linear Algebra": "UMA021",
+    "The Evolutionary Basis of Human Behaviour for Engineers": "UHU052",
+    "Introduction to Sustainable Green Computing": "UCS320",
+    "Design and Analysis of Algorithms": "UCS415",
+    "Database Management Systems": "UCS310",
+    "Computer Networks": "UCS414",
+    "AI for Engineers": "UCS321",
+    "Probability and Statistics": "UMA401",
+    "Engineering Design Project II": "UTA024",
+    "Aptitude Skills Building": "UTD003",
+
+    // Semester V & VI
+    "Machine Learning": "UML501",
+    "Cognitive Computing": "UCS420",
+    "Enterprise Web Application": "UCS553",
+    "Software Engineering": "UCS503",
+    "Computer Architecture and Organization": "UCS510",
+    "Ethics and Risk Mitigation in AI": "UCS421",
+    "Theory of Computation": "UCS701",
+    "Optimization Techniques": "UMA071",
+    "Numerical Optimization": "UMA035",
+    "Quantum Computing": "UCS619",
+    "Image Processing": "UCS615",
+    "Innovation and Entrepreneurship": "UTA025",
+    "Capstone Project": "UCS797",
+
+    // Semester VII & VIII
+    "Compiler Construction": "UCS802",
+    "Humanities for Engineers": "UHU005",
+    "Agentic AI": "UCS714",
+    "Project Semester": "UCS898",
+    "Social Network Analysis": "UCS813",
+    "Ethical Hacking": "UCS806",
+    "Project": "UCS899",
+    "Start-Up Semester": "UCS900",
+
+    // Professional Electives
+    "Cloud Computing": "UCS531",
+    "GPU Computing": "UCS635",
+    "Parallel & Distributed Computing": "UCS645",
+    "Simulation & Modelling": "UCS751",
+    "Computer Vision": "UCS532",
+    "3D Modelling and Animation": "UCS636",
+    "Game Design & Development": "UCS646",
+    "Augmented and Virtual Reality": "UCS752",
+    "Computer & Network Security": "UCS534",
+    "Secure Coding": "UCS638",
+    "Cyber Forensics": "UCS648",
+    "Blockchain Technology and Applications": "UCS754",
+    "Linear Algebra for Artificial Intelligence and Machine Learning": "UMC513",
+    "Financial Mathematics": "UMC632",
+    "Mathematics for Quantum Computing": "UMC633",
+    "Cryptography and Coding Theory": "UMC744",
+    "Foundation of Data Science": "UCS548",
+    "Predictive Analytics using Statistics": "UCS654",
+    "Deep Learning": "UCS761",
+    "Data Science: Computer Vision & NLP": "UCS772",
+    "Finance, Accounting and Valuation": "UCS539",
+    "Financial Markets and Portfolio Theory": "UCS675",
+    "Derivatives Pricing, Trading and Strategies": "UCS658",
+    "Quantitative and Statistical Methods for Finance": "UMC743",
+    "Source Code Management": "UCS537",
+    "Build and Release Management": "UCS659",
+    "Continuous Integration and Continuous Deployment": "UCS660",
+    "System Provisioning and Configuration Management": "UCS758",
+    "UI & UX Specialist": "UCS542",
+    "Data Engineering": "UCS677",
+    "Test Automation": "UCS662",
+    "Cloud & DevOps": "UCS745",
+    "Conversational AI: Accelerated Data Science": "UCS551",
+    "Conversational AI: Natural Language Processing": "UCS664",
+    "Conversational AI: Speech Processing & Synthesis": "UCS749",
+    "Generative AI": "UCS748",
+    "Edge AI and Robotics: Data Centre Vision": "UCS668",
+    "Edge AI and Robotics: Accelerated Data Science": "UCS547",
+    "Edge AI and Robotics: Embedded Vision": "UCS671",
+    "Edge AI and Robotics: Reinforcement Learning & Conversational AI": "UCS760",
+    "Network Defence": "UCS550",
+    "Ethical Hacking-1": "UCS673",
+    "Ethical Hacking-2": "UCS674",
+    "Computer Hacking and Forensic Investigation": "UCS750",
+    "Network and Communication for Connected Vehicles": "UEC646",
+    "Intelligent Transportation Systems": "UCS678",
+    "Data Analytics in Automobile Engineering": "UCS679",
+    "Matrix Computation": "UMC622",
+    "Mathematical Modeling and Simulation": "UMC512",
+    "Computational Number Theory": "UMC742",
+
+    // Generic Electives
+    "Introductory Course in French": "UHU016",
+    "Introduction to Cognitive Science": "UHU017",
+    "Introduction to Corporate Finance": "UHU018",
+    "Introduction to Cyber Security": "UCS002",
+    "Nanoscience and Nanomaterials": "UPH064",
+    "Technologies for Sustainable Development": "UEN006",
+    "Graph Theory and Applications": "UMA069",
+    "Biology for Engineers": "UBT510",
+    "Advanced Numerical Methods": "UMA070",
+    "Campus 2 Corporate": "UTD004",
+    "Creative Writing": "UHU051"
+};
+
 // --- Page Load Handler ---
 window.onload = function () {
     populateBatchDatalist(allBatchNames);
+    initSubjectsData();
 
     const savedBatch = localStorage.getItem('selectedBatch');
     if (savedBatch) {
@@ -59,11 +185,65 @@ window.onload = function () {
     }
 };
 
+function addSubjectToMap(name, code) {
+    if (!name || !code) return;
+    const cleanName = name.trim();
+    let baseCode = code.trim();
+    if (baseCode.length > 3 && /[LPT]$/i.test(baseCode)) {
+        baseCode = baseCode.slice(0, -1);
+    }
+    const normKey = cleanName.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+    allSubjects[normKey] = baseCode;
+    allSubjects[cleanName.toUpperCase()] = baseCode;
+    allSubjects[cleanName] = baseCode;
+
+    // Deduplicate in subjectDisplayNames case-insensitively
+    let existingName = null;
+    for (const dName of subjectDisplayNames) {
+        if (dName.toLowerCase().replace(/[^a-z0-9]/g, "") === normKey) {
+            existingName = dName;
+            break;
+        }
+    }
+
+    if (existingName) {
+        if (predefinedCodes[cleanName]) {
+            subjectDisplayNames.delete(existingName);
+            subjectDisplayNames.add(cleanName);
+        }
+    } else {
+        subjectDisplayNames.add(cleanName);
+    }
+}
+
+function initSubjectsData() {
+    for (const [name, code] of Object.entries(predefinedCodes)) {
+        addSubjectToMap(name, code);
+    }
+
+    fetch('subjects.json')
+        .then(response => {
+            if (response.ok) return response.json();
+            throw new Error("Could not load subjects.json");
+        })
+        .then(data => {
+            for (const [name, code] of Object.entries(data)) {
+                addSubjectToMap(name, code);
+            }
+            populateSubjectDatalist();
+        })
+        .catch(err => {
+            console.log("Using built-in subject database:", err);
+            populateSubjectDatalist();
+        });
+}
+
 function populateSubjectDatalist() {
     const list = document.getElementById('subjectList');
     if (!list) return;
     list.innerHTML = '';
-    const sortedSubjects = Object.keys(allSubjects).sort();
+    const sortedSubjects = Array.from(subjectDisplayNames).sort((a, b) => a.localeCompare(b));
     sortedSubjects.forEach(sub => {
         const option = document.createElement('option');
         option.value = sub;
@@ -85,24 +265,11 @@ function populateBatchDatalist(batches) {
 
 // --- Subject Code Lookup Helper ---
 function getSubjectCode(subjectName, type) {
-    const normName = subjectName.trim().toUpperCase();
-    const predefinedCodes = {
-        "PROGRAMMING FOR PROBLEM SOLVING": "UES103",
-        "ENERGY AND ENVIRONMENT": "UEN008",
-        "ELECTRICAL & ELECTRONICS ENGINEERING": "UES013",
-        "ELECTRICAL & ELECTRONIC ENGINEERING": "UES013",
-        "CHEMISTRY": "UCB009",
-        "CHEMISTRY / APPLIED CHEMISTRY": "UCB009",
-        "CALCULUS FOR ENGINEERS": "UMA022",
-        "PROGRAMMING FOR PROFESSIONAL COMMUNICATION": "UHU003",
-        "PROFESSIONAL COMMUNICATION": "UHU003",
-        "MANUFACTURING PROCESSES": "UES102",
-        "DIFFERENTIAL EQUATIONS AND LINEAR ALGEBRA": "UMA023",
-        "PHYSICS": "UPH013",
-        "ENGINEERING DRAWING": "UES101"
-    };
+    if (!subjectName) return "";
+    const clean = subjectName.trim();
+    const normKey = clean.toLowerCase().replace(/[^a-z0-9]/g, "");
 
-    let baseCode = predefinedCodes[normName] || allSubjects[normName];
+    let baseCode = predefinedCodes[clean] || predefinedCodes[clean.toUpperCase()] || allSubjects[normKey] || allSubjects[clean.toUpperCase()] || allSubjects[clean];
     return baseCode || "";
 }
 
@@ -164,13 +331,9 @@ function resetModal() {
     document.getElementById('typeSelection').style.display = 'flex';
     document.getElementById('dataForm').style.display = 'none';
 
-    const selSubject = document.getElementById('selSubject');
-    if (selSubject) selSubject.value = '';
-
     const inpName = document.getElementById('inpName');
     if (inpName) {
         inpName.value = '';
-        inpName.style.display = 'none';
     }
 
     document.getElementById('inpVenue').value = '';
@@ -189,29 +352,9 @@ function showForm(type) {
     document.getElementById('typeSelection').style.display = 'none';
     document.getElementById('dataForm').style.display = 'flex';
     setTimeout(() => {
-        const selSubject = document.getElementById('selSubject');
-        if (selSubject) selSubject.focus();
+        const inpName = document.getElementById('inpName');
+        if (inpName) inpName.focus();
     }, 100);
-}
-
-function onSubjectSelectChange() {
-    const selSubject = document.getElementById('selSubject');
-    const inpName = document.getElementById('inpName');
-    const inpCode = document.getElementById('inpCode');
-
-    if (selSubject.value === 'other') {
-        inpName.style.display = 'block';
-        inpName.value = '';
-        inpCode.value = '';
-        lastAutoFilledCode = '';
-        inpCode.placeholder = "Enter subject code";
-        inpName.focus();
-    } else {
-        inpName.style.display = 'none';
-        inpName.value = selSubject.value;
-        inpCode.placeholder = "Code (Auto-filled)";
-        autoFillCode();
-    }
 }
 
 function handleEnter(event) {
@@ -574,6 +717,7 @@ function renderBatchData(data) {
                 if (!allSubjects[normSubject]) {
                     allSubjects[normSubject] = code;
                 }
+                subjectDisplayNames.add(displaySubject.trim());
             }
         }
     });

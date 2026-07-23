@@ -8,7 +8,7 @@
       "day": "Monday",
       "start_time": "09:40",
       "end_time": "10:30",
-      "subject": "Innovation And Entrepreneurship",
+      "subject": "Innovation and Entrepreneurship",
       "code": "UTA025L",
       "type": "Lecture",
       "room": "LT402",
@@ -18,7 +18,7 @@
       "day": "Monday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "Theory Of Computation",
+      "subject": "Theory of Computation",
       "code": "UCS701L",
       "type": "Lecture",
       "room": "LT402",
@@ -28,7 +28,7 @@
       "day": "Monday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "Innovation And Entrepreneurship",
+      "subject": "Innovation and Entrepreneurship",
       "code": "UTA025T",
       "type": "Tutorial",
       "room": "F301",
@@ -38,7 +38,7 @@
       "day": "Monday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "Innovation And Entrepreneurship",
+      "subject": "Innovation and Entrepreneurship",
       "code": "UTA025T",
       "type": "Tutorial",
       "room": "F301",
@@ -48,14 +48,14 @@
       "day": "Monday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "Ethical Hacking-I",
+      "subject": "Ethical Hacking-1",
       "code": "UCS673P",
       "type": "Practical",
       "room": "GC-1",
       "options": [
         {
           "subject_code": "UCS673P",
-          "subject_name": "Ethical Hacking-I",
+          "subject_name": "Ethical Hacking-1",
           "type": "Practical",
           "place": "GC-1",
           "teacher": "IOT"
@@ -69,28 +69,28 @@
         },
         {
           "subject_code": "UCS660P",
-          "subject_name": "Continuous Integration And Continuous Deployment",
+          "subject_name": "Continuous Integration and Continuous Deployment",
           "type": "Practical",
           "place": "GC-2",
           "teacher": "HPC"
         },
         {
           "subject_code": "UCS636P",
-          "subject_name": "3D Modelling And Animation",
+          "subject_name": "3D Modelling and Animation",
           "type": "Practical",
           "place": "IS-1",
           "teacher": "SAL"
         },
         {
           "subject_code": "UCS635P",
-          "subject_name": "Gpu Computing",
+          "subject_name": "GPU Computing",
           "type": "Practical",
           "place": "LT101",
           "teacher": "VJY"
         },
         {
           "subject_code": "UCS658L",
-          "subject_name": "Derivatives Pricing, Trading And Strategies",
+          "subject_name": "Derivatives Pricing, Trading and Strategies",
           "type": "Lecture",
           "place": null,
           "teacher": "JHB"
@@ -101,14 +101,14 @@
       "day": "Monday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "Ethical Hacking-I",
+      "subject": "Ethical Hacking-1",
       "code": "UCS673P",
       "type": "Practical",
       "room": "GC-1",
       "options": [
         {
           "subject_code": "UCS673P",
-          "subject_name": "Ethical Hacking-I",
+          "subject_name": "Ethical Hacking-1",
           "type": "Practical",
           "place": "GC-1",
           "teacher": "IOT"
@@ -122,28 +122,28 @@
         },
         {
           "subject_code": "UCS660P",
-          "subject_name": "Continuous Integration And Continuous Deployment",
+          "subject_name": "Continuous Integration and Continuous Deployment",
           "type": "Practical",
           "place": "GC-2",
           "teacher": "HPC"
         },
         {
           "subject_code": "UCS636P",
-          "subject_name": "3D Modelling And Animation",
+          "subject_name": "3D Modelling and Animation",
           "type": "Practical",
           "place": "IS-1",
           "teacher": "SAL"
         },
         {
           "subject_code": "UCS635P",
-          "subject_name": "Gpu Computing",
+          "subject_name": "GPU Computing",
           "type": "Practical",
           "place": "LT101",
           "teacher": "VJY"
         },
         {
           "subject_code": "UCS658L",
-          "subject_name": "Derivatives Pricing, Trading And Strategies",
+          "subject_name": "Derivatives Pricing, Trading and Strategies",
           "type": "Lecture",
           "place": null,
           "teacher": "JHB"
@@ -154,14 +154,14 @@
       "day": "Monday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "Ethical Hacking-Ii",
+      "subject": "Ethical Hacking-2",
       "code": "UCS674P",
       "type": "Practical",
       "room": "GC-1",
       "options": [
         {
           "subject_code": "UCS674P",
-          "subject_name": "Ethical Hacking-Ii",
+          "subject_name": "Ethical Hacking-2",
           "type": "Practical",
           "place": "GC-1",
           "teacher": "IOT"
@@ -175,7 +175,7 @@
         },
         {
           "subject_code": "UCS547P",
-          "subject_name": null,
+          "subject_name": "Edge AI and Robotics: Accelerated Data Science",
           "type": "Practical",
           "place": "IS-1",
           "teacher": "GA"
@@ -189,7 +189,7 @@
         },
         {
           "subject_code": "UCS646P",
-          "subject_name": "Game Design And Development",
+          "subject_name": "Game Design & Development",
           "type": "Practical",
           "place": null,
           "teacher": "GS"
@@ -200,14 +200,14 @@
       "day": "Monday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "Ethical Hacking-Ii",
+      "subject": "Ethical Hacking-2",
       "code": "UCS674P",
       "type": "Practical",
       "room": "GC-1",
       "options": [
         {
           "subject_code": "UCS674P",
-          "subject_name": "Ethical Hacking-Ii",
+          "subject_name": "Ethical Hacking-2",
           "type": "Practical",
           "place": "GC-1",
           "teacher": "IOT"
@@ -221,7 +221,7 @@
         },
         {
           "subject_code": "UCS547P",
-          "subject_name": null,
+          "subject_name": "Edge AI and Robotics: Accelerated Data Science",
           "type": "Practical",
           "place": "IS-1",
           "teacher": "GA"
@@ -235,7 +235,7 @@
         },
         {
           "subject_code": "UCS646P",
-          "subject_name": "Game Design And Development",
+          "subject_name": "Game Design & Development",
           "type": "Practical",
           "place": null,
           "teacher": "GS"
@@ -246,7 +246,7 @@
       "day": "Monday",
       "start_time": "17:10",
       "end_time": "18:00",
-      "subject": "UCS675P",
+      "subject": "Financial Markets and Portfolio Theory",
       "code": "UCS675P",
       "type": "Practical",
       "room": "DS-2",
@@ -256,7 +256,7 @@
       "day": "Monday",
       "start_time": "18:00",
       "end_time": "18:50",
-      "subject": "UCS675P",
+      "subject": "Financial Markets and Portfolio Theory",
       "code": "UCS675P",
       "type": "Practical",
       "room": "DS-2",
@@ -266,7 +266,7 @@
       "day": "Tuesday",
       "start_time": "08:00",
       "end_time": "08:50",
-      "subject": "Optimization Techniques",
+      "subject": "Numerical Optimization",
       "code": "UMA035P",
       "type": "Practical",
       "room": "G307(FIST)",
@@ -276,7 +276,7 @@
       "day": "Tuesday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "Optimization Techniques",
+      "subject": "Numerical Optimization",
       "code": "UMA035P",
       "type": "Practical",
       "room": "G307(FIST)",
@@ -300,7 +300,7 @@
         },
         {
           "subject_code": "UCS646L",
-          "subject_name": "Game Design And Development",
+          "subject_name": "Game Design & Development",
           "type": "Lecture",
           "place": "LP109",
           "teacher": "SSH"
@@ -314,7 +314,7 @@
         },
         {
           "subject_code": "UCS660L",
-          "subject_name": "Continuous Integration And Continuous Deployment",
+          "subject_name": "Continuous Integration and Continuous Deployment",
           "type": "Lecture",
           "place": "F303",
           "teacher": "GS"
@@ -328,21 +328,21 @@
         },
         {
           "subject_code": "UCS749L",
-          "subject_name": "Conversational Ai: Speech Processing And Synthesis",
+          "subject_name": "Conversational AI: Speech Processing & Synthesis",
           "type": "Lecture",
           "place": "LT402",
           "teacher": "KML"
         },
         {
           "subject_code": "UCS671L",
-          "subject_name": "Edge Ai And Robotics: Embedded Vision",
+          "subject_name": "Edge AI and Robotics: Embedded Vision",
           "type": "Lecture",
           "place": "PGAS2",
           "teacher": "JHB"
         },
         {
           "subject_code": "UCS673L",
-          "subject_name": "Ethical Hacking-I",
+          "subject_name": "Ethical Hacking-1",
           "type": "Lecture",
           "place": "F302",
           "teacher": "SAL"
@@ -363,7 +363,7 @@
         },
         {
           "subject_code": "UCS675L",
-          "subject_name": null,
+          "subject_name": "Financial Markets and Portfolio Theory",
           "type": "Lecture",
           "place": "LT103",
           "teacher": "ROS"
@@ -388,7 +388,7 @@
         },
         {
           "subject_code": "UCS646L",
-          "subject_name": "Game Design And Development",
+          "subject_name": "Game Design & Development",
           "type": "Lecture",
           "place": "LP109",
           "teacher": "SSH"
@@ -402,7 +402,7 @@
         },
         {
           "subject_code": "UCS660L",
-          "subject_name": "Continuous Integration And Continuous Deployment",
+          "subject_name": "Continuous Integration and Continuous Deployment",
           "type": "Lecture",
           "place": "F303",
           "teacher": "GS"
@@ -416,21 +416,21 @@
         },
         {
           "subject_code": "UCS749L",
-          "subject_name": "Conversational Ai: Speech Processing And Synthesis",
+          "subject_name": "Conversational AI: Speech Processing & Synthesis",
           "type": "Lecture",
           "place": "LT402",
           "teacher": "KML"
         },
         {
           "subject_code": "UCS671L",
-          "subject_name": "Edge Ai And Robotics: Embedded Vision",
+          "subject_name": "Edge AI and Robotics: Embedded Vision",
           "type": "Lecture",
           "place": "PGAS2",
           "teacher": "JHB"
         },
         {
           "subject_code": "UCS673L",
-          "subject_name": "Ethical Hacking-I",
+          "subject_name": "Ethical Hacking-1",
           "type": "Lecture",
           "place": "F302",
           "teacher": "SAL"
@@ -451,7 +451,7 @@
         },
         {
           "subject_code": "UCS675L",
-          "subject_name": null,
+          "subject_name": "Financial Markets and Portfolio Theory",
           "type": "Lecture",
           "place": "LT103",
           "teacher": "ROS"
@@ -462,14 +462,14 @@
       "day": "Tuesday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "Conversational Ai: Speech Processing And Synthesis",
+      "subject": "Conversational AI: Speech Processing & Synthesis",
       "code": "UCS749P",
       "type": "Practical",
       "room": "CG-1",
       "options": [
         {
           "subject_code": "UCS749P",
-          "subject_name": "Conversational Ai: Speech Processing And Synthesis",
+          "subject_name": "Conversational AI: Speech Processing & Synthesis",
           "type": "Practical",
           "place": "CG-1",
           "teacher": "DT"
@@ -494,14 +494,14 @@
       "day": "Tuesday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "Conversational Ai: Speech Processing And Synthesis",
+      "subject": "Conversational AI: Speech Processing & Synthesis",
       "code": "UCS749P",
       "type": "Practical",
       "room": "CG-1",
       "options": [
         {
           "subject_code": "UCS749P",
-          "subject_name": "Conversational Ai: Speech Processing And Synthesis",
+          "subject_name": "Conversational AI: Speech Processing & Synthesis",
           "type": "Practical",
           "place": "CG-1",
           "teacher": "DT"
@@ -526,14 +526,14 @@
       "day": "Tuesday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "Conversational Ai: Natural Language Processing",
+      "subject": "Conversational AI: Natural Language Processing",
       "code": "UCS664P",
       "type": "Practical",
       "room": "LP109",
       "options": [
         {
           "subject_code": "UCS664P",
-          "subject_name": "Conversational Ai: Natural Language Processing",
+          "subject_name": "Conversational AI: Natural Language Processing",
           "type": "Practical",
           "place": "LP109",
           "teacher": "AI"
@@ -547,7 +547,7 @@
         },
         {
           "subject_code": "UCS654P",
-          "subject_name": "Predictive Analytics Using Statistics",
+          "subject_name": "Predictive Analytics using Statistics",
           "type": "Practical",
           "place": null,
           "teacher": "MKB"
@@ -558,14 +558,14 @@
       "day": "Tuesday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "Conversational Ai: Natural Language Processing",
+      "subject": "Conversational AI: Natural Language Processing",
       "code": "UCS664P",
       "type": "Practical",
       "room": "LP109",
       "options": [
         {
           "subject_code": "UCS664P",
-          "subject_name": "Conversational Ai: Natural Language Processing",
+          "subject_name": "Conversational AI: Natural Language Processing",
           "type": "Practical",
           "place": "LP109",
           "teacher": "AI"
@@ -579,7 +579,7 @@
         },
         {
           "subject_code": "UCS654P",
-          "subject_name": "Predictive Analytics Using Statistics",
+          "subject_name": "Predictive Analytics using Statistics",
           "type": "Practical",
           "place": null,
           "teacher": "MKB"
@@ -590,7 +590,7 @@
       "day": "Tuesday",
       "start_time": "17:10",
       "end_time": "18:00",
-      "subject": "Derivatives Pricing, Trading And Strategies",
+      "subject": "Derivatives Pricing, Trading and Strategies",
       "code": "UCS658P",
       "type": "Practical",
       "room": "DS-2",
@@ -600,7 +600,7 @@
       "day": "Tuesday",
       "start_time": "18:00",
       "end_time": "18:50",
-      "subject": "Derivatives Pricing, Trading And Strategies",
+      "subject": "Derivatives Pricing, Trading and Strategies",
       "code": "UCS658P",
       "type": "Practical",
       "room": "DS-2",
@@ -610,7 +610,7 @@
       "day": "Wednesday",
       "start_time": "13:00",
       "end_time": "13:50",
-      "subject": "Theory Of Computation",
+      "subject": "Theory of Computation",
       "code": "UCS701L",
       "type": "Lecture",
       "room": "LT403",
@@ -620,7 +620,7 @@
       "day": "Wednesday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "Optimization Techniques",
+      "subject": "Numerical Optimization",
       "code": "UMA035L",
       "type": "Lecture",
       "room": "LT403",
@@ -640,7 +640,7 @@
       "day": "Wednesday",
       "start_time": "17:10",
       "end_time": "18:00",
-      "subject": "Derivatives Pricing, Trading And Strategies",
+      "subject": "Derivatives Pricing, Trading and Strategies",
       "code": "UCS658L",
       "type": "Lecture",
       "room": "LT101",
@@ -650,7 +650,7 @@
       "day": "Thursday",
       "start_time": "09:40",
       "end_time": "10:30",
-      "subject": "Optimization Techniques",
+      "subject": "Numerical Optimization",
       "code": "UMA035L",
       "type": "Lecture",
       "room": "LT302",
@@ -660,21 +660,21 @@
       "day": "Thursday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "Gpu Computing",
+      "subject": "GPU Computing",
       "code": "UCS635L",
       "type": "Lecture",
       "room": "LT301",
       "options": [
         {
           "subject_code": "UCS635L",
-          "subject_name": "Gpu Computing",
+          "subject_name": "GPU Computing",
           "type": "Lecture",
           "place": "LT301",
           "teacher": "VPS"
         },
         {
           "subject_code": "UCS636L",
-          "subject_name": "3D Modelling And Animation",
+          "subject_name": "3D Modelling and Animation",
           "type": "Lecture",
           "place": "LP109",
           "teacher": "ST"
@@ -688,7 +688,7 @@
         },
         {
           "subject_code": "UCS659L",
-          "subject_name": "Build And Release Management",
+          "subject_name": "Build and Release Management",
           "type": "Lecture",
           "place": "F303",
           "teacher": "MNK"
@@ -702,28 +702,28 @@
         },
         {
           "subject_code": "UCS664L",
-          "subject_name": "Conversational Ai: Natural Language Processing",
+          "subject_name": "Conversational AI: Natural Language Processing",
           "type": "Lecture",
           "place": "LT101",
           "teacher": "JS"
         },
         {
           "subject_code": "UCS547L",
-          "subject_name": null,
+          "subject_name": "Edge AI and Robotics: Accelerated Data Science",
           "type": "Lecture",
           "place": "PGAS2",
           "teacher": "MMK"
         },
         {
           "subject_code": "UCS654L",
-          "subject_name": "Predictive Analytics Using Statistics",
+          "subject_name": "Predictive Analytics using Statistics",
           "type": "Lecture",
           "place": "LT403",
           "teacher": "AMO"
         },
         {
           "subject_code": "UCS674L",
-          "subject_name": "Ethical Hacking-Ii",
+          "subject_name": "Ethical Hacking-2",
           "type": "Lecture",
           "place": "F302",
           "teacher": "GS"
@@ -741,21 +741,21 @@
       "day": "Thursday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "Gpu Computing",
+      "subject": "GPU Computing",
       "code": "UCS635L",
       "type": "Lecture",
       "room": "LT301",
       "options": [
         {
           "subject_code": "UCS635L",
-          "subject_name": "Gpu Computing",
+          "subject_name": "GPU Computing",
           "type": "Lecture",
           "place": "LT301",
           "teacher": "VPS"
         },
         {
           "subject_code": "UCS636L",
-          "subject_name": "3D Modelling And Animation",
+          "subject_name": "3D Modelling and Animation",
           "type": "Lecture",
           "place": "LP109",
           "teacher": "ST"
@@ -769,7 +769,7 @@
         },
         {
           "subject_code": "UCS659L",
-          "subject_name": "Build And Release Management",
+          "subject_name": "Build and Release Management",
           "type": "Lecture",
           "place": "F303",
           "teacher": "MNK"
@@ -783,28 +783,28 @@
         },
         {
           "subject_code": "UCS664L",
-          "subject_name": "Conversational Ai: Natural Language Processing",
+          "subject_name": "Conversational AI: Natural Language Processing",
           "type": "Lecture",
           "place": "LT101",
           "teacher": "JS"
         },
         {
           "subject_code": "UCS547L",
-          "subject_name": null,
+          "subject_name": "Edge AI and Robotics: Accelerated Data Science",
           "type": "Lecture",
           "place": "PGAS2",
           "teacher": "MMK"
         },
         {
           "subject_code": "UCS654L",
-          "subject_name": "Predictive Analytics Using Statistics",
+          "subject_name": "Predictive Analytics using Statistics",
           "type": "Lecture",
           "place": "LT403",
           "teacher": "AMO"
         },
         {
           "subject_code": "UCS674L",
-          "subject_name": "Ethical Hacking-Ii",
+          "subject_name": "Ethical Hacking-2",
           "type": "Lecture",
           "place": "F302",
           "teacher": "GS"
@@ -852,7 +852,7 @@
       "day": "Friday",
       "start_time": "13:00",
       "end_time": "13:50",
-      "subject": "Optimization Techniques",
+      "subject": "Numerical Optimization",
       "code": "UMA035L",
       "type": "Lecture",
       "room": "LT402",
@@ -862,7 +862,7 @@
       "day": "Friday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "Theory Of Computation",
+      "subject": "Theory of Computation",
       "code": "UCS701L",
       "type": "Lecture",
       "room": "LT402",
@@ -882,7 +882,7 @@
       "day": "Friday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "Theory Of Computation",
+      "subject": "Theory of Computation",
       "code": "UCS701T",
       "type": "Tutorial",
       "room": "E312",

@@ -28,7 +28,7 @@
       "day": "Monday",
       "start_time": "09:40",
       "end_time": "10:30",
-      "subject": "UCS553L",
+      "subject": "Enterprise Web Application",
       "code": "UCS553L",
       "type": "Lecture",
       "room": "LT303",
@@ -38,7 +38,7 @@
       "day": "Monday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "UCS421L",
+      "subject": "Ethics and Risk Mitigation in AI",
       "code": "UCS421L",
       "type": "Lecture",
       "room": "LT303",
@@ -62,7 +62,7 @@
         },
         {
           "subject_code": "UCS548P",
-          "subject_name": "Foundations of Data Science",
+          "subject_name": "Foundation of Data Science",
           "type": "Practical",
           "place": "LL313",
           "teacher": "PTK-RA"
@@ -87,7 +87,7 @@
         },
         {
           "subject_code": "UCS548P",
-          "subject_name": "Foundations of Data Science",
+          "subject_name": "Foundation of Data Science",
           "type": "Practical",
           "place": "LL313",
           "teacher": "PTK-RA"
@@ -112,7 +112,7 @@
         },
         {
           "subject_code": "UCS668P",
-          "subject_name": "Edge Ai and Robotics: Data Centre Vision",
+          "subject_name": "Edge AI and Robotics: Data Centre Vision",
           "type": "Practical",
           "place": "L004",
           "teacher": "JHB"
@@ -126,7 +126,7 @@
         },
         {
           "subject_code": "UCS539L",
-          "subject_name": "Finance Accounting and Valuation",
+          "subject_name": "Finance, Accounting and Valuation",
           "type": "Lecture",
           "place": "LT102",
           "teacher": "ROS"
@@ -151,7 +151,7 @@
         },
         {
           "subject_code": "UCS668P",
-          "subject_name": "Edge Ai and Robotics: Data Centre Vision",
+          "subject_name": "Edge AI and Robotics: Data Centre Vision",
           "type": "Practical",
           "place": "L004",
           "teacher": "JHB"
@@ -165,7 +165,7 @@
         },
         {
           "subject_code": "UCS539L",
-          "subject_name": "Finance Accounting and Valuation",
+          "subject_name": "Finance, Accounting and Valuation",
           "type": "Lecture",
           "place": "LT102",
           "teacher": "ROS"
@@ -176,7 +176,7 @@
       "day": "Monday",
       "start_time": "17:10",
       "end_time": "18:00",
-      "subject": "Finance Accounting and Valuation",
+      "subject": "Finance, Accounting and Valuation",
       "code": "UCS539P",
       "type": "Practical",
       "room": "L011",
@@ -186,7 +186,7 @@
       "day": "Monday",
       "start_time": "18:00",
       "end_time": "18:50",
-      "subject": "Finance Accounting and Valuation",
+      "subject": "Finance, Accounting and Valuation",
       "code": "UCS539P",
       "type": "Practical",
       "room": "L011",
@@ -226,7 +226,7 @@
       "day": "Tuesday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "UCS553L",
+      "subject": "Enterprise Web Application",
       "code": "UCS553L",
       "type": "Lecture",
       "room": "LT302",
@@ -236,7 +236,7 @@
       "day": "Tuesday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "UCS421L",
+      "subject": "Ethics and Risk Mitigation in AI",
       "code": "UCS421L",
       "type": "Lecture",
       "room": "LT401",
@@ -326,7 +326,7 @@
       "day": "Wednesday",
       "start_time": "17:10",
       "end_time": "18:00",
-      "subject": "Finance Accounting and Valuation",
+      "subject": "Finance, Accounting and Valuation",
       "code": "UCS539L",
       "type": "Lecture",
       "room": "LP101",
@@ -360,7 +360,7 @@
         },
         {
           "subject_code": "UCS548L",
-          "subject_name": "Foundations of Data Science",
+          "subject_name": "Foundation of Data Science",
           "type": "Lecture",
           "place": "LT402",
           "teacher": "AMT"
@@ -388,21 +388,21 @@
         },
         {
           "subject_code": "UCS542L",
-          "subject_name": "Ui & Ux Specialist",
+          "subject_name": "UI & UX Specialist",
           "type": "Lecture",
           "place": "LT101",
           "teacher": "MKB"
         },
         {
           "subject_code": "UCS551L",
-          "subject_name": "Conversational Ai: Accelerated Data Science",
+          "subject_name": "Conversational AI: Accelerated Data Science",
           "type": "Lecture",
           "place": "LT101",
           "teacher": "JS"
         },
         {
           "subject_code": "UCS668L",
-          "subject_name": "Edge Ai and Robotics: Data Centre Vision",
+          "subject_name": "Edge AI and Robotics: Data Centre Vision",
           "type": "Lecture",
           "place": "LT102",
           "teacher": "JHB"
@@ -416,7 +416,7 @@
         },
         {
           "subject_code": "UMC513L",
-          "subject_name": null,
+          "subject_name": "Linear Algebra for Artificial Intelligence and Machine Learning",
           "type": "Lecture",
           "place": "T106",
           "teacher": "YK"
@@ -441,7 +441,7 @@
         },
         {
           "subject_code": "UCS548L",
-          "subject_name": "Foundations of Data Science",
+          "subject_name": "Foundation of Data Science",
           "type": "Lecture",
           "place": "LT402",
           "teacher": "AMT"
@@ -469,21 +469,21 @@
         },
         {
           "subject_code": "UCS542L",
-          "subject_name": "Ui & Ux Specialist",
+          "subject_name": "UI & UX Specialist",
           "type": "Lecture",
           "place": "LT101",
           "teacher": "MKB"
         },
         {
           "subject_code": "UCS551L",
-          "subject_name": "Conversational Ai: Accelerated Data Science",
+          "subject_name": "Conversational AI: Accelerated Data Science",
           "type": "Lecture",
           "place": "LT101",
           "teacher": "JS"
         },
         {
           "subject_code": "UCS668L",
-          "subject_name": "Edge Ai and Robotics: Data Centre Vision",
+          "subject_name": "Edge AI and Robotics: Data Centre Vision",
           "type": "Lecture",
           "place": "LT102",
           "teacher": "JHB"
@@ -497,7 +497,7 @@
         },
         {
           "subject_code": "UMC513L",
-          "subject_name": null,
+          "subject_name": "Linear Algebra for Artificial Intelligence and Machine Learning",
           "type": "Lecture",
           "place": "T106",
           "teacher": "YK"
@@ -548,7 +548,7 @@
       "day": "Friday",
       "start_time": "09:40",
       "end_time": "10:30",
-      "subject": "UCS553P",
+      "subject": "Enterprise Web Application",
       "code": "UCS553P",
       "type": "Practical",
       "room": "NS1(L102)",
@@ -558,7 +558,7 @@
       "day": "Friday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "UCS553P",
+      "subject": "Enterprise Web Application",
       "code": "UCS553P",
       "type": "Practical",
       "room": "NS1(L102)",
@@ -568,7 +568,7 @@
       "day": "Friday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "UCS421L",
+      "subject": "Ethics and Risk Mitigation in AI",
       "code": "UCS421L",
       "type": "Lecture",
       "room": "LT402",
@@ -588,14 +588,14 @@
       "day": "Friday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "UMC513P",
+      "subject": "Linear Algebra for Artificial Intelligence and Machine Learning",
       "code": "UMC513P",
       "type": "Practical",
       "room": "L207",
       "options": [
         {
           "subject_code": "UMC513P",
-          "subject_name": null,
+          "subject_name": "Linear Algebra for Artificial Intelligence and Machine Learning",
           "type": "Practical",
           "place": "L207",
           "teacher": "MAN"
@@ -609,14 +609,14 @@
         },
         {
           "subject_code": "UCS551P",
-          "subject_name": "Conversational Ai: Accelerated Data Science",
+          "subject_name": "Conversational AI: Accelerated Data Science",
           "type": "Practical",
           "place": "LP108",
           "teacher": "MKB"
         },
         {
           "subject_code": "UCS542P",
-          "subject_name": "Ui & Ux Specialist",
+          "subject_name": "UI & UX Specialist",
           "type": "Practical",
           "place": "L206",
           "teacher": null
@@ -627,14 +627,14 @@
       "day": "Friday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "UMC513P",
+      "subject": "Linear Algebra for Artificial Intelligence and Machine Learning",
       "code": "UMC513P",
       "type": "Practical",
       "room": "L207",
       "options": [
         {
           "subject_code": "UMC513P",
-          "subject_name": null,
+          "subject_name": "Linear Algebra for Artificial Intelligence and Machine Learning",
           "type": "Practical",
           "place": "L207",
           "teacher": "MAN"
@@ -648,14 +648,14 @@
         },
         {
           "subject_code": "UCS551P",
-          "subject_name": "Conversational Ai: Accelerated Data Science",
+          "subject_name": "Conversational AI: Accelerated Data Science",
           "type": "Practical",
           "place": "LP108",
           "teacher": "MKB"
         },
         {
           "subject_code": "UCS542P",
-          "subject_name": "Ui & Ux Specialist",
+          "subject_name": "UI & UX Specialist",
           "type": "Practical",
           "place": "L206",
           "teacher": null
@@ -676,7 +676,7 @@
       "day": "Friday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "UCS553L",
+      "subject": "Enterprise Web Application",
       "code": "UCS553L",
       "type": "Lecture",
       "room": "LT401",

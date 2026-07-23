@@ -70,14 +70,14 @@
       "day": "Monday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "Edge Ai and Robotics: Reinforcement Learning",
+      "subject": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
       "code": "UCS760L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UCS760L",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Lecture",
           "place": "F206",
           "teacher": "CSED"
@@ -102,14 +102,14 @@
       "day": "Monday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "Edge Ai and Robotics: Reinforcement Learning",
+      "subject": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
       "code": "UCS760L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UCS760L",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Lecture",
           "place": "F206",
           "teacher": "CSED"
@@ -255,14 +255,14 @@
       "day": "Tuesday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "Edge Ai and Robotics: Reinforcement Learning",
+      "subject": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
       "code": "UCS760P",
       "type": "Practical",
       "room": "IA(H214)",
       "options": [
         {
           "subject_code": "UCS760P",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Practical",
           "place": "IA(H214)",
           "teacher": "CSED"
@@ -301,14 +301,14 @@
       "day": "Tuesday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "Edge Ai and Robotics: Reinforcement Learning",
+      "subject": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
       "code": "UCS760P",
       "type": "Practical",
       "room": "IA(H214)",
       "options": [
         {
           "subject_code": "UCS760P",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Practical",
           "place": "IA(H214)",
           "teacher": "CSED"
@@ -367,14 +367,14 @@
       "day": "Wednesday",
       "start_time": "08:00",
       "end_time": "08:50",
-      "subject": "Edge Ai and Robotics: Data Centre Vision",
+      "subject": "Edge AI and Robotics: Data Centre Vision",
       "code": "UCS668P",
       "type": "Practical",
       "room": null,
       "options": [
         {
           "subject_code": "UCS668P",
-          "subject_name": "Edge Ai and Robotics: Data Centre Vision",
+          "subject_name": "Edge AI and Robotics: Data Centre Vision",
           "type": "Practical",
           "place": null,
           "teacher": "CSED"
@@ -392,14 +392,14 @@
       "day": "Wednesday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "Edge Ai and Robotics: Data Centre Vision",
+      "subject": "Edge AI and Robotics: Data Centre Vision",
       "code": "UCS668P",
       "type": "Practical",
       "room": null,
       "options": [
         {
           "subject_code": "UCS668P",
-          "subject_name": "Edge Ai and Robotics: Data Centre Vision",
+          "subject_name": "Edge AI and Robotics: Data Centre Vision",
           "type": "Practical",
           "place": null,
           "teacher": "CSED"
@@ -487,7 +487,7 @@
       "day": "Thursday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "Edge Ai and Robotics: Data Centre Vision",
+      "subject": "Edge AI and Robotics: Data Centre Vision",
       "code": "UCS668L",
       "type": "Lecture",
       "room": null,
@@ -497,14 +497,14 @@
       "day": "Thursday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "Edge Ai and Robotics: Data Centre Vision",
+      "subject": "Edge AI and Robotics: Data Centre Vision",
       "code": "UCS668L",
       "type": "Lecture",
       "room": "B303",
       "options": [
         {
           "subject_code": "UCS668L",
-          "subject_name": "Edge Ai and Robotics: Data Centre Vision",
+          "subject_name": "Edge AI and Robotics: Data Centre Vision",
           "type": "Lecture",
           "place": "B303",
           "teacher": "CSED"
@@ -543,14 +543,14 @@
       "day": "Thursday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "Edge Ai and Robotics: Reinforcement Learning",
+      "subject": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
       "code": "UCS760P",
       "type": "Practical",
       "room": "IA(214)",
       "options": [
         {
           "subject_code": "UCS760P",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Practical",
           "place": "IA(214)",
           "teacher": "CSED"
@@ -582,14 +582,14 @@
       "day": "Thursday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "Edge Ai and Robotics: Reinforcement Learning",
+      "subject": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
       "code": "UCS760P",
       "type": "Practical",
       "room": "IA(214)",
       "options": [
         {
           "subject_code": "UCS760P",
-          "subject_name": "Edge Ai and Robotics: Reinforcement Learning",
+          "subject_name": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
           "type": "Practical",
           "place": "IA(214)",
           "teacher": "CSED"
@@ -621,7 +621,7 @@
       "day": "Friday",
       "start_time": "08:00",
       "end_time": "08:50",
-      "subject": "Edge Ai and Robotics: Embedded Vision",
+      "subject": "Edge AI and Robotics: Embedded Vision",
       "code": "UCS671P",
       "type": "Practical",
       "room": "NS2(L103)",
@@ -631,7 +631,7 @@
       "day": "Friday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "Edge Ai and Robotics: Embedded Vision",
+      "subject": "Edge AI and Robotics: Embedded Vision",
       "code": "UCS671P",
       "type": "Practical",
       "room": "NS2(L103)",
@@ -683,14 +683,14 @@
       "day": "Friday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "Edge Ai and Robotics: Data Centre Vision",
+      "subject": "Edge AI and Robotics: Data Centre Vision",
       "code": "UCS668P",
       "type": "Practical",
       "room": "CAM(H107)",
       "options": [
         {
           "subject_code": "UCS668P",
-          "subject_name": "Edge Ai and Robotics: Data Centre Vision",
+          "subject_name": "Edge AI and Robotics: Data Centre Vision",
           "type": "Practical",
           "place": "CAM(H107)",
           "teacher": "CSDE"
@@ -708,14 +708,14 @@
       "day": "Friday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "Edge Ai and Robotics: Data Centre Vision",
+      "subject": "Edge AI and Robotics: Data Centre Vision",
       "code": "UCS668P",
       "type": "Practical",
       "room": "CAM(H107)",
       "options": [
         {
           "subject_code": "UCS668P",
-          "subject_name": "Edge Ai and Robotics: Data Centre Vision",
+          "subject_name": "Edge AI and Robotics: Data Centre Vision",
           "type": "Practical",
           "place": "CAM(H107)",
           "teacher": "CSDE"

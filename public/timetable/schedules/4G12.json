@@ -1,0 +1,248 @@
+{
+  "batch": "4G12",
+  "semester": {
+    "label": "ODD 26-27"
+  },
+  "classes": [
+    {
+      "day": "Monday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Nano-Biotechnology",
+      "code": "UBT802L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UBT610L",
+      "code": "UBT610L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Concepts in Biomedical Instrumentation",
+      "code": "UBT832L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "UBT837L",
+      "code": "UBT837L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": [
+        {
+          "subject_code": "UBT837L",
+          "subject_name": null,
+          "type": "Lecture",
+          "place": "F302",
+          "teacher": "SDS"
+        },
+        {
+          "subject_code": "UBT839L",
+          "subject_name": null,
+          "type": "Lecture",
+          "place": "F309",
+          "teacher": "MVR"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Concepts in Biomedical Instrumentation",
+      "code": "UBT832P",
+      "type": "Practical",
+      "room": "BMI(B213)",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Concepts in Biomedical Instrumentation",
+      "code": "UBT832P",
+      "type": "Practical",
+      "room": "BMI(B213)",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "UBT844L",
+      "code": "UBT844L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": [
+        {
+          "subject_code": "UBT844L",
+          "subject_name": null,
+          "type": "Lecture",
+          "place": "F302",
+          "teacher": "DG"
+        },
+        {
+          "subject_code": "UBT846L",
+          "subject_name": null,
+          "type": "Lecture",
+          "place": "F208",
+          "teacher": "NL"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Nano-Biotechnology",
+      "code": "UBT802L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Concepts in Biomedical Instrumentation",
+      "code": "UBT832L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "UBT610L",
+      "code": "UBT610L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "UBT837L",
+      "code": "UBT837L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": [
+        {
+          "subject_code": "UBT837L",
+          "subject_name": null,
+          "type": "Lecture",
+          "place": "F302",
+          "teacher": "SDS"
+        },
+        {
+          "subject_code": "UBT839L",
+          "subject_name": null,
+          "type": "Lecture",
+          "place": "F208",
+          "teacher": "MVR"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "UBT610L",
+      "code": "UBT610L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Concepts in Biomedical Instrumentation",
+      "code": "UBT832L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Nano-Biotechnology",
+      "code": "UBT802L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "UBT844L",
+      "code": "UBT844L",
+      "type": "Lecture",
+      "room": "F302",
+      "options": [
+        {
+          "subject_code": "UBT844L",
+          "subject_name": null,
+          "type": "Lecture",
+          "place": "F302",
+          "teacher": "DG"
+        },
+        {
+          "subject_code": "UBT846L",
+          "subject_name": null,
+          "type": "Lecture",
+          "place": "F208",
+          "teacher": "NL"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UBT837L",
+      "code": "UBT837L",
+      "type": "Lecture",
+      "room": "F302/F309",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "UBT844L",
+      "code": "UBT844L",
+      "type": "Lecture",
+      "room": "F302/F208",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Nano-Biotechnology",
+      "code": "UBT802T",
+      "type": "Tutorial",
+      "room": "F302",
+      "options": []
+    }
+  ]
+}

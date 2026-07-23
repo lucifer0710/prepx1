@@ -1,0 +1,338 @@
+{
+  "batch": "3E11",
+  "semester": {
+    "label": "ODD 26-27"
+  },
+  "classes": [
+    {
+      "day": "Monday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Industrial Instrumentation",
+      "code": "UEI601L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "TFS(C225)",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "TFS(C225)",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Industrial Instrumentation",
+      "code": "UEI601P",
+      "type": "Practical",
+      "room": "II(D207)",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Industrial Instrumentation",
+      "code": "UEI601P",
+      "type": "Practical",
+      "room": "II(D207)",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "Process Dynamics and Control",
+      "code": "UEI604T",
+      "type": "Tutorial",
+      "room": "E306",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Bio-Medical Instrumentation",
+      "code": "UEI608L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": "Process Dynamics and Control",
+      "code": "UEI604L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Network Analysis",
+      "code": "UEI306L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Bio-Medical Instrumentation",
+      "code": "UEI608L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Industrial Instrumentation",
+      "code": "UEI601L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": "Bio-Medical Instrumentation",
+      "code": "UEI608P",
+      "type": "Practical",
+      "room": "BMI(B213)",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "Bio-Medical Instrumentation",
+      "code": "UEI608P",
+      "type": "Practical",
+      "room": "BMI(B213)",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Process Dynamics and Control",
+      "code": "UEI604P",
+      "type": "Practical",
+      "room": "PDC(C220)",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Process Dynamics and Control",
+      "code": "UEI604P",
+      "type": "Practical",
+      "room": "PDC(C220)",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Network Analysis",
+      "code": "UEI306L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Process Dynamics and Control",
+      "code": "UEI604L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Industrial Instrumentation",
+      "code": "UEI601T",
+      "type": "Tutorial",
+      "room": "E301",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "ISD(C223)",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "ISD(C223)",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "UTA025L",
+      "code": "UTA025L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "E303",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "UTA025P",
+      "code": "UTA025P",
+      "type": "Practical",
+      "room": "VENTURE(VL301)",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "UTA025P",
+      "code": "UTA025P",
+      "type": "Practical",
+      "room": "VENTURE(VL301)",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Network Analysis",
+      "code": "UEI306T",
+      "type": "Tutorial",
+      "room": "E303",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Industrial Instrumentation",
+      "code": "UEI601L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Bio-Medical Instrumentation",
+      "code": "UEI608L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "E102",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Process Dynamics and Control",
+      "code": "UEI604L",
+      "type": "Lecture",
+      "room": "E102",
+      "options": []
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "batch": "2B13",
+  "semester": {
+    "label": "ODD 26-27"
+  },
+  "classes": [
+    {
+      "day": "Monday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Fluid Mechanics",
+      "code": "UCE310L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Optimization Techniques",
+      "code": "UMA035L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Aptitude Skills Building",
+      "code": "UTD003L",
+      "type": "Lecture",
+      "room": "LT101",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Aptitude Skills Building",
+      "code": "UTD003L",
+      "type": "Lecture",
+      "room": "LT101",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Architecture Drawing & Building Construction",
+      "code": "UCE306L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Solid Mechanics",
+      "code": "UCE312L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Optimization Techniques",
+      "code": "UMA035L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Fluid Mechanics",
+      "code": "UCE310P",
+      "type": "Practical",
+      "room": "H108",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Fluid Mechanics",
+      "code": "UCE310P",
+      "type": "Practical",
+      "room": "H108",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": "Optimization Techniques",
+      "code": "UMA035P",
+      "type": "Practical",
+      "room": "FIST(G307)",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Optimization Techniques",
+      "code": "UMA035P",
+      "type": "Practical",
+      "room": "FIST(G307)",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Architecture Drawing & Building Construction",
+      "code": "UCE306L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Solid Mechanics",
+      "code": "UCE312L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Fluid Mechanics",
+      "code": "UCE310L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": "Optimization Techniques",
+      "code": "UMA035L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "Fluid Mechanics",
+      "code": "UCE310T",
+      "type": "Tutorial",
+      "room": "E303",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Solid Mechanics",
+      "code": "UCE312P",
+      "type": "Practical",
+      "room": "LAB (W123)",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Solid Mechanics",
+      "code": "UCE312P",
+      "type": "Practical",
+      "room": "LAB (W123)",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Building Materials",
+      "code": "UCE308L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Solid Mechanics",
+      "code": "UCE312L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Fluid Mechanics",
+      "code": "UCE310L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Solid Mechanics",
+      "code": "UCE312T",
+      "type": "Tutorial",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "UCS321P",
+      "code": "UCS321P",
+      "type": "Practical",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "UCS321P",
+      "code": "UCS321P",
+      "type": "Practical",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Building Materials",
+      "code": "UCE308L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "UCS321L",
+      "code": "UCS321L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UCS321L",
+      "code": "UCS321L",
+      "type": "Lecture",
+      "room": "F104",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Building Materials",
+      "code": "UCE308P",
+      "type": "Practical",
+      "room": "D122",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Building Materials",
+      "code": "UCE308P",
+      "type": "Practical",
+      "room": "D122",
+      "options": []
+    }
+  ]
+}

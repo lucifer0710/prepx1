@@ -1,0 +1,338 @@
+{
+  "batch": "2H12",
+  "semester": {
+    "label": "ODD 26-27"
+  },
+  "classes": [
+    {
+      "day": "Monday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Optimization Methods",
+      "code": "UMA034L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "BEST3.3T",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "Materials Engineering and Metallurgy",
+      "code": "UME517T",
+      "type": "Tutorial",
+      "room": "F210",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Optimization Methods",
+      "code": "UMA034L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Mechanics",
+      "code": "UES009L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Engineering Fluid Mechanics",
+      "code": "UME309L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "BEST3.3L",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "SVG/RF-2",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "SVG/RF-2",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Mechanics",
+      "code": "UES009L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Engineering Fluid Mechanics",
+      "code": "UME309L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Optimization Methods",
+      "code": "UMA034L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "SNP/NF2",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "SNP/NF2",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Engineering Fluid Mechanics",
+      "code": "UME309T",
+      "type": "Tutorial",
+      "room": "F210",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Mechanics",
+      "code": "UES009T",
+      "type": "Tutorial",
+      "room": "F210",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "BEST3.3L",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Materials Engineering and Metallurgy",
+      "code": "UME517L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "UCS321L",
+      "code": "UCS321L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UCS321P",
+      "code": "UCS321P",
+      "type": "Practical",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "UCS321P",
+      "code": "UCS321P",
+      "type": "Practical",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": "Engineering Fluid Mechanics",
+      "code": "UME309P",
+      "type": "Practical",
+      "room": null,
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "Engineering Fluid Mechanics",
+      "code": "UME309P",
+      "type": "Practical",
+      "room": null,
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Optimization Methods",
+      "code": "UMA034P",
+      "type": "Practical",
+      "room": "PG(G201)",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Optimization Methods",
+      "code": "UMA034P",
+      "type": "Practical",
+      "room": "PG(G201)",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": null,
+      "code": null,
+      "type": "Unknown",
+      "room": "CAD-1 LAB",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "UCS321L",
+      "code": "UCS321L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Engineering Fluid Mechanics",
+      "code": "UME309L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Materials Engineering and Metallurgy",
+      "code": "UME517L",
+      "type": "Lecture",
+      "room": "F102",
+      "options": []
+    }
+  ]
+}

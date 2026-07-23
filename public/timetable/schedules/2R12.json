@@ -1,0 +1,288 @@
+{
+  "batch": "2R12",
+  "semester": {
+    "label": "ODD 26-27"
+  },
+  "classes": [
+    {
+      "day": "Monday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Formal Language and Automata Theory",
+      "code": "UCT301L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UCTXX2L",
+      "code": "UCTXX2L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Data Structure and Algorithms",
+      "code": "UCT203L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "UCTXX1L",
+      "code": "UCTXX1L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Data Structure and Algorithms",
+      "code": "UCT203P",
+      "type": "Practical",
+      "room": "NS2(L103)",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Data Structure and Algorithms",
+      "code": "UCT203P",
+      "type": "Practical",
+      "room": "NS2(L103)",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Formal Language and Automata Theory",
+      "code": "UCT301T",
+      "type": "Tutorial",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Formal Language and Automata Theory",
+      "code": "UCT301L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UCTXX2L",
+      "code": "UCTXX2L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Business Communication & Value Science-II",
+      "code": "UHU012P",
+      "type": "Practical",
+      "room": "E101",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Business Communication & Value Science-II",
+      "code": "UHU012P",
+      "type": "Practical",
+      "room": "E101",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": "UCTXX3P",
+      "code": "UCTXX3P",
+      "type": "Practical",
+      "room": "CG2(L430)",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "UCTXX3P",
+      "code": "UCTXX3P",
+      "type": "Practical",
+      "room": "CG2(L430)",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Formal Language and Automata Theory",
+      "code": "UCT301L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UCTXX2L",
+      "code": "UCTXX2L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Data Structure and Algorithms",
+      "code": "UCT203L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "UCTXX1L",
+      "code": "UCTXX1L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": "UCTXX1P",
+      "code": "UCTXX1P",
+      "type": "Practical",
+      "room": "DBMS1(L206)",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "UCTXX1P",
+      "code": "UCTXX1P",
+      "type": "Practical",
+      "room": "DBMS1(L206)",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": "Fundamentals of Management",
+      "code": "UHU029L",
+      "type": "Lecture",
+      "room": "LP105",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Fundamentals of Management",
+      "code": "UHU029L",
+      "type": "Lecture",
+      "room": "LP105",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "UCTXX2P",
+      "code": "UCTXX2P",
+      "type": "Practical",
+      "room": "SE1(L104)",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UCTXX2P",
+      "code": "UCTXX2P",
+      "type": "Practical",
+      "room": "SE1(L104)",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "13:00",
+      "end_time": "13:50",
+      "subject": "Business Communication & Value Science-II",
+      "code": "UHU012L",
+      "type": "Lecture",
+      "room": "E101",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": "UCTXX1L",
+      "code": "UCTXX1L",
+      "type": "Lecture",
+      "room": "E101",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "UCTXX3L",
+      "code": "UCTXX3L",
+      "type": "Lecture",
+      "room": "E101",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Data Structure and Algorithms",
+      "code": "UCT203L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "UCTXX3L",
+      "code": "UCTXX3L",
+      "type": "Lecture",
+      "room": "LP109",
+      "options": []
+    }
+  ]
+}

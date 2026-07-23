@@ -1,0 +1,303 @@
+{
+  "batch": "3G12",
+  "semester": {
+    "label": "ODD 26-27"
+  },
+  "classes": [
+    {
+      "day": "Monday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "UBT517L",
+      "code": "UBT517L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UBT521L",
+      "code": "UBT521L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "UBT514L",
+      "code": "UBT514L",
+      "type": "Lecture",
+      "room": "F208/F307",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "UBT516L",
+      "code": "UBT516L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "UTA025P",
+      "code": "UTA025P",
+      "type": "Practical",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "UTA025P",
+      "code": "UTA025P",
+      "type": "Practical",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "UBT517L",
+      "code": "UBT517L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "UBT516L",
+      "code": "UBT516L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UBT515L",
+      "code": "UBT515L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Cell and Tissue Engineering",
+      "code": "UBT513L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": [
+        {
+          "subject_code": "UBT513L",
+          "subject_name": "Cell and Tissue Engineering",
+          "type": "Lecture",
+          "place": "F208",
+          "teacher": "PD"
+        },
+        {
+          "subject_code": "UBT512L",
+          "subject_name": "Structural Biology",
+          "type": "Lecture",
+          "place": "F307",
+          "teacher": "DD"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "13:00",
+      "end_time": "13:50",
+      "subject": "UBT518P",
+      "code": "UBT518P",
+      "type": "Practical",
+      "room": null,
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": "UBT518P",
+      "code": "UBT518P",
+      "type": "Practical",
+      "room": null,
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "UBT518P",
+      "code": "UBT518P",
+      "type": "Practical",
+      "room": null,
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "UBT516L",
+      "code": "UBT516L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "UBT517L",
+      "code": "UBT517L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UBT516L",
+      "code": "UBT516L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Graph Theory and Applications",
+      "code": "UMA069L",
+      "type": "Lecture",
+      "room": "LT101/LT102/B303/F201",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "13:00",
+      "end_time": "13:50",
+      "subject": "Introduction to Corporate Finance",
+      "code": "UHU018L",
+      "type": "Lecture",
+      "room": "LT101",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": "Graph Theory and Applications",
+      "code": "UMA069L",
+      "type": "Lecture",
+      "room": "LT101/LT102/B303/F201",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Introduction to Corporate Finance",
+      "code": "UHU018L",
+      "type": "Lecture",
+      "room": "LT101",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Cell and Tissue Engineering",
+      "code": "UBT513L",
+      "type": "Lecture",
+      "room": "F208/F202",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UBT521L",
+      "code": "UBT521L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "UTA025L",
+      "code": "UTA025L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "UBT514L",
+      "code": "UBT514L",
+      "type": "Lecture",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "UBT521P",
+      "code": "UBT521P",
+      "type": "Practical",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "UBT521P",
+      "code": "UBT521P",
+      "type": "Practical",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "UBT517T",
+      "code": "UBT517T",
+      "type": "Tutorial",
+      "room": "F208",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UBT514L",
+      "code": "UBT514L",
+      "type": "Lecture",
+      "room": "F208/F307",
+      "options": []
+    }
+  ]
+}

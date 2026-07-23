@@ -1,0 +1,418 @@
+{
+  "batch": "3H12",
+  "semester": {
+    "label": "ODD 26-27"
+  },
+  "classes": [
+    {
+      "day": "Monday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "UTA025L",
+      "code": "UTA025L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UME633L",
+      "code": "UME633L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Applied Thermodynamics",
+      "code": "UME718P",
+      "type": "Practical",
+      "room": "ICE(H106)",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Applied Thermodynamics",
+      "code": "UME718P",
+      "type": "Practical",
+      "room": "ICE(H106)",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": "Heat Transfer",
+      "code": "UME720L",
+      "type": "Lecture",
+      "room": "F108",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "UME633P",
+      "code": "UME633P",
+      "type": "Practical",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "UME633P",
+      "code": "UME633P",
+      "type": "Practical",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": "UTA024P",
+      "code": "UTA024P",
+      "type": "Practical",
+      "room": "B216/L101",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "UTA024P",
+      "code": "UTA024P",
+      "type": "Practical",
+      "room": "B216/L101",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Mechanics of Deformable Bodies",
+      "code": "UME404L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Automobile Engineering",
+      "code": "UME511L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Mechanics of Deformable Bodies",
+      "code": "UME404T",
+      "type": "Tutorial",
+      "room": "F210",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Machine Design-I",
+      "code": "UME408L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Tuesday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Applied Thermodynamics",
+      "code": "UME718L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Machine Design-I",
+      "code": "UME408L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Mechanics of Deformable Bodies",
+      "code": "UME404L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "UME633L",
+      "code": "UME633L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "UME411L",
+      "code": "UME411L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Graph Theory and Applications",
+      "code": "UMA069L",
+      "type": "Lecture",
+      "room": "LT101/LT102/B303/F201",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "13:00",
+      "end_time": "13:50",
+      "subject": "Introduction to Corporate Finance",
+      "code": "UHU018L",
+      "type": "Lecture",
+      "room": "LT101",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "UTA024L",
+      "code": "UTA024L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Automobile Engineering",
+      "code": "UME511P",
+      "type": "Practical",
+      "room": "AUTO(W121)",
+      "options": [
+        {
+          "subject_code": "UME511P",
+          "subject_name": "Automobile Engineering",
+          "type": "Practical",
+          "place": "AUTO(W121)",
+          "teacher": "SSD"
+        },
+        {
+          "subject_code": "UME720P",
+          "subject_name": "Heat Transfer",
+          "type": "Practical",
+          "place": "HT(W118A)",
+          "teacher": "SSH"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Automobile Engineering",
+      "code": "UME511P",
+      "type": "Practical",
+      "room": "AUTO(W121)",
+      "options": [
+        {
+          "subject_code": "UME511P",
+          "subject_name": "Automobile Engineering",
+          "type": "Practical",
+          "place": "AUTO(W121)",
+          "teacher": "SSD"
+        },
+        {
+          "subject_code": "UME720P",
+          "subject_name": "Heat Transfer",
+          "type": "Practical",
+          "place": "HT(W118A)",
+          "teacher": "SSH"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": "Graph Theory and Applications",
+      "code": "UMA069L",
+      "type": "Lecture",
+      "room": "LT101/LT102/B303/F201",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "08:50",
+      "end_time": "09:40",
+      "subject": "Introduction to Corporate Finance",
+      "code": "UHU018L",
+      "type": "Lecture",
+      "room": "LT101",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Machine Design-I",
+      "code": "UME408L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Heat Transfer",
+      "code": "UME720L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Heat Transfer",
+      "code": "UME720T",
+      "type": "Tutorial",
+      "room": "F309",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "12:10",
+      "end_time": "13:00",
+      "subject": "Applied Thermodynamics",
+      "code": "UME718T",
+      "type": "Tutorial",
+      "room": "F314",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": "Applied Thermodynamics",
+      "code": "UME718L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "Automobile Engineering",
+      "code": "UME511L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Machine Design-I",
+      "code": "UME408T",
+      "type": "Tutorial",
+      "room": "F313",
+      "options": []
+    },
+    {
+      "day": "Thursday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Machine Design-I",
+      "code": "UME408T",
+      "type": "Tutorial",
+      "room": "F313",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "09:40",
+      "end_time": "10:30",
+      "subject": "Mechanics of Deformable Bodies",
+      "code": "UME404L",
+      "type": "Lecture",
+      "room": "F108",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "10:30",
+      "end_time": "11:20",
+      "subject": "Applied Thermodynamics",
+      "code": "UME718L",
+      "type": "Lecture",
+      "room": "F108",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "11:20",
+      "end_time": "12:10",
+      "subject": "Heat Transfer",
+      "code": "UME720L",
+      "type": "Lecture",
+      "room": "F107",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "13:50",
+      "end_time": "14:40",
+      "subject": "UTA025P",
+      "code": "UTA025P",
+      "type": "Practical",
+      "room": "F309",
+      "options": []
+    },
+    {
+      "day": "Friday",
+      "start_time": "14:40",
+      "end_time": "15:30",
+      "subject": "UTA025P",
+      "code": "UTA025P",
+      "type": "Practical",
+      "room": "F309",
+      "options": []
+    }
+  ]
+}

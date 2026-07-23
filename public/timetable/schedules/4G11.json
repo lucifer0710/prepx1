@@ -18,7 +18,7 @@
       "day": "Monday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "UBT610L",
+      "subject": "Industrial Biotechnology",
       "code": "UBT610L",
       "type": "Lecture",
       "room": "F302",
@@ -38,21 +38,21 @@
       "day": "Monday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "UBT837L",
+      "subject": "Cancer Biology",
       "code": "UBT837L",
       "type": "Lecture",
       "room": "F302",
       "options": [
         {
           "subject_code": "UBT837L",
-          "subject_name": null,
+          "subject_name": "Cancer Biology",
           "type": "Lecture",
           "place": "F302",
           "teacher": "SDS"
         },
         {
           "subject_code": "UBT839L",
-          "subject_name": null,
+          "subject_name": "Drug Design and Development",
           "type": "Lecture",
           "place": "F309",
           "teacher": "MVR"
@@ -63,21 +63,21 @@
       "day": "Tuesday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "UBT844L",
+      "subject": "Environmental Biotechnology",
       "code": "UBT844L",
       "type": "Lecture",
       "room": "F302",
       "options": [
         {
           "subject_code": "UBT844L",
-          "subject_name": null,
+          "subject_name": "Environmental Biotechnology",
           "type": "Lecture",
           "place": "F302",
           "teacher": "DG"
         },
         {
           "subject_code": "UBT846L",
-          "subject_name": null,
+          "subject_name": "Computational Biology",
           "type": "Lecture",
           "place": "F208",
           "teacher": "NL"
@@ -128,7 +128,7 @@
       "day": "Wednesday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "UBT610L",
+      "subject": "Industrial Biotechnology",
       "code": "UBT610L",
       "type": "Lecture",
       "room": "F302",
@@ -138,21 +138,21 @@
       "day": "Wednesday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "UBT837L",
+      "subject": "Cancer Biology",
       "code": "UBT837L",
       "type": "Lecture",
       "room": "F302",
       "options": [
         {
           "subject_code": "UBT837L",
-          "subject_name": null,
+          "subject_name": "Cancer Biology",
           "type": "Lecture",
           "place": "F302",
           "teacher": "SDS"
         },
         {
           "subject_code": "UBT839L",
-          "subject_name": null,
+          "subject_name": "Drug Design and Development",
           "type": "Lecture",
           "place": "F208",
           "teacher": "MVR"
@@ -173,7 +173,7 @@
       "day": "Thursday",
       "start_time": "09:40",
       "end_time": "10:30",
-      "subject": "UBT610L",
+      "subject": "Industrial Biotechnology",
       "code": "UBT610L",
       "type": "Lecture",
       "room": "F302",
@@ -203,21 +203,21 @@
       "day": "Thursday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "UBT844L",
+      "subject": "Environmental Biotechnology",
       "code": "UBT844L",
       "type": "Lecture",
       "room": "F302",
       "options": [
         {
           "subject_code": "UBT844L",
-          "subject_name": null,
+          "subject_name": "Environmental Biotechnology",
           "type": "Lecture",
           "place": "F302",
           "teacher": "DG"
         },
         {
           "subject_code": "UBT846L",
-          "subject_name": null,
+          "subject_name": "Computational Biology",
           "type": "Lecture",
           "place": "F208",
           "teacher": "NL"
@@ -228,7 +228,7 @@
       "day": "Friday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "UBT837L",
+      "subject": "Cancer Biology",
       "code": "UBT837L",
       "type": "Lecture",
       "room": "F302/F309",
@@ -238,7 +238,7 @@
       "day": "Friday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "UBT844L",
+      "subject": "Environmental Biotechnology",
       "code": "UBT844L",
       "type": "Lecture",
       "room": "F302/F208",

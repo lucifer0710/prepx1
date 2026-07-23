@@ -48,7 +48,7 @@
       "day": "Monday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "UEI615L",
+      "subject": "DATA BASE MANAGEMENT SYSTEM (basket-4)",
       "code": "UEI615L",
       "type": "Lecture",
       "room": "E104",
@@ -188,14 +188,14 @@
       "day": "Wednesday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "UEI632L",
+      "subject": "ADVANCED CONTROL SYSTEMS (basket",
       "code": "UEI632L",
       "type": "Lecture",
       "room": "E103",
       "options": [
         {
           "subject_code": "UEI632L",
-          "subject_name": null,
+          "subject_name": "ADVANCED CONTROL SYSTEMS (basket",
           "type": "Lecture",
           "place": "E103",
           "teacher": "SVG"
@@ -253,7 +253,7 @@
       "day": "Thursday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "UEI615L",
+      "subject": "DATA BASE MANAGEMENT SYSTEM (basket-4)",
       "code": "UEI615L",
       "type": "Lecture",
       "room": "E104",
@@ -263,14 +263,14 @@
       "day": "Thursday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "UEI632L",
+      "subject": "ADVANCED CONTROL SYSTEMS (basket",
       "code": "UEI632L",
       "type": "Lecture",
       "room": "E104",
       "options": [
         {
           "subject_code": "UEI632L",
-          "subject_name": null,
+          "subject_name": "ADVANCED CONTROL SYSTEMS (basket",
           "type": "Lecture",
           "place": "E104",
           "teacher": "SVG"
@@ -295,14 +295,14 @@
       "day": "Thursday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "UEI632L",
+      "subject": "ADVANCED CONTROL SYSTEMS (basket",
       "code": "UEI632L",
       "type": "Lecture",
       "room": "E104",
       "options": [
         {
           "subject_code": "UEI632L",
-          "subject_name": null,
+          "subject_name": "ADVANCED CONTROL SYSTEMS (basket",
           "type": "Lecture",
           "place": "E104",
           "teacher": "SVG"

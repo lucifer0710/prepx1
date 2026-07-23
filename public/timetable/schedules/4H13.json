@@ -8,7 +8,7 @@
       "day": "Monday",
       "start_time": "08:00",
       "end_time": "08:50",
-      "subject": "URA731P",
+      "subject": "ARTIFICIAL INTELLIGENCE IN PRODUCTION",
       "code": "URA731P",
       "type": "Practical",
       "room": "B302",
@@ -18,7 +18,7 @@
       "day": "Monday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "URA731P",
+      "subject": "ARTIFICIAL INTELLIGENCE IN PRODUCTION",
       "code": "URA731P",
       "type": "Practical",
       "room": "B302",
@@ -28,7 +28,7 @@
       "day": "Monday",
       "start_time": "09:40",
       "end_time": "10:30",
-      "subject": "URA753L",
+      "subject": "ELECTRIC AND HYBRID VEHICLES",
       "code": "URA753L",
       "type": "Lecture",
       "room": "F207",
@@ -38,28 +38,28 @@
       "day": "Monday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "UME742L",
+      "subject": "Welding For Industry & Engineers",
       "code": "UME742L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UME742L",
-          "subject_name": null,
+          "subject_name": "Welding For Industry & Engineers",
           "type": "Lecture",
           "place": "F206",
           "teacher": "RTK"
         },
         {
           "subject_code": "UME741L",
-          "subject_name": null,
+          "subject_name": "Metal Forming",
           "type": "Lecture",
           "place": "F207",
           "teacher": "VG"
         },
         {
           "subject_code": "UME744L",
-          "subject_name": null,
+          "subject_name": "Hydrogen Fuel Cell Technology",
           "type": "Lecture",
           "place": "F109",
           "teacher": "ASO"
@@ -84,14 +84,14 @@
         },
         {
           "subject_code": "URA751L",
-          "subject_name": null,
+          "subject_name": "CYBER PHYSICAL SYSTEM",
           "type": "Lecture",
           "place": "F207",
           "teacher": "NF"
         },
         {
           "subject_code": "UME751L",
-          "subject_name": null,
+          "subject_name": "LEAN MANUFACTURING",
           "type": "Lecture",
           "place": "F312",
           "teacher": "AMG"
@@ -116,28 +116,28 @@
         },
         {
           "subject_code": "URA751L",
-          "subject_name": null,
+          "subject_name": "CYBER PHYSICAL SYSTEM",
           "type": "Lecture",
           "place": "F207",
           "teacher": "NF"
         },
         {
           "subject_code": "UME751L",
-          "subject_name": null,
+          "subject_name": "LEAN MANUFACTURING",
           "type": "Lecture",
           "place": "F312",
           "teacher": "AMG"
         },
         {
           "subject_code": "UME754L",
-          "subject_name": null,
+          "subject_name": "Machining Science",
           "type": "Lecture",
           "place": "F102",
           "teacher": "VKS"
         },
         {
           "subject_code": "UME743L",
-          "subject_name": null,
+          "subject_name": "Computational Fluid Dynamics",
           "type": "Lecture",
           "place": "F107",
           "teacher": "RJS"
@@ -148,28 +148,28 @@
       "day": "Monday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "UME752L",
+      "subject": "NOISE, VIBRATION AND HARSHNESS",
       "code": "UME752L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UME752L",
-          "subject_name": null,
+          "subject_name": "NOISE, VIBRATION AND HARSHNESS",
           "type": "Lecture",
           "place": "F206",
           "teacher": "APH"
         },
         {
           "subject_code": "URA413L",
-          "subject_name": null,
+          "subject_name": "FINITE ELEMENT METHODS",
           "type": "Lecture",
           "place": "F207",
           "teacher": "DKJ"
         },
         {
           "subject_code": "URA741L",
-          "subject_name": null,
+          "subject_name": "INDUSTRY",
           "type": "Lecture",
           "place": "F110",
           "teacher": "PKW"
@@ -180,7 +180,7 @@
       "day": "Monday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "URA731L",
+      "subject": "ARTIFICIAL INTELLIGENCE IN PRODUCTION",
       "code": "URA731L",
       "type": "Lecture",
       "room": "B303",
@@ -200,21 +200,21 @@
       "day": "Tuesday",
       "start_time": "09:40",
       "end_time": "10:30",
-      "subject": "UME752L",
+      "subject": "NOISE, VIBRATION AND HARSHNESS",
       "code": "UME752L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UME752L",
-          "subject_name": null,
+          "subject_name": "NOISE, VIBRATION AND HARSHNESS",
           "type": "Lecture",
           "place": "F206",
           "teacher": "APH"
         },
         {
           "subject_code": "URA413L",
-          "subject_name": null,
+          "subject_name": "FINITE ELEMENT METHODS",
           "type": "Lecture",
           "place": "F207",
           "teacher": "DKJ"
@@ -225,7 +225,7 @@
       "day": "Tuesday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "URA753L",
+      "subject": "ELECTRIC AND HYBRID VEHICLES",
       "code": "URA753L",
       "type": "Lecture",
       "room": "F207",
@@ -235,7 +235,7 @@
       "day": "Tuesday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "UME730L",
+      "subject": "Computer Aided Manufacturing",
       "code": "UME730L",
       "type": "Lecture",
       "room": "F206/F207",
@@ -245,7 +245,7 @@
       "day": "Tuesday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "UME730L",
+      "subject": "Computer Aided Manufacturing",
       "code": "UME730L",
       "type": "Lecture",
       "room": "F206/F207",
@@ -269,28 +269,28 @@
         },
         {
           "subject_code": "URA751P",
-          "subject_name": null,
+          "subject_name": "CYBER PHYSICAL SYSTEM",
           "type": "Practical",
           "place": "MT(H104)",
           "teacher": "MET"
         },
         {
           "subject_code": "UME751P",
-          "subject_name": null,
+          "subject_name": "LEAN MANUFACTURING",
           "type": "Practical",
           "place": "CAM(H107)",
           "teacher": "CSED"
         },
         {
           "subject_code": "UME754P",
-          "subject_name": null,
+          "subject_name": "Machining Science",
           "type": "Practical",
           "place": null,
           "teacher": "NF"
         },
         {
           "subject_code": "UME743P",
-          "subject_name": null,
+          "subject_name": "Computational Fluid Dynamics",
           "type": "Practical",
           "place": null,
           "teacher": "AMG"
@@ -315,28 +315,28 @@
         },
         {
           "subject_code": "URA751P",
-          "subject_name": null,
+          "subject_name": "CYBER PHYSICAL SYSTEM",
           "type": "Practical",
           "place": "MT(H104)",
           "teacher": "MET"
         },
         {
           "subject_code": "UME751P",
-          "subject_name": null,
+          "subject_name": "LEAN MANUFACTURING",
           "type": "Practical",
           "place": "CAM(H107)",
           "teacher": "CSED"
         },
         {
           "subject_code": "UME754P",
-          "subject_name": null,
+          "subject_name": "Machining Science",
           "type": "Practical",
           "place": null,
           "teacher": "NF"
         },
         {
           "subject_code": "UME743P",
-          "subject_name": null,
+          "subject_name": "Computational Fluid Dynamics",
           "type": "Practical",
           "place": null,
           "teacher": "AMG"
@@ -347,7 +347,7 @@
       "day": "Tuesday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "UME730P",
+      "subject": "Computer Aided Manufacturing",
       "code": "UME730P",
       "type": "Practical",
       "room": "CAM(H107)",
@@ -357,7 +357,7 @@
       "day": "Tuesday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "UME730P",
+      "subject": "Computer Aided Manufacturing",
       "code": "UME730P",
       "type": "Practical",
       "room": "CAM(H107)",
@@ -381,7 +381,7 @@
         },
         {
           "subject_code": "UME743P",
-          "subject_name": null,
+          "subject_name": "Computational Fluid Dynamics",
           "type": "Practical",
           "place": null,
           "teacher": "CSED"
@@ -406,7 +406,7 @@
         },
         {
           "subject_code": "UME743P",
-          "subject_name": null,
+          "subject_name": "Computational Fluid Dynamics",
           "type": "Practical",
           "place": null,
           "teacher": "CSED"
@@ -417,21 +417,21 @@
       "day": "Wednesday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "UME754L",
+      "subject": "Machining Science",
       "code": "UME754L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UME754L",
-          "subject_name": null,
+          "subject_name": "Machining Science",
           "type": "Lecture",
           "place": "F206",
           "teacher": "VKS"
         },
         {
           "subject_code": "UME743L",
-          "subject_name": null,
+          "subject_name": "Computational Fluid Dynamics",
           "type": "Lecture",
           "place": "F207",
           "teacher": "RJS"
@@ -442,21 +442,21 @@
       "day": "Wednesday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "UME741L",
+      "subject": "Metal Forming",
       "code": "UME741L",
       "type": "Lecture",
       "room": "F109",
       "options": [
         {
           "subject_code": "UME741L",
-          "subject_name": null,
+          "subject_name": "Metal Forming",
           "type": "Lecture",
           "place": "F109",
           "teacher": "VG"
         },
         {
           "subject_code": "UME744L",
-          "subject_name": null,
+          "subject_name": "Hydrogen Fuel Cell Technology",
           "type": "Lecture",
           "place": "F110",
           "teacher": "ASO"
@@ -467,7 +467,7 @@
       "day": "Thursday",
       "start_time": "08:00",
       "end_time": "08:50",
-      "subject": "URA741P",
+      "subject": "INDUSTRY",
       "code": "URA741P",
       "type": "Practical",
       "room": null,
@@ -477,7 +477,7 @@
       "day": "Thursday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "URA741P",
+      "subject": "INDUSTRY",
       "code": "URA741P",
       "type": "Practical",
       "room": null,
@@ -511,28 +511,28 @@
         },
         {
           "subject_code": "URA731L",
-          "subject_name": null,
+          "subject_name": "ARTIFICIAL INTELLIGENCE IN PRODUCTION",
           "type": "Lecture",
           "place": "F109",
           "teacher": "CSED"
         },
         {
           "subject_code": "UME742L",
-          "subject_name": null,
+          "subject_name": "Welding For Industry & Engineers",
           "type": "Lecture",
           "place": "F110",
           "teacher": "DMG"
         },
         {
           "subject_code": "UME741L",
-          "subject_name": null,
+          "subject_name": "Metal Forming",
           "type": "Lecture",
           "place": "F11",
           "teacher": "RTK"
         },
         {
           "subject_code": "UME744L",
-          "subject_name": null,
+          "subject_name": "Hydrogen Fuel Cell Technology",
           "type": "Lecture",
           "place": null,
           "teacher": "VG"
@@ -557,21 +557,21 @@
         },
         {
           "subject_code": "URA751P",
-          "subject_name": null,
+          "subject_name": "CYBER PHYSICAL SYSTEM",
           "type": "Practical",
           "place": "MT(H104)",
           "teacher": "CSED"
         },
         {
           "subject_code": "UME754P",
-          "subject_name": null,
+          "subject_name": "Machining Science",
           "type": "Practical",
           "place": "CAM(H107)",
           "teacher": "NF"
         },
         {
           "subject_code": "UME743P",
-          "subject_name": null,
+          "subject_name": "Computational Fluid Dynamics",
           "type": "Practical",
           "place": null,
           "teacher": "VKS"
@@ -596,21 +596,21 @@
         },
         {
           "subject_code": "URA751P",
-          "subject_name": null,
+          "subject_name": "CYBER PHYSICAL SYSTEM",
           "type": "Practical",
           "place": "MT(H104)",
           "teacher": "CSED"
         },
         {
           "subject_code": "UME754P",
-          "subject_name": null,
+          "subject_name": "Machining Science",
           "type": "Practical",
           "place": "CAM(H107)",
           "teacher": "NF"
         },
         {
           "subject_code": "UME743P",
-          "subject_name": null,
+          "subject_name": "Computational Fluid Dynamics",
           "type": "Practical",
           "place": null,
           "teacher": "VKS"
@@ -641,7 +641,7 @@
       "day": "Friday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "URA753L",
+      "subject": "ELECTRIC AND HYBRID VEHICLES",
       "code": "URA753L",
       "type": "Lecture",
       "room": "F206",
@@ -651,28 +651,28 @@
       "day": "Friday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "UME752L",
+      "subject": "NOISE, VIBRATION AND HARSHNESS",
       "code": "UME752L",
       "type": "Lecture",
       "room": "F206",
       "options": [
         {
           "subject_code": "UME752L",
-          "subject_name": null,
+          "subject_name": "NOISE, VIBRATION AND HARSHNESS",
           "type": "Lecture",
           "place": "F206",
           "teacher": "APH"
         },
         {
           "subject_code": "URA413L",
-          "subject_name": null,
+          "subject_name": "FINITE ELEMENT METHODS",
           "type": "Lecture",
           "place": "F207",
           "teacher": "DKJ"
         },
         {
           "subject_code": "URA741L",
-          "subject_name": null,
+          "subject_name": "INDUSTRY",
           "type": "Lecture",
           "place": "F110",
           "teacher": "PKW"
@@ -697,7 +697,7 @@
         },
         {
           "subject_code": "UME730P",
-          "subject_name": null,
+          "subject_name": "Computer Aided Manufacturing",
           "type": "Practical",
           "place": null,
           "teacher": "CSED"
@@ -722,7 +722,7 @@
         },
         {
           "subject_code": "UME730P",
-          "subject_name": null,
+          "subject_name": "Computer Aided Manufacturing",
           "type": "Practical",
           "place": null,
           "teacher": "CSED"

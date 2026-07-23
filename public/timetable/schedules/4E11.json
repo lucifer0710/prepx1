@@ -8,21 +8,21 @@
       "day": "Monday",
       "start_time": "13:00",
       "end_time": "13:50",
-      "subject": "UEI744L",
+      "subject": "ROBUST AND REAL TIME CONTROL SYSTEMS",
       "code": "UEI744L",
       "type": "Lecture",
       "room": "E107",
       "options": [
         {
           "subject_code": "UEI744L",
-          "subject_name": null,
+          "subject_name": "ROBUST AND REAL TIME CONTROL SYSTEMS",
           "type": "Lecture",
           "place": "E107",
           "teacher": "NJS"
         },
         {
           "subject_code": "UEI743L",
-          "subject_name": null,
+          "subject_name": "BIOSENSORS AND MEMS",
           "type": "Lecture",
           "place": "E307",
           "teacher": "DBM"
@@ -70,14 +70,14 @@
       "day": "Monday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "UEI735L",
+      "subject": "POWER ELECTRONICS FOR AUTOMATION",
       "code": "UEI735L",
       "type": "Lecture",
       "room": "E107",
       "options": [
         {
           "subject_code": "UEI735L",
-          "subject_name": null,
+          "subject_name": "POWER ELECTRONICS FOR AUTOMATION",
           "type": "Lecture",
           "place": "E107",
           "teacher": "ABP"
@@ -119,7 +119,7 @@
         },
         {
           "subject_code": "UEI735L",
-          "subject_name": null,
+          "subject_name": "POWER ELECTRONICS FOR AUTOMATION",
           "type": "Lecture",
           "place": "E107",
           "teacher": "ABP"
@@ -192,14 +192,14 @@
       "day": "Wednesday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "UEI735L",
+      "subject": "POWER ELECTRONICS FOR AUTOMATION",
       "code": "UEI735L",
       "type": "Lecture",
       "room": "E107",
       "options": [
         {
           "subject_code": "UEI735L",
-          "subject_name": null,
+          "subject_name": "POWER ELECTRONICS FOR AUTOMATION",
           "type": "Lecture",
           "place": "E107",
           "teacher": "ABP"
@@ -252,14 +252,14 @@
       "day": "Thursday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "UEI744L",
+      "subject": "ROBUST AND REAL TIME CONTROL SYSTEMS",
       "code": "UEI744L",
       "type": "Lecture",
       "room": "E107",
       "options": [
         {
           "subject_code": "UEI744L",
-          "subject_name": null,
+          "subject_name": "ROBUST AND REAL TIME CONTROL SYSTEMS",
           "type": "Lecture",
           "place": "E107",
           "teacher": "NJS"
@@ -277,14 +277,14 @@
       "day": "Thursday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "UEI744L",
+      "subject": "ROBUST AND REAL TIME CONTROL SYSTEMS",
       "code": "UEI744L",
       "type": "Lecture",
       "room": "E107",
       "options": [
         {
           "subject_code": "UEI744L",
-          "subject_name": null,
+          "subject_name": "ROBUST AND REAL TIME CONTROL SYSTEMS",
           "type": "Lecture",
           "place": "E107",
           "teacher": "NJS"
@@ -372,7 +372,7 @@
       "day": "Friday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "UEI735P",
+      "subject": "POWER ELECTRONICS FOR AUTOMATION",
       "code": "UEI735P",
       "type": "Practical",
       "room": "PE(C113)",
@@ -382,7 +382,7 @@
       "day": "Friday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "UEI735P",
+      "subject": "POWER ELECTRONICS FOR AUTOMATION",
       "code": "UEI735P",
       "type": "Practical",
       "room": "PE(C113)",

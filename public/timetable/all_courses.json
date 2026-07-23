@@ -1,0 +1,2798 @@
+[
+    {
+        "course_code": "ME742",
+        "course_name": "Welding For Industry & Engineers"
+    },
+    {
+        "course_code": "UAI101",
+        "course_name": "Foundation of Machine Intelligence: Concepts, Techniques and Applications"
+    },
+    {
+        "course_code": "UAI201",
+        "course_name": "Programming Essentials for AI and ML"
+    },
+    {
+        "course_code": "UAI301",
+        "course_name": "Object Oriented Programming"
+    },
+    {
+        "course_code": "UAI302",
+        "course_name": "Experiential Learning (DLI)"
+    },
+    {
+        "course_code": "UAI401",
+        "course_name": "Experiential Learning (DLI)"
+    },
+    {
+        "course_code": "UAI402",
+        "course_name": "Data Engineering"
+    },
+    {
+        "course_code": "UAI501",
+        "course_name": "Image Processing"
+    },
+    {
+        "course_code": "UAI502",
+        "course_name": "Advanced Deep Learning"
+    },
+    {
+        "course_code": "UAI503",
+        "course_name": "Computer Architecture and Organization"
+    },
+    {
+        "course_code": "UAI504",
+        "course_name": "Computer Networks"
+    },
+    {
+        "course_code": "UAI601",
+        "course_name": "Accelerated Computing"
+    },
+    {
+        "course_code": "UBM001",
+        "course_name": "INTRODUCTION TO BIOENGINEERING APPLICATIONS"
+    },
+    {
+        "course_code": "UBM002",
+        "course_name": "ORIENTATION AND INTRODUCTION TO BIOENGINEERING COMPUTING"
+    },
+    {
+        "course_code": "UBM003",
+        "course_name": "FUNDAMENTALS OF LIFE SCIENCES"
+    },
+    {
+        "course_code": "UBM005",
+        "course_name": "BIOMEDICAL QUALITY CONTROL"
+    },
+    {
+        "course_code": "UBM006",
+        "course_name": "INTRODUCTION TO BIOMECHANICS"
+    },
+    {
+        "course_code": "UBM007",
+        "course_name": "ADDITIVE MANUFACTURING IN BIOMEDICAL ENGINEERING"
+    },
+    {
+        "course_code": "UBM008",
+        "course_name": "BIOMATERIALS"
+    },
+    {
+        "course_code": "UBM009",
+        "course_name": "BIOENGINEERING THERMODYNAMICS"
+    },
+    {
+        "course_code": "UBM024",
+        "course_name": "FRESHMAN DESIGN INNOVATION-I"
+    },
+    {
+        "course_code": "UBM025",
+        "course_name": "FRESHMAN DESIGN INNOVATION-II"
+    },
+    {
+        "course_code": "UBM031",
+        "course_name": "ELECTRICAL CIRCUITS"
+    },
+    {
+        "course_code": "UBM032",
+        "course_name": "ENGINEERING STATICS"
+    },
+    {
+        "course_code": "UBM503",
+        "course_name": "FOUNDATIONS OF ARTIFICIAL INTELLIGENCE"
+    },
+    {
+        "course_code": "UBM504",
+        "course_name": "FUNDAMENTALS OF SIGNALS AND SYSTEM"
+    },
+    {
+        "course_code": "UBM505",
+        "course_name": "INTRODUCTION TO ANALOG CIRCUITS AND DEVICES"
+    },
+    {
+        "course_code": "UBM521",
+        "course_name": "APPLIED BIOTRANSPORT"
+    },
+    {
+        "course_code": "UBM522",
+        "course_name": "LASER OPTICS AND ULTRSOUND"
+    },
+    {
+        "course_code": "UBM523",
+        "course_name": "BIOREGENRATIVE ENGINEERING"
+    },
+    {
+        "course_code": "UBM524",
+        "course_name": "TISSUE ENGINEERING"
+    },
+    {
+        "course_code": "UBM602",
+        "course_name": "INTRODUCTION TO DIGITAL ELECTRONICS"
+    },
+    {
+        "course_code": "UBM603",
+        "course_name": "ADVANCED MEDICAL INSTRUMENTS"
+    },
+    {
+        "course_code": "UBM604",
+        "course_name": "BIOSIGNAL PROCESSING"
+    },
+    {
+        "course_code": "UBM605",
+        "course_name": "DATA STRUCTURES AND ALGORITHMS"
+    },
+    {
+        "course_code": "UBM607",
+        "course_name": "MACHINE LEARNING"
+    },
+    {
+        "course_code": "UBM608",
+        "course_name": "PHYSIOLOGICAL MODELLING AND CONTROL"
+    },
+    {
+        "course_code": "UBM609",
+        "course_name": "BASIC MEDICAL INSTRUMENTS"
+    },
+    {
+        "course_code": "UBM631",
+        "course_name": "TELEMEDCINE IN HEALTH CARE"
+    },
+    {
+        "course_code": "UBM632",
+        "course_name": "ARTIFICIAL ORGANS AND LIMBS"
+    },
+    {
+        "course_code": "UBM633",
+        "course_name": "HOSPITAL WASTE MANAGEMENT"
+    },
+    {
+        "course_code": "UBM694",
+        "course_name": "CAPSTONE PROJECT –I (START)"
+    },
+    {
+        "course_code": "UBM701",
+        "course_name": "MEDICAL IMAGE PROCESSING"
+    },
+    {
+        "course_code": "UBM702",
+        "course_name": "HOSPITAL ENGINEERING AND MANAGEMENT (2 Hrs. SELF EFFORT)"
+    },
+    {
+        "course_code": "UBM706",
+        "course_name": "ROBOTICS IN HEALTHCARE"
+    },
+    {
+        "course_code": "UBM892",
+        "course_name": "DESIGN PROJECT"
+    },
+    {
+        "course_code": "UBT008",
+        "course_name": "Cell Biology and Genetics"
+    },
+    {
+        "course_code": "UBT009",
+        "course_name": "Biochemistry-I"
+    },
+    {
+        "course_code": "UBT202",
+        "course_name": "Microbiology"
+    },
+    {
+        "course_code": "UBT203",
+        "course_name": "Biochemistry and Microbiology Lab"
+    },
+    {
+        "course_code": "UBT307",
+        "course_name": "Molecular Biology"
+    },
+    {
+        "course_code": "UBT308",
+        "course_name": "Food Science and Nutrition"
+    },
+    {
+        "course_code": "UBT309",
+        "course_name": "Immunotechnology"
+    },
+    {
+        "course_code": "UBT310",
+        "course_name": "Biochemistry-II"
+    },
+    {
+        "course_code": "UBT311",
+        "course_name": "Molecular Biology, Food Science and Immunology Lab"
+    },
+    {
+        "course_code": "UBT406",
+        "course_name": "Bioanalytical Techniques"
+    },
+    {
+        "course_code": "UBT407",
+        "course_name": "Transducers and Biosensors"
+    },
+    {
+        "course_code": "UBT408",
+        "course_name": "Genetic & Metabolic Engineering"
+    },
+    {
+        "course_code": "UBT409",
+        "course_name": "Animal Biotechnology"
+    },
+    {
+        "course_code": "UBT410",
+        "course_name": "Plant Biotechnology"
+    },
+    {
+        "course_code": "UBT411",
+        "course_name": "Animal and Plant Biotechnology Lab"
+    },
+    {
+        "course_code": "UBT502",
+        "course_name": "Food Processing"
+    },
+    {
+        "course_code": "UBT510",
+        "course_name": "BIOLOGY FOR ENGINEERS"
+    },
+    {
+        "course_code": "UBT512",
+        "course_name": "Structural Biology"
+    },
+    {
+        "course_code": "UBT513",
+        "course_name": "Cell and Tissue Engineering"
+    },
+    {
+        "course_code": "UBT514",
+        "course_name": "Natural Products"
+    },
+    {
+        "course_code": "UBT515",
+        "course_name": "Biostatistics"
+    },
+    {
+        "course_code": "UBT516",
+        "course_name": "Bioinformatics"
+    },
+    {
+        "course_code": "UBT517",
+        "course_name": "Bioprocess Engineering"
+    },
+    {
+        "course_code": "UBT518",
+        "course_name": "Biostatistics and OMICS Lab"
+    },
+    {
+        "course_code": "UBT521",
+        "course_name": "AI in Biotechnology"
+    },
+    {
+        "course_code": "UBT610",
+        "course_name": "Industrial Biotechnology"
+    },
+    {
+        "course_code": "UBT614",
+        "course_name": "Biosafety, Bioethics & IPR"
+    },
+    {
+        "course_code": "UBT615",
+        "course_name": "Journal Club"
+    },
+    {
+        "course_code": "UBT616",
+        "course_name": "Protein Engineering"
+    },
+    {
+        "course_code": "UBT618",
+        "course_name": "Downstream Processing"
+    },
+    {
+        "course_code": "UBT619",
+        "course_name": "Pharmaceutical Technology"
+    },
+    {
+        "course_code": "UBT620",
+        "course_name": "Process Lab"
+    },
+    {
+        "course_code": "UBT624",
+        "course_name": "Medical Biotechnology"
+    },
+    {
+        "course_code": "UBT705",
+        "course_name": "Genomics and Proteomics"
+    },
+    {
+        "course_code": "UBT706",
+        "course_name": "Enzyme Technology"
+    },
+    {
+        "course_code": "UBT796",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UBT797",
+        "course_name": "Project"
+    },
+    {
+        "course_code": "UBT798",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UBT802",
+        "course_name": "Nanobiotechnology"
+    },
+    {
+        "course_code": "UBT832",
+        "course_name": "Concepts in Biomedical Instrumentation"
+    },
+    {
+        "course_code": "UBT837",
+        "course_name": "Cancer Biology"
+    },
+    {
+        "course_code": "UBT838",
+        "course_name": "Stem Cell Technology"
+    },
+    {
+        "course_code": "UBT839",
+        "course_name": "Drug Design and Development"
+    },
+    {
+        "course_code": "UBT844",
+        "course_name": "Environmental Biotechnology"
+    },
+    {
+        "course_code": "UBT845",
+        "course_name": "Molecular Diagnostics"
+    },
+    {
+        "course_code": "UBT846",
+        "course_name": "Computational Biology"
+    },
+    {
+        "course_code": "UBT891",
+        "course_name": "Capstone Project (Starts)"
+    },
+    {
+        "course_code": "UCB009",
+        "course_name": "APPLIED CHEMISTRY"
+    },
+    {
+        "course_code": "UCB028",
+        "course_name": "GENERAL CHEMISTRY-I"
+    },
+    {
+        "course_code": "UCB029",
+        "course_name": "GENERAL CHEMISTRY-II"
+    },
+    {
+        "course_code": "UCC302",
+        "course_name": "CIVIL ENGINEERING MATERIALS"
+    },
+    {
+        "course_code": "UCC305",
+        "course_name": "SOLID MECHANICS"
+    },
+    {
+        "course_code": "UCC306",
+        "course_name": "FLUID MECHANICS"
+    },
+    {
+        "course_code": "UCC401",
+        "course_name": "STRUCTRUAL ANALYSIS"
+    },
+    {
+        "course_code": "UCC402",
+        "course_name": "GEOINFORMATICS"
+    },
+    {
+        "course_code": "UCC403",
+        "course_name": "DESIGN OF CONCRETE STRUCTURES"
+    },
+    {
+        "course_code": "UCC404",
+        "course_name": "FUNDAMENTALS OF DATA SCIENCE"
+    },
+    {
+        "course_code": "UCC501",
+        "course_name": "GEOTECHNICAL ENGINEERING-I"
+    },
+    {
+        "course_code": "UCC502",
+        "course_name": "TRANSPORTATION ENGINEERING"
+    },
+    {
+        "course_code": "UCC503",
+        "course_name": "DESIGN OF STEEL STRUCTURES"
+    },
+    {
+        "course_code": "UCC504",
+        "course_name": "SURFACE HYDROLOGY"
+    },
+    {
+        "course_code": "UCC505",
+        "course_name": "DATABASE MANAGEMENT SYSTEMS"
+    },
+    {
+        "course_code": "UCC601",
+        "course_name": "GEOTECHNICAL ENGINEERING-II"
+    },
+    {
+        "course_code": "UCC602",
+        "course_name": "ENVIRONMENTAL ENGINEERING"
+    },
+    {
+        "course_code": "UCC603",
+        "course_name": "MACHINE LEARNING"
+    },
+    {
+        "course_code": "UCC611",
+        "course_name": "BUILDING INFORMATION MODELLING IN CONSTRUCTION"
+    },
+    {
+        "course_code": "UCC612",
+        "course_name": "Railway and Airport Engineering"
+    },
+    {
+        "course_code": "UCC801",
+        "course_name": "EARTHQUAKE ENGINEERING & SIMULATION"
+    },
+    {
+        "course_code": "UCC821",
+        "course_name": "Advanced Transportation Engineering"
+    },
+    {
+        "course_code": "UCC822",
+        "course_name": "REMOTE SENSING AND GIS APPLICATIONS IN WATER AND ENVIRONMENTAL"
+    },
+    {
+        "course_code": "UCE303",
+        "course_name": "STRUCTURAL ANALYSIS"
+    },
+    {
+        "course_code": "UCE306",
+        "course_name": "ARCHITECTURAL DRAWING AND BUILDING CONSTRUCTION"
+    },
+    {
+        "course_code": "UCE308",
+        "course_name": "BUILDING MATERIALS"
+    },
+    {
+        "course_code": "UCE309",
+        "course_name": "BUILDING MATERIALS"
+    },
+    {
+        "course_code": "UCE310",
+        "course_name": "FLUID MECHANICS"
+    },
+    {
+        "course_code": "UCE312",
+        "course_name": "SOLID MECHANICS"
+    },
+    {
+        "course_code": "UCE401",
+        "course_name": "HYDROLOGY AND GROUND WATER"
+    },
+    {
+        "course_code": "UCE405",
+        "course_name": "SURVEYING"
+    },
+    {
+        "course_code": "UCE406",
+        "course_name": "DESIGN OF CONCRETE STRUCTURES"
+    },
+    {
+        "course_code": "UCE501",
+        "course_name": "SOIL MECHANICS"
+    },
+    {
+        "course_code": "UCE511",
+        "course_name": "TRANSPORTATION ENGINEERING-I"
+    },
+    {
+        "course_code": "UCE512",
+        "course_name": "DESIGN OF STEEL STRUCTURES"
+    },
+    {
+        "course_code": "UCE513",
+        "course_name": "CONSTRUCTION MANAGEMENT"
+    },
+    {
+        "course_code": "UCE592",
+        "course_name": "SURVEY PROJECT"
+    },
+    {
+        "course_code": "UCE605",
+        "course_name": "TRANSPORTATION ENGINEERING-II"
+    },
+    {
+        "course_code": "UCE613",
+        "course_name": "FOUNDATION ENGINEERING"
+    },
+    {
+        "course_code": "UCE614",
+        "course_name": "HYDRAULIC ENGINEERING"
+    },
+    {
+        "course_code": "UCE615",
+        "course_name": "WATER AND WASTE WATER ENGINEERING"
+    },
+    {
+        "course_code": "UCE617",
+        "course_name": "Traffic Engineering and Geometric Design"
+    },
+    {
+        "course_code": "UCE618",
+        "course_name": "Sustainable Construction Practices"
+    },
+    {
+        "course_code": "UCE693",
+        "course_name": "GROUP DESIGN PROJECT (START)"
+    },
+    {
+        "course_code": "UCE702",
+        "course_name": "ADVANCED CONSTRUCTION TECHNOLOGY"
+    },
+    {
+        "course_code": "UCE725",
+        "course_name": "ADVANCED CONSTRUCTION MATERIALS AND TECHNIQUES"
+    },
+    {
+        "course_code": "UCE796",
+        "course_name": "PRACTICAL TRAINING (SIX WEEKS)"
+    },
+    {
+        "course_code": "UCE798",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UCE799",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UCE800",
+        "course_name": "PROJECT"
+    },
+    {
+        "course_code": "UCE803",
+        "course_name": "Irrigation Engineering"
+    },
+    {
+        "course_code": "UCE807",
+        "course_name": "Design of Structures"
+    },
+    {
+        "course_code": "UCE809",
+        "course_name": "SEISMIC RESISTANT DESIGN OF STRUCTURES"
+    },
+    {
+        "course_code": "UCE821",
+        "course_name": "Hydraulic Structures"
+    },
+    {
+        "course_code": "UCE822",
+        "course_name": "Urban Transportation Planning"
+    },
+    {
+        "course_code": "UCE823",
+        "course_name": "Climate Change and Impact on Water Resources"
+    },
+    {
+        "course_code": "UCE824",
+        "course_name": "Geotechnics for Design of Underground Structures"
+    },
+    {
+        "course_code": "UCE825",
+        "course_name": "Life Cycle Assessment"
+    },
+    {
+        "course_code": "UCE831",
+        "course_name": "Bridge Engineering"
+    },
+    {
+        "course_code": "UCE837",
+        "course_name": "Sustainable and Smart Materials"
+    },
+    {
+        "course_code": "UCE838",
+        "course_name": "PRESTRESSED CONCRETE STRUCTURES"
+    },
+    {
+        "course_code": "UCE852",
+        "course_name": "INTERNET OF THINGS (IoT) & SMART CITIES"
+    },
+    {
+        "course_code": "UCE855",
+        "course_name": "Design of Reinforced Earth Structures"
+    },
+    {
+        "course_code": "UCE856",
+        "course_name": "Advanced Surveying"
+    },
+    {
+        "course_code": "UCE857",
+        "course_name": "Integrated Watershed Management"
+    },
+    {
+        "course_code": "UCE858",
+        "course_name": "Pavement Analysis and Design"
+    },
+    {
+        "course_code": "UCE892",
+        "course_name": "CAPSTONE PROJECT (START)"
+    },
+    {
+        "course_code": "UCH301",
+        "course_name": "Material and Energy Balances"
+    },
+    {
+        "course_code": "UCH302",
+        "course_name": "PROCESS FLUID MECHANICS"
+    },
+    {
+        "course_code": "UCH306",
+        "course_name": "CHEMICAL ENGINEERING THERMODYNAMICS-I"
+    },
+    {
+        "course_code": "UCH307",
+        "course_name": "INDUSTRIAL POLLUTION ABATEMENT"
+    },
+    {
+        "course_code": "UCH401",
+        "course_name": "FLUID AND PARTICLE MECHANICS"
+    },
+    {
+        "course_code": "UCH402",
+        "course_name": "HEAT TRANSFER"
+    },
+    {
+        "course_code": "UCH404",
+        "course_name": "CHEMICAL PROCESS INDUSTRIES"
+    },
+    {
+        "course_code": "UCH405",
+        "course_name": "ENERGY RESOURCES"
+    },
+    {
+        "course_code": "UCH408",
+        "course_name": "CHEMICAL ENGINEERING THERMODYNAMICS-II"
+    },
+    {
+        "course_code": "UCH409",
+        "course_name": "PROCESS ENGINEERING SIMULATION SOFTWARES"
+    },
+    {
+        "course_code": "UCH410",
+        "course_name": "NUMERICAL METHODS IN CHEMICAL ENGINEERING"
+    },
+    {
+        "course_code": "UCH501",
+        "course_name": "CHEMICAL REACTION ENGINEERING-I"
+    },
+    {
+        "course_code": "UCH502",
+        "course_name": "MASS TRANSFER-I"
+    },
+    {
+        "course_code": "UCH506",
+        "course_name": "PROCESS INSTRUMENTATION AND CONTROL"
+    },
+    {
+        "course_code": "UCH509",
+        "course_name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING IN CHEMICAL ENGINEERING"
+    },
+    {
+        "course_code": "UCH601",
+        "course_name": "CHEMICAL REACTION ENGINEERING-II"
+    },
+    {
+        "course_code": "UCH603",
+        "course_name": "TRANSPORT PHENOMENA"
+    },
+    {
+        "course_code": "UCH605",
+        "course_name": "PROCESS UTILITY AND INDUSTRIAL SAFETY"
+    },
+    {
+        "course_code": "UCH612",
+        "course_name": "PROCESS EQUIPMENT DESIGN PROJECT"
+    },
+    {
+        "course_code": "UCH613",
+        "course_name": "MASS TRANSFER-II"
+    },
+    {
+        "course_code": "UCH701",
+        "course_name": "CATALYTIC PROCESSES"
+    },
+    {
+        "course_code": "UCH702",
+        "course_name": "NANOMATERIALS FOR CHEMICAL ENGINEERS"
+    },
+    {
+        "course_code": "UCH716",
+        "course_name": "FOOD ENGINERING AND SCIENCE"
+    },
+    {
+        "course_code": "UCH725",
+        "course_name": "ADVANCED SEPARATION PROCESSES"
+    },
+    {
+        "course_code": "UCH726",
+        "course_name": "BIO-CHEMICAL ENGINEERING"
+    },
+    {
+        "course_code": "UCH796",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UCH797",
+        "course_name": "PROJECT"
+    },
+    {
+        "course_code": "UCH798",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UCH801",
+        "course_name": "PROCESS ENGINEERING AND PLANT DESIGN"
+    },
+    {
+        "course_code": "UCH802",
+        "course_name": "PROCESS MODELING AND SIMULATION"
+    },
+    {
+        "course_code": "UCH804",
+        "course_name": "CHEMICAL PROCESS OPTIMIZATION AND STATISTICAL ANALYSIS"
+    },
+    {
+        "course_code": "UCH805",
+        "course_name": "Clean Technologies in Process Industries"
+    },
+    {
+        "course_code": "UCH806",
+        "course_name": "PROCESS INTENSIFICATION"
+    },
+    {
+        "course_code": "UCH811",
+        "course_name": "FLUID MACHINERY"
+    },
+    {
+        "course_code": "UCH833",
+        "course_name": "FLUIDIZATION ENGINEERING"
+    },
+    {
+        "course_code": "UCH834",
+        "course_name": "PROCESS INTEGRATION"
+    },
+    {
+        "course_code": "UCH849",
+        "course_name": "SCALE-UP AND PILOT- PLANT METHODS IN CHEMICAL ENGINEERING"
+    },
+    {
+        "course_code": "UCH850",
+        "course_name": "PEC"
+    },
+    {
+        "course_code": "UCH851",
+        "course_name": "CORROSION ENGINEERING"
+    },
+    {
+        "course_code": "UCH852",
+        "course_name": "BIOENERGY ENGINEERING"
+    },
+    {
+        "course_code": "UCH853",
+        "course_name": "FUEL CELL TECHNOLOGY"
+    },
+    {
+        "course_code": "UCH854",
+        "course_name": "POLYMER SCIENCE AND TECHNOLOGY"
+    },
+    {
+        "course_code": "UCH855",
+        "course_name": "POLYMER BLENDS AND COMPOSITES"
+    },
+    {
+        "course_code": "UCH856",
+        "course_name": "PETROLEUM DRILLING AND PRODUCTION ENGINEERING"
+    },
+    {
+        "course_code": "UCH861",
+        "course_name": "MATERIALS AND DEVICES FOR ENERGY CONVERSION"
+    },
+    {
+        "course_code": "UCH862",
+        "course_name": "ENERGY MANAGEMENT"
+    },
+    {
+        "course_code": "UCH863",
+        "course_name": "POLYMER PROCESSING"
+    },
+    {
+        "course_code": "UCH864",
+        "course_name": "STRUCTURAL MATERIALS"
+    },
+    {
+        "course_code": "UCH865",
+        "course_name": "PETROLEUM RESERVOIR ENGINEERING AND FIELD"
+    },
+    {
+        "course_code": "UCH866",
+        "course_name": "ENHANCED OIL RECOVERY TECHNIQUES"
+    },
+    {
+        "course_code": "UCH893",
+        "course_name": "CAPSTONE PROJECT (STARTS)"
+    },
+    {
+        "course_code": "UCS002",
+        "course_name": "INTRODUCTION TO CYBER SECURITY"
+    },
+    {
+        "course_code": "UCS301",
+        "course_name": "Data Structures"
+    },
+    {
+        "course_code": "UCS303",
+        "course_name": "OPERATING SYSTEMS"
+    },
+    {
+        "course_code": "UCS312",
+        "course_name": "DATA BASE MANAGEMENT SYSTEMS"
+    },
+    {
+        "course_code": "UCS321",
+        "course_name": "AI FOR ENGINEERS"
+    },
+    {
+        "course_code": "UCS405",
+        "course_name": "Discrete Mathematical Structures"
+    },
+    {
+        "course_code": "UCS413",
+        "course_name": "NETWORK PROGRAMMING"
+    },
+    {
+        "course_code": "UCS414",
+        "course_name": "COMPUTER NETWORKS"
+    },
+    {
+        "course_code": "UCS415",
+        "course_name": "Design and Analysis of Algorithms"
+    },
+    {
+        "course_code": "UCS421",
+        "course_name": "ETHICS AND RISK MITIGATION IN AI FOR ENGINEERS"
+    },
+    {
+        "course_code": "UCS503",
+        "course_name": "Software Engineering"
+    },
+    {
+        "course_code": "UCS505",
+        "course_name": "COMPUTER GRAPHICS"
+    },
+    {
+        "course_code": "UCS519",
+        "course_name": "SOFTWARE DESIGN PRINCIPLES"
+    },
+    {
+        "course_code": "UCS531",
+        "course_name": "CLOUD COMPUTING"
+    },
+    {
+        "course_code": "UCS532",
+        "course_name": "COMPUTER VISION"
+    },
+    {
+        "course_code": "UCS534",
+        "course_name": "COMPUTER & NETWORK SECURITY"
+    },
+    {
+        "course_code": "UCS537",
+        "course_name": "SOURCE"
+    },
+    {
+        "course_code": "UCS539",
+        "course_name": "FINANCE, ACCOUNTING AND VALUATION"
+    },
+    {
+        "course_code": "UCS542",
+        "course_name": "UI & UX SPECIALIST"
+    },
+    {
+        "course_code": "UCS546",
+        "course_name": "CONVERSATIONAL AI: ACCELERATED DATA SCIENCE [BASICS]"
+    },
+    {
+        "course_code": "UCS547",
+        "course_name": "EDGE AI AND ROBOTICS: ACCELERATED DATA SCIENCE"
+    },
+    {
+        "course_code": "UCS550",
+        "course_name": "NETWORK DEFENCE"
+    },
+    {
+        "course_code": "UCS551",
+        "course_name": "CONVERSATION AL AI: ACCELERATED DATA SCIENCE"
+    },
+    {
+        "course_code": "UCS553",
+        "course_name": "ENTERPRISE WEB APPLICATION"
+    },
+    {
+        "course_code": "UCS622",
+        "course_name": "CONVERSATIONAL AI: ACCELERATED DATA SCIENCE [ADVANCED]"
+    },
+    {
+        "course_code": "UCS635",
+        "course_name": "GPU COMPUTING"
+    },
+    {
+        "course_code": "UCS636",
+        "course_name": "3D MODELLING AND ANIMATION"
+    },
+    {
+        "course_code": "UCS638",
+        "course_name": "SECURE CODING"
+    },
+    {
+        "course_code": "UCS645",
+        "course_name": "PARALLEL & DISTRIBUTED COMPUTING"
+    },
+    {
+        "course_code": "UCS646",
+        "course_name": "GAME DESIGN & DEVELOPMENT"
+    },
+    {
+        "course_code": "UCS648",
+        "course_name": "CYBER FORENSICS"
+    },
+    {
+        "course_code": "UCS658",
+        "course_name": "Derivatives Pricing, Trading and Strategies"
+    },
+    {
+        "course_code": "UCS659",
+        "course_name": "BUILD AND RELEASE MANAGEMENT"
+    },
+    {
+        "course_code": "UCS660",
+        "course_name": "Continuous Integration and Continuous Deployment"
+    },
+    {
+        "course_code": "UCS661",
+        "course_name": "DATABASE ENGINEER"
+    },
+    {
+        "course_code": "UCS662",
+        "course_name": "TEST AUTOMATION"
+    },
+    {
+        "course_code": "UCS664",
+        "course_name": "CONVERSATIONAL AI: NATURAL LANGUAGE"
+    },
+    {
+        "course_code": "UCS668",
+        "course_name": "EDGE AI AND ROBOTICS: DATA CENTRE VISION"
+    },
+    {
+        "course_code": "UCS67",
+        "course_name": "DATA ANALYTICS IN AUTOMOBILE"
+    },
+    {
+        "course_code": "UCS671",
+        "course_name": "EDGE AI AND ROBOTICS: EMBEDDED VISION"
+    },
+    {
+        "course_code": "UCS673",
+        "course_name": "ETHICAL HACKING-1"
+    },
+    {
+        "course_code": "UCS674",
+        "course_name": "ETHICAL HACKING-II"
+    },
+    {
+        "course_code": "UCS675",
+        "course_name": "FINANCIAL MARKETS AND PORTFOLIO THEORY"
+    },
+    {
+        "course_code": "UCS677",
+        "course_name": "DATA ENGINEERING"
+    },
+    {
+        "course_code": "UCS678",
+        "course_name": "INTELLIGENT TRANSPORTATION SYSTEMS"
+    },
+    {
+        "course_code": "UCS679",
+        "course_name": "Data Analytics in Automobile Engineering"
+    },
+    {
+        "course_code": "UCS701",
+        "course_name": "Theory of Computation"
+    },
+    {
+        "course_code": "UCS714",
+        "course_name": "Agentic AI"
+    },
+    {
+        "course_code": "UCS744",
+        "course_name": "AUTONOMOUS SYSTEMS L T P Cr"
+    },
+    {
+        "course_code": "UCS745",
+        "course_name": "CLOUD & DEVOPS"
+    },
+    {
+        "course_code": "UCS748",
+        "course_name": "GENERATIVE AI"
+    },
+    {
+        "course_code": "UCS749",
+        "course_name": "CONVERSATIONAL AI: SPEECH PROCESSING"
+    },
+    {
+        "course_code": "UCS750",
+        "course_name": "Computer Hacking and Forensic Investigation"
+    },
+    {
+        "course_code": "UCS751",
+        "course_name": "SIMULATION & MODELLING"
+    },
+    {
+        "course_code": "UCS752",
+        "course_name": "AUGMENTED AND VIRTUAL REALITY"
+    },
+    {
+        "course_code": "UCS753",
+        "course_name": "DEEP LEARNING"
+    },
+    {
+        "course_code": "UCS754",
+        "course_name": "BLOCKCHAIN TECHNOLOGY AND APPLICATIONS"
+    },
+    {
+        "course_code": "UCS758",
+        "course_name": "System Provisioning and Configuration Management"
+    },
+    {
+        "course_code": "UCS760",
+        "course_name": "EDGE AI AND ROBOTICS: REINFORCEMENT LEARNING & CONVERSATIONAL AI"
+    },
+    {
+        "course_code": "UCS797",
+        "course_name": "Capstone Project"
+    },
+    {
+        "course_code": "UCT101",
+        "course_name": "DISCRETE MATHEMATICS"
+    },
+    {
+        "course_code": "UCT102",
+        "course_name": "PROBABILITY AND STATISTICS"
+    },
+    {
+        "course_code": "UCT104",
+        "course_name": "FUNDAMENTALS OF COMPUTER SCIENCE"
+    },
+    {
+        "course_code": "UCT201",
+        "course_name": "LINEAR ALGEBRA"
+    },
+    {
+        "course_code": "UCT202",
+        "course_name": "STATISTICAL MODELING"
+    },
+    {
+        "course_code": "UCT203",
+        "course_name": "DATA STRUCTURES AND ALGORITHMS"
+    },
+    {
+        "course_code": "UCT301",
+        "course_name": "FORMAL LANGUAGE AND AUTOMATA THEORY"
+    },
+    {
+        "course_code": "UCT302",
+        "course_name": "COMPUTER ORGANIZATION & ARCHITECTURE"
+    },
+    {
+        "course_code": "UCT303",
+        "course_name": "OBJECT ORIENTED PROGRAMMING"
+    },
+    {
+        "course_code": "UCT304",
+        "course_name": "COMPUTATIONAL STATISTICS"
+    },
+    {
+        "course_code": "UCT305",
+        "course_name": "SOFTWARE ENGINEERING"
+    },
+    {
+        "course_code": "UCT401",
+        "course_name": "OPERATING SYSTEMS"
+    },
+    {
+        "course_code": "UCT402",
+        "course_name": "DATABASE MANAGEMENT SYSTEMS"
+    },
+    {
+        "course_code": "UCT403",
+        "course_name": "SOFTWARE DESIGN WITH UML"
+    },
+    {
+        "course_code": "UCT501",
+        "course_name": "DESIGN AND ANALYSIS OF ALGORITHMS"
+    },
+    {
+        "course_code": "UCT502",
+        "course_name": "COMPILER DESIGN"
+    },
+    {
+        "course_code": "UCT511",
+        "course_name": "CONVERSATIONAL SYSTEMS"
+    },
+    {
+        "course_code": "UCT512",
+        "course_name": "CLOUD, MICROSERVICES AND APPLICATION"
+    },
+    {
+        "course_code": "UCT513",
+        "course_name": "MACHINE LEARNING"
+    },
+    {
+        "course_code": "UCT591",
+        "course_name": "MINI PROJECT"
+    },
+    {
+        "course_code": "UCT601",
+        "course_name": "COMPUTER NETWORKS"
+    },
+    {
+        "course_code": "UCT602",
+        "course_name": "INFORMATION SECURITY"
+    },
+    {
+        "course_code": "UCT603",
+        "course_name": "ARTIFICIAL INTELLIGENCE"
+    },
+    {
+        "course_code": "UCT631",
+        "course_name": "ROBOTICS AND EMBEDDED SYSTEMS"
+    },
+    {
+        "course_code": "UCT632",
+        "course_name": "MODERN WEB APPLICATIONS"
+    },
+    {
+        "course_code": "UCT633",
+        "course_name": "DATA MINING AND ANALYTICS"
+    },
+    {
+        "course_code": "UCT641",
+        "course_name": "IMAGE RECOGNITION AND PATTERN RECOGNITION"
+    },
+    {
+        "course_code": "UCT642",
+        "course_name": "ENTERPRISE SYSTEMS"
+    },
+    {
+        "course_code": "UCT701",
+        "course_name": "USABILITY DESIGN OF SOFTWARE APPLICATIONS"
+    },
+    {
+        "course_code": "UCT702",
+        "course_name": "IT Workshop Skylab/ MATLAB"
+    },
+    {
+        "course_code": "UCT703",
+        "course_name": "IT PROJECT MANAGEMENT"
+    },
+    {
+        "course_code": "UCT721",
+        "course_name": "COGNITIVE SCIENCE & ANALYTICS"
+    },
+    {
+        "course_code": "UCT722",
+        "course_name": "INTRODUCTION TO IOT"
+    },
+    {
+        "course_code": "UCT723",
+        "course_name": "CRYPTOLOGY"
+    },
+    {
+        "course_code": "UCT731",
+        "course_name": "QUANTUM COMPUTATION & QUATUM INFORMATION"
+    },
+    {
+        "course_code": "UCT732",
+        "course_name": "ADVANCED SOCIAL, TEXT AND MEDIA ANALYTICS"
+    },
+    {
+        "course_code": "UCT733",
+        "course_name": "MOBILE COMPUTING"
+    },
+    {
+        "course_code": "UCT801",
+        "course_name": "ETHICAL HACKING"
+    },
+    {
+        "course_code": "UCT802",
+        "course_name": "SOCIAL NETWORK ANALYSIS"
+    },
+    {
+        "course_code": "UCT894",
+        "course_name": "START UP SEMSTER"
+    },
+    {
+        "course_code": "UCT898",
+        "course_name": "CAPSTONE PROJECT"
+    },
+    {
+        "course_code": "UEC002",
+        "course_name": "PRINCIPLES OF ELECTRONICS"
+    },
+    {
+        "course_code": "UEC301",
+        "course_name": "ANALOG ELECTRONIC CIRCUITS"
+    },
+    {
+        "course_code": "UEC304",
+        "course_name": "ELECTRONICS DEVICES AND CIRCUITS"
+    },
+    {
+        "course_code": "UEC307",
+        "course_name": "ELECTROMAGNETIC FIELD THEORY AND TRANSMISSION LINES"
+    },
+    {
+        "course_code": "UEC310",
+        "course_name": "INFORMATION AND COMMUNICATION THEORY"
+    },
+    {
+        "course_code": "UEC311",
+        "course_name": "CIRCUIT ANALYSIS AND SYNTHESIS"
+    },
+    {
+        "course_code": "UEC404",
+        "course_name": "SIGNALS AND SYSTEMS"
+    },
+    {
+        "course_code": "UEC410",
+        "course_name": "REAL-TIME OPERATING SYSTEM"
+    },
+    {
+        "course_code": "UEC502",
+        "course_name": "DIGITAL SIGNAL PROCESSING"
+    },
+    {
+        "course_code": "UEC512",
+        "course_name": "LINEAR INTEGRATED CIRCUITS AND APPLICATIONS"
+    },
+    {
+        "course_code": "UEC513",
+        "course_name": "EMBEDDED SYSTEMS"
+    },
+    {
+        "course_code": "UEC519",
+        "course_name": "ANALOG and DIGITAL COMMUNICATION SYSTEMS"
+    },
+    {
+        "course_code": "UEC520",
+        "course_name": "MACHINE LEARNING"
+    },
+    {
+        "course_code": "UEC521",
+        "course_name": "DESIGN USING SYSTEM VERILOG"
+    },
+    {
+        "course_code": "UEC522",
+        "course_name": "DATA COMMUNICATION"
+    },
+    {
+        "course_code": "UEC523",
+        "course_name": "APPLICATIONS OF AI FOR ELECTRONIC SYSTEMS"
+    },
+    {
+        "course_code": "UEC610",
+        "course_name": "COMPUTER ARCHITECTURE"
+    },
+    {
+        "course_code": "UEC612",
+        "course_name": "DIGITAL SYSTEM DESIGN"
+    },
+    {
+        "course_code": "UEC619",
+        "course_name": "ELECTROMAGNETIC FIELD THEORY AND TRANSMISSION LINES"
+    },
+    {
+        "course_code": "UEC620",
+        "course_name": "DEEP LEARNING FOR COMPUTER VISION"
+    },
+    {
+        "course_code": "UEC630",
+        "course_name": "DEEP LEARNING AND APPLICATIONS"
+    },
+    {
+        "course_code": "UEC631",
+        "course_name": "5G WIRELESS COMMUNICATION"
+    },
+    {
+        "course_code": "UEC633",
+        "course_name": "NETWORK SECURITY AND CRYPTOGRAPHY"
+    },
+    {
+        "course_code": "UEC634",
+        "course_name": "CLOUD COMPUTING TECHNOLOGY"
+    },
+    {
+        "course_code": "UEC635",
+        "course_name": "BLOCKCHAIN TECHNOLOGY"
+    },
+    {
+        "course_code": "UEC637",
+        "course_name": "VLSI Testing and Verification"
+    },
+    {
+        "course_code": "UEC638",
+        "course_name": "VLSI TESTING AND VERIFICATION"
+    },
+    {
+        "course_code": "UEC640",
+        "course_name": "IOT BASED SYSTEMS"
+    },
+    {
+        "course_code": "UEC643",
+        "course_name": "AUDIO AND VIDEO PROCESSING"
+    },
+    {
+        "course_code": "UEC644",
+        "course_name": "ANALOG IC DESIGN"
+    },
+    {
+        "course_code": "UEC645",
+        "course_name": "MICROWAVE ENGINEERING"
+    },
+    {
+        "course_code": "UEC646",
+        "course_name": "Network and Communication for Connected Vehicles"
+    },
+    {
+        "course_code": "UEC702",
+        "course_name": "MICROCONTROLLER AND EMBEDDED SYSTEMS"
+    },
+    {
+        "course_code": "UEC707",
+        "course_name": "NETWORK VIRTUALIZATION AND SOFTWARE DEFINED NETWORKING"
+    },
+    {
+        "course_code": "UEC714",
+        "course_name": "FIBER OPTIC COMMUNICATION"
+    },
+    {
+        "course_code": "UEC716",
+        "course_name": "DATABASE MANAGEMENT SYSTEMS"
+    },
+    {
+        "course_code": "UEC719",
+        "course_name": "5G WIRELESS COMMUNICATION SYSTEM"
+    },
+    {
+        "course_code": "UEC720",
+        "course_name": "ANTENNA AND WAVE PROPAGATION"
+    },
+    {
+        "course_code": "UEC731",
+        "course_name": "GRAPHICS AND VISUAL COMPUTING"
+    },
+    {
+        "course_code": "UEC732",
+        "course_name": "NATURAL LANGUAGE PROCESSING AND APPLICATIONS"
+    },
+    {
+        "course_code": "UEC734",
+        "course_name": "COMPILER CONSTRUCTION"
+    },
+    {
+        "course_code": "UEC735",
+        "course_name": "BIG DATA ANALYTICS"
+    },
+    {
+        "course_code": "UEC750",
+        "course_name": "MOS CIRCUIT DESIGN"
+    },
+    {
+        "course_code": "UEC751",
+        "course_name": "DSP PROCESSORS"
+    },
+    {
+        "course_code": "UEC752",
+        "course_name": "IC FABRICATION TECHNOLOGY"
+    },
+    {
+        "course_code": "UEC754",
+        "course_name": "IMAGE PROCESSING AND COMPUTER VISION"
+    },
+    {
+        "course_code": "UEC797",
+        "course_name": "CAPSTONE PROJECT STARTS (FPGA / ASIC DESIGN)"
+    },
+    {
+        "course_code": "UEC812",
+        "course_name": "WIRELESS SENSOR NETWORKS"
+    },
+    {
+        "course_code": "UEC823",
+        "course_name": "SOFT COMPUTING"
+    },
+    {
+        "course_code": "UEC825",
+        "course_name": "MEMS"
+    },
+    {
+        "course_code": "UEC827",
+        "course_name": "ASIC AND FPGA"
+    },
+    {
+        "course_code": "UEC832",
+        "course_name": "RADAR AND REMOTE SENSING"
+    },
+    {
+        "course_code": "UEC859",
+        "course_name": "INTEGRATED SYSTEM DESIGN"
+    },
+    {
+        "course_code": "UEC867",
+        "course_name": "MODERN CONTROL THEORY"
+    },
+    {
+        "course_code": "UEC897",
+        "course_name": "PROJECT"
+    },
+    {
+        "course_code": "UEC898",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UEC899",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UEE002",
+        "course_name": "PRINCIPLES OF ELECTRICAL ENGINEERING"
+    },
+    {
+        "course_code": "UEE301",
+        "course_name": "DIRECT CURRENT MACHINES AND TRANSFORMERS"
+    },
+    {
+        "course_code": "UEE307",
+        "course_name": "TRANSMISSION AND DISTRIBUTION OF ELECTRIC POWER"
+    },
+    {
+        "course_code": "UEE401",
+        "course_name": "ALTERNATING CURRENT MACHINES"
+    },
+    {
+        "course_code": "UEE406",
+        "course_name": "POWER SYSTEM PRACTICES"
+    },
+    {
+        "course_code": "UEE409",
+        "course_name": "NETWORK THEORY"
+    },
+    {
+        "course_code": "UEE410",
+        "course_name": "Data Structures and Algorithms"
+    },
+    {
+        "course_code": "UEE413",
+        "course_name": "ELECTRIC MACHINER Y"
+    },
+    {
+        "course_code": "UEE504",
+        "course_name": "POWER ELECTRONICS"
+    },
+    {
+        "course_code": "UEE509",
+        "course_name": "POWER SYSTEM ANALYSIS"
+    },
+    {
+        "course_code": "UEE510",
+        "course_name": "HIGH VOLTAGE ENGINEERING"
+    },
+    {
+        "course_code": "UEE511",
+        "course_name": "EMBEDDED SYSTEM DESIGN AND IOT"
+    },
+    {
+        "course_code": "UEE513",
+        "course_name": "ELECTRICAL SYSTEM DESIGN"
+    },
+    {
+        "course_code": "UEE514",
+        "course_name": "INTRODUCTION TO DATABASE MANAGEMENT SYSTEMS"
+    },
+    {
+        "course_code": "UEE515",
+        "course_name": "DATA COMMUNICATION AND COMPUTER NETWORKS"
+    },
+    {
+        "course_code": "UEE516",
+        "course_name": "ELECTROMAGNETIC FIELDS AND WAVES"
+    },
+    {
+        "course_code": "UEE522",
+        "course_name": "ENERGY AUDITING AND MANAGEMENT"
+    },
+    {
+        "course_code": "UEE527",
+        "course_name": "RESTRUCTURED POWER SYSTEMS"
+    },
+    {
+        "course_code": "UEE528",
+        "course_name": "POWER QUALITY MONITORING AND CONDITIONING"
+    },
+    {
+        "course_code": "UEE601",
+        "course_name": "FLEXIBLE AC TRANSMISSION SYSTEM DEVICES"
+    },
+    {
+        "course_code": "UEE610",
+        "course_name": "POWER SYSTEM PROTECTION"
+    },
+    {
+        "course_code": "UEE614",
+        "course_name": "INTRODUCTION TO OPERATING SYSTEMS"
+    },
+    {
+        "course_code": "UEE615",
+        "course_name": "DATA MINING AND VISUALIZATION"
+    },
+    {
+        "course_code": "UEE616",
+        "course_name": "INDUSTRIAL DRIVES AND AUTOMATION"
+    },
+    {
+        "course_code": "UEE636",
+        "course_name": "SMART GRID SYSTEMS"
+    },
+    {
+        "course_code": "UEE637",
+        "course_name": "HIGH VOLTAGE TRANSMISSION SYSTEMS"
+    },
+    {
+        "course_code": "UEE638",
+        "course_name": "PLC AND SCADA"
+    },
+    {
+        "course_code": "UEE708",
+        "course_name": "Power Electronics and Drives"
+    },
+    {
+        "course_code": "UEE721",
+        "course_name": "NONLINEAR AND DIGITAL CONTROL SYSTEMS"
+    },
+    {
+        "course_code": "UEE741",
+        "course_name": "STOCHASTIC MODELING OF ELECTRICAL SYSTEMS"
+    },
+    {
+        "course_code": "UEE742",
+        "course_name": "DIGITAL CONTROLLERS FOR POWER APPLICATIONS"
+    },
+    {
+        "course_code": "UEE743",
+        "course_name": "CLOUD COMPUTING BASED ELECTRICAL SYSTEMS"
+    },
+    {
+        "course_code": "UEE744",
+        "course_name": "INDUSTRIAL ELECTRONICS"
+    },
+    {
+        "course_code": "UEE795",
+        "course_name": "CAPSTONE PROJECT (START)"
+    },
+    {
+        "course_code": "UEE894",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UEE895",
+        "course_name": "DESIGN PROJECT"
+    },
+    {
+        "course_code": "UEE896",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UEI301",
+        "course_name": "DIGITAL ELECTRONICS"
+    },
+    {
+        "course_code": "UEI306",
+        "course_name": "NETWORK ANALYSIS"
+    },
+    {
+        "course_code": "UEI403",
+        "course_name": "ELECTRICAL AND ELECTRONIC MEASUREMENTS"
+    },
+    {
+        "course_code": "UEI408",
+        "course_name": "ANALOG DEVICES & CIRCUITS"
+    },
+    {
+        "course_code": "UEI501",
+        "course_name": "CONTROL SYSTEMS"
+    },
+    {
+        "course_code": "UEI514",
+        "course_name": "IOT BASED SYSTEMS (basket"
+    },
+    {
+        "course_code": "UEI515",
+        "course_name": "ANALOG AND DIGITAL COMMUNICATION"
+    },
+    {
+        "course_code": "UEI516",
+        "course_name": "ANALYTICAL INSTRUMENTATION"
+    },
+    {
+        "course_code": "UEI601",
+        "course_name": "INDUSTRIAL INSTRUMENTATION"
+    },
+    {
+        "course_code": "UEI604",
+        "course_name": "PROCESS DYNAMICS AND CONTROL"
+    },
+    {
+        "course_code": "UEI607",
+        "course_name": "DIGITAL SIGNAL PROCESSING AND APPLICATIONS"
+    },
+    {
+        "course_code": "UEI608",
+        "course_name": "BIO-MEDICAL INSTRUMENTATION"
+    },
+    {
+        "course_code": "UEI610",
+        "course_name": "FUNDAMENTALS OF MICROPROCESSORS AND MICROCONTROLLERS"
+    },
+    {
+        "course_code": "UEI612",
+        "course_name": "ROBOTICS (basket"
+    },
+    {
+        "course_code": "UEI613",
+        "course_name": "BIOMETRICS (basket"
+    },
+    {
+        "course_code": "UEI614",
+        "course_name": "BIOMEDICAL SENSORS AND MEASUREMENT"
+    },
+    {
+        "course_code": "UEI615",
+        "course_name": "DATA BASE MANAGEMENT SYSTEM (basket-4)"
+    },
+    {
+        "course_code": "UEI616",
+        "course_name": "CLOUD COMPUTING"
+    },
+    {
+        "course_code": "UEI617",
+        "course_name": "NETWORK PROGRAMMING"
+    },
+    {
+        "course_code": "UEI625",
+        "course_name": "ANALOG AND DIGITAL COMMUNICATION"
+    },
+    {
+        "course_code": "UEI626",
+        "course_name": "PROSTHETICS AND REHABILITATION (basket"
+    },
+    {
+        "course_code": "UEI627",
+        "course_name": "DATA ANALYTICS (basket"
+    },
+    {
+        "course_code": "UEI628",
+        "course_name": "OPTICAL INSTRUMENTATION"
+    },
+    {
+        "course_code": "UEI632",
+        "course_name": "ADVANCED CONTROL SYSTEMS (basket"
+    },
+    {
+        "course_code": "UEI701",
+        "course_name": "DATA ACQUISITION AND SYSTEM DESIGN"
+    },
+    {
+        "course_code": "UEI702",
+        "course_name": "VIRTUAL INSTRUMENTATION"
+    },
+    {
+        "course_code": "UEI711",
+        "course_name": "OPERATING SYSTEMS (basket"
+    },
+    {
+        "course_code": "UEI712",
+        "course_name": "SOFTWARE ENGINEERING"
+    },
+    {
+        "course_code": "UEI713",
+        "course_name": "COMPUTER GRAPHICS"
+    },
+    {
+        "course_code": "UEI718",
+        "course_name": "VIRTUAL INSTRUMENTATION"
+    },
+    {
+        "course_code": "UEI726",
+        "course_name": "NETWORK SYNTHESIS"
+    },
+    {
+        "course_code": "UEI727",
+        "course_name": "DEEP LEARNING AND COMPUTER VISION (basket"
+    },
+    {
+        "course_code": "UEI728",
+        "course_name": "COMPUTER & NETWORK SECURITY"
+    },
+    {
+        "course_code": "UEI729",
+        "course_name": "BLOCKCHAIN AND ITS APPLICATIONS"
+    },
+    {
+        "course_code": "UEI733",
+        "course_name": "EMBEDDED SYSTEM DESIGN (basket"
+    },
+    {
+        "course_code": "UEI734",
+        "course_name": "DIGITAL IMAGE PROCESSING"
+    },
+    {
+        "course_code": "UEI735",
+        "course_name": "POWER ELECTRONICS FOR AUTOMATION"
+    },
+    {
+        "course_code": "UEI736",
+        "course_name": "BIOMEDICAL DEVICES AND SIGNAL ANALYSIS (BASKET"
+    },
+    {
+        "course_code": "UEI742",
+        "course_name": "SMART SENSOR NETWORKS (basket"
+    },
+    {
+        "course_code": "UEI743",
+        "course_name": "BIOSENSORS AND MEMS"
+    },
+    {
+        "course_code": "UEI744",
+        "course_name": "ROBUST AND REAL TIME CONTROL SYSTEMS"
+    },
+    {
+        "course_code": "UEI745",
+        "course_name": "DEEP LEARNING IN HEALTH CARE APPLICATIONS"
+    },
+    {
+        "course_code": "UEI793",
+        "course_name": "CAPSTONE PROJECT (START)"
+    },
+    {
+        "course_code": "UEI801",
+        "course_name": "ADVANCED PROCESS CONTROL"
+    },
+    {
+        "course_code": "UEI805",
+        "course_name": "ENVIRONMENTAL INSTRUMENTATION"
+    },
+    {
+        "course_code": "UEI831",
+        "course_name": "BIOSENSORS AND MEMS"
+    },
+    {
+        "course_code": "UEI844",
+        "course_name": "VIRTUAL INSTRUMENTATION"
+    },
+    {
+        "course_code": "UEI852",
+        "course_name": "LINEAR INTEGRATED CIRCUITS"
+    },
+    {
+        "course_code": "UEI853",
+        "course_name": "INDUSTRIAL INSTRUMENTATION"
+    },
+    {
+        "course_code": "UEI896",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UEI897",
+        "course_name": "DESIGN PROJECT"
+    },
+    {
+        "course_code": "UEI898",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UEN002",
+        "course_name": "ENERGY AND ENVIRONMENT"
+    },
+    {
+        "course_code": "UEN003",
+        "course_name": "ENVIRONMENTAL SCIENCES"
+    },
+    {
+        "course_code": "UEN006",
+        "course_name": "TECHNOLOGIES FOR SUSTAINABLE DEVELOPMENT L T P Cr"
+    },
+    {
+        "course_code": "UEN008",
+        "course_name": "ENERGY AND ENVIRONMENT"
+    },
+    {
+        "course_code": "UES009",
+        "course_name": "MECHANICS L T P Cr"
+    },
+    {
+        "course_code": "UES012",
+        "course_name": "ENGINEERING MATERIALS"
+    },
+    {
+        "course_code": "UES013",
+        "course_name": "Electrical and Electr onics Engineering"
+    },
+    {
+        "course_code": "UES020",
+        "course_name": "THERMO-FLUIDS (To be offered to only IEP students)"
+    },
+    {
+        "course_code": "UES034",
+        "course_name": "MEASUREMENT SCIENCE AND TECHNIQUES"
+    },
+    {
+        "course_code": "UES101",
+        "course_name": "ENGINEERING DRA WING"
+    },
+    {
+        "course_code": "UES102",
+        "course_name": "MANUF ACTURING PROCESSES"
+    },
+    {
+        "course_code": "UES103",
+        "course_name": "Programming for Problem Solving (C language)"
+    },
+    {
+        "course_code": "UES301",
+        "course_name": "ANALOG CIRCUITS"
+    },
+    {
+        "course_code": "UES302",
+        "course_name": "INTRODUCTION TO MEASUREMENT SYSTEMS"
+    },
+    {
+        "course_code": "UHU003",
+        "course_name": "Professional Communication L T P Cr"
+    },
+    {
+        "course_code": "UHU005",
+        "course_name": "HUMANITIES FOR ENGINEERS"
+    },
+    {
+        "course_code": "UHU007",
+        "course_name": "FUNDAMENTALS OF ECONOMICS"
+    },
+    {
+        "course_code": "UHU011",
+        "course_name": "BUSINESS COMMUNICATION & VALUE SCIENCE – I"
+    },
+    {
+        "course_code": "UHU012",
+        "course_name": "BUSINESS COMMUNICATION & VALUE SCIENCE –II"
+    },
+    {
+        "course_code": "UHU016",
+        "course_name": "INTRODUCTORY COURSE IN FRENCH"
+    },
+    {
+        "course_code": "UHU017",
+        "course_name": "INTRODUCTION TO COGNITIVE SCIENCE"
+    },
+    {
+        "course_code": "UHU018",
+        "course_name": "INTRODUCTION TO CORPORATE FINANCE"
+    },
+    {
+        "course_code": "UHU023",
+        "course_name": "INTRODUCTION TO INNOVATION, IP MANAGEMENT AND ENTREPRENEURSHIP"
+    },
+    {
+        "course_code": "UHU024",
+        "course_name": "DESIGN THINKING"
+    },
+    {
+        "course_code": "UHU025",
+        "course_name": "MARKETING RESEARCH & MARKETING MANAGEMENT"
+    },
+    {
+        "course_code": "UHU026",
+        "course_name": "BEHAVIOURAL ECONOMICS"
+    },
+    {
+        "course_code": "UHU027",
+        "course_name": "COMPUTATIONAL FINANCE & MODELING"
+    },
+    {
+        "course_code": "UHU028",
+        "course_name": "INDUSTRIAL PSYCHOLOGY"
+    },
+    {
+        "course_code": "UHU029",
+        "course_name": "FUNDAMENTALS OF MANAGEMENT"
+    },
+    {
+        "course_code": "UHU030",
+        "course_name": "BUSINESS STRATEGY"
+    },
+    {
+        "course_code": "UHU042",
+        "course_name": "BUSINESS COMMUNICATION & VALUE SCIENCE-III"
+    },
+    {
+        "course_code": "UHU043",
+        "course_name": "FINANCIAL & COST ACCOUNTING"
+    },
+    {
+        "course_code": "UHU044",
+        "course_name": "BUSINESS COMMUNICATION & VALUE SCIENCE-IV"
+    },
+    {
+        "course_code": "UHU046",
+        "course_name": "ADVANCE FINANCE"
+    },
+    {
+        "course_code": "UHU047",
+        "course_name": "FINANCIAL MANAGEMENT"
+    },
+    {
+        "course_code": "UHU048",
+        "course_name": "HUMAN RESOURCE MANAGEMENT"
+    },
+    {
+        "course_code": "UHU049",
+        "course_name": "SERVICES SCIENCE & SERVICE OPERATIONAL MANAGEMENT"
+    },
+    {
+        "course_code": "UHU050",
+        "course_name": "THE EVOLUTIONARY BASIS OF HUMAN BEHVIOUR FOR ENGINEERS"
+    },
+    {
+        "course_code": "UHU051",
+        "course_name": "CREATIVE WRITING"
+    },
+    {
+        "course_code": "UHU052",
+        "course_name": "THE EVOLUTIONARY BASIS OF HUMAN BEHAVIOUR FOR ENGINEERS (1 self-effort hour)"
+    },
+    {
+        "course_code": "UHU053",
+        "course_name": "GENDER, IDENTITY AND TECHNOLOGY"
+    },
+    {
+        "course_code": "ULC301",
+        "course_name": "DA T A STRUCTURES"
+    },
+    {
+        "course_code": "ULC302",
+        "course_name": "INTRODUCTION TO NETWORK THEOR Y"
+    },
+    {
+        "course_code": "ULC303",
+        "course_name": "COMPUTER ARCHITECTURE AND ORGANIZATION"
+    },
+    {
+        "course_code": "ULC403",
+        "course_name": "DESIGN AND ANAL YSIS OF ALGORITHMS"
+    },
+    {
+        "course_code": "ULC404",
+        "course_name": "OPERA TING SYSTEMS"
+    },
+    {
+        "course_code": "ULC405",
+        "course_name": "PRINCIPLES OF POWER SYSTEM ENGINEERING"
+    },
+    {
+        "course_code": "ULC601",
+        "course_name": "MACHINE LEARNING TECHNIQUES"
+    },
+    {
+        "course_code": "ULC603",
+        "course_name": "ELECTRIC VEHICLE AND REAL TIME SYSTEMS"
+    },
+    {
+        "course_code": "UMA004",
+        "course_name": "Mathematics - II"
+    },
+    {
+        "course_code": "UMA005",
+        "course_name": "INTRODUCTORY MATHEMATICS-I"
+    },
+    {
+        "course_code": "UMA006",
+        "course_name": "INTRODUCTORY MATHEMATICS-II"
+    },
+    {
+        "course_code": "UMA010",
+        "course_name": "Mathematics – I"
+    },
+    {
+        "course_code": "UMA011",
+        "course_name": "NUMERICAL ANALYSIS"
+    },
+    {
+        "course_code": "UMA012",
+        "course_name": "NUMERICAL AND STATISTICAL COMPUTATIONS"
+    },
+    {
+        "course_code": "UMA015",
+        "course_name": "CALCULUS-I"
+    },
+    {
+        "course_code": "UMA016",
+        "course_name": "CALCULUS-II"
+    },
+    {
+        "course_code": "UMA017",
+        "course_name": "DIFFERENTIAL EQUATIONS"
+    },
+    {
+        "course_code": "UMA018",
+        "course_name": "CALCULUS-III"
+    },
+    {
+        "course_code": "UMA019",
+        "course_name": "OPERATIONS RESEARCH"
+    },
+    {
+        "course_code": "UMA021",
+        "course_name": "Numerical Linear Algebra"
+    },
+    {
+        "course_code": "UMA022",
+        "course_name": "CALCULUS FOR ENGINEERS"
+    },
+    {
+        "course_code": "UMA023",
+        "course_name": "DIFFERENTIAL EQUA TIONS AND LINEAR ALGEBRA"
+    },
+    {
+        "course_code": "UMA028",
+        "course_name": "MA THEMA TICS FOR DA T A SCIENCE"
+    },
+    {
+        "course_code": "UMA033",
+        "course_name": "NUMERICAL AND STATISTICAL METHODS"
+    },
+    {
+        "course_code": "UMA034",
+        "course_name": "OPTIMIZATION METHODS"
+    },
+    {
+        "course_code": "UMA035",
+        "course_name": "OPTIMIZATION TECHNIQUES"
+    },
+    {
+        "course_code": "UMA069",
+        "course_name": "GRAPH THEORY AND APPLICATIONS"
+    },
+    {
+        "course_code": "UMA070",
+        "course_name": "ADVANCED NUMERICAL METHODS"
+    },
+    {
+        "course_code": "UMA301",
+        "course_name": "DISCRETE MA THEMA TICAL STRUCTURES"
+    },
+    {
+        "course_code": "UMA302",
+        "course_name": "MATHEMATICS FOR SIGNALS"
+    },
+    {
+        "course_code": "UMA303",
+        "course_name": "OPTIMIZATION TECHNIQUES IN CIVIL ENGINEERING"
+    },
+    {
+        "course_code": "UMA401",
+        "course_name": "Probability and Statistics"
+    },
+    {
+        "course_code": "UMA601",
+        "course_name": "MATHEMATICS FOR SIGNAL PROCESSING"
+    },
+    {
+        "course_code": "UMC513",
+        "course_name": "LINEAR ALGEBRA FOR ARTIFICIAL"
+    },
+    {
+        "course_code": "UMC63",
+        "course_name": "MATHEMATICS FOR QUANTUM COMPUTING"
+    },
+    {
+        "course_code": "UMC632",
+        "course_name": "FINANCIAL MATHEMATICS"
+    },
+    {
+        "course_code": "UMC633",
+        "course_name": "MATHEMATICS FOR QUANTUM COMPUTING"
+    },
+    {
+        "course_code": "UMC743",
+        "course_name": "Quantitative and Statistical Methods for Finance"
+    },
+    {
+        "course_code": "UMC744",
+        "course_name": "CRYPTOGRAPHY AND CODING THEORY"
+    },
+    {
+        "course_code": "UME308",
+        "course_name": "Mechanics of Machines"
+    },
+    {
+        "course_code": "UME309",
+        "course_name": "Engineering Fluid Mechanics"
+    },
+    {
+        "course_code": "UME310",
+        "course_name": "Manufacturing Technology"
+    },
+    {
+        "course_code": "UME311",
+        "course_name": "Thermodynamics"
+    },
+    {
+        "course_code": "UME312",
+        "course_name": "Electrical Systems and Sensor Based Measurement"
+    },
+    {
+        "course_code": "UME313",
+        "course_name": "Hydraulic and Pneumatic Engineering"
+    },
+    {
+        "course_code": "UME314",
+        "course_name": "Industrial Engineering"
+    },
+    {
+        "course_code": "UME404",
+        "course_name": "Mechanics of Deformable Bodies"
+    },
+    {
+        "course_code": "UME405",
+        "course_name": "Computer-Aided Design and Analysis (Project based)"
+    },
+    {
+        "course_code": "UME408",
+        "course_name": "Machine Design-I"
+    },
+    {
+        "course_code": "UME410",
+        "course_name": "Mechatronic Systems"
+    },
+    {
+        "course_code": "UME414",
+        "course_name": "Solids and Structures"
+    },
+    {
+        "course_code": "UME416",
+        "course_name": "Introduction to Robotics"
+    },
+    {
+        "course_code": "UME417",
+        "course_name": "INDUSTRIAL AUTOMATION"
+    },
+    {
+        "course_code": "UME418",
+        "course_name": "Power Plant And Process Utility Systems"
+    },
+    {
+        "course_code": "UME419",
+        "course_name": "Renewable Energy Systems"
+    },
+    {
+        "course_code": "UME420",
+        "course_name": "Operations Management"
+    },
+    {
+        "course_code": "UME421",
+        "course_name": "Motion and Process Control"
+    },
+    {
+        "course_code": "UME422",
+        "course_name": "Sensors and Actuators for Industrial Automation"
+    },
+    {
+        "course_code": "UME511",
+        "course_name": "Automobile Engineering"
+    },
+    {
+        "course_code": "UME513",
+        "course_name": "Dynamics and Vibration"
+    },
+    {
+        "course_code": "UME515",
+        "course_name": "Industrial Engineering"
+    },
+    {
+        "course_code": "UME517",
+        "course_name": "Materials Engineering and Metallurgy"
+    },
+    {
+        "course_code": "UME518",
+        "course_name": "INTRODUCTION TO ROBOTICS"
+    },
+    {
+        "course_code": "UME528",
+        "course_name": "IIoT for Smart systems"
+    },
+    {
+        "course_code": "UME529",
+        "course_name": "Smart Manufacturing"
+    },
+    {
+        "course_code": "UME606",
+        "course_name": "Machine Design –II"
+    },
+    {
+        "course_code": "UME625",
+        "course_name": "ALTERNATIVE FUELS FOR VEHICLE POWERTRAIN"
+    },
+    {
+        "course_code": "UME626",
+        "course_name": "Process Engineering Standards"
+    },
+    {
+        "course_code": "UME627",
+        "course_name": "Robot Dynamics And Control"
+    },
+    {
+        "course_code": "UME628",
+        "course_name": "Mechanics of Composite Materials"
+    },
+    {
+        "course_code": "UME629",
+        "course_name": "Machine Learning for Mechanical Engineers"
+    },
+    {
+        "course_code": "UME630",
+        "course_name": "Total Quality Management"
+    },
+    {
+        "course_code": "UME631",
+        "course_name": "Solar Energy Engineering"
+    },
+    {
+        "course_code": "UME699",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UME700",
+        "course_name": "Group Project"
+    },
+    {
+        "course_code": "UME715",
+        "course_name": "BATTERY MANAGEMENT SYSTEMS"
+    },
+    {
+        "course_code": "UME718",
+        "course_name": "Applied Thermodynamics"
+    },
+    {
+        "course_code": "UME719",
+        "course_name": "Refrigeration and Air Conditioning"
+    },
+    {
+        "course_code": "UME720",
+        "course_name": "Heat Transfer"
+    },
+    {
+        "course_code": "UME722",
+        "course_name": "SYSTEM MODELLING AND SIMULATION"
+    },
+    {
+        "course_code": "UME723",
+        "course_name": "Fluid Machines"
+    },
+    {
+        "course_code": "UME724",
+        "course_name": "System Modelling and Simulation"
+    },
+    {
+        "course_code": "UME725",
+        "course_name": "ROBOT DYNAMICS AND CONTROL"
+    },
+    {
+        "course_code": "UME730",
+        "course_name": "Computer Aided Manufacturing"
+    },
+    {
+        "course_code": "UME735",
+        "course_name": "MACHINING SCIENCE"
+    },
+    {
+        "course_code": "UME740",
+        "course_name": "Fracture Mechanics"
+    },
+    {
+        "course_code": "UME741",
+        "course_name": "Metal Forming"
+    },
+    {
+        "course_code": "UME743",
+        "course_name": "Computational Fluid Dynamics"
+    },
+    {
+        "course_code": "UME744",
+        "course_name": "Hydrogen Fuel Cell Technology"
+    },
+    {
+        "course_code": "UME745",
+        "course_name": "Machine Tool Design"
+    },
+    {
+        "course_code": "UME746",
+        "course_name": "System Modelling and Simulation"
+    },
+    {
+        "course_code": "UME747",
+        "course_name": "Processing of Polymers And Composites"
+    },
+    {
+        "course_code": "UME748",
+        "course_name": "Advanced Internal Combustion Engines"
+    },
+    {
+        "course_code": "UME749",
+        "course_name": "Gas Turbine Theory and Design"
+    },
+    {
+        "course_code": "UME750",
+        "course_name": "Tribology"
+    },
+    {
+        "course_code": "UME751",
+        "course_name": "LEAN MANUFACTURING"
+    },
+    {
+        "course_code": "UME752",
+        "course_name": "NOISE, VIBRATION AND HARSHNESS"
+    },
+    {
+        "course_code": "UME753",
+        "course_name": "Advanced Mechanical Vibrations"
+    },
+    {
+        "course_code": "UME754",
+        "course_name": "Machining Science"
+    },
+    {
+        "course_code": "UME756",
+        "course_name": "Non-Traditional Machining Processes"
+    },
+    {
+        "course_code": "UME757",
+        "course_name": "Failure Investigation of Industrial Components"
+    },
+    {
+        "course_code": "UME793",
+        "course_name": "Capstone Project (Starts)"
+    },
+    {
+        "course_code": "UME808",
+        "course_name": "Engineering Metrology"
+    },
+    {
+        "course_code": "UME842",
+        "course_name": "MECHANICS OF COMPOSITE MATERIALS"
+    },
+    {
+        "course_code": "UML501",
+        "course_name": "MACHINE LEARNING"
+    },
+    {
+        "course_code": "UMT306",
+        "course_name": "Signal Conditioning and Data Acquisition"
+    },
+    {
+        "course_code": "UMT307",
+        "course_name": "Analog and Digital Circuit Design"
+    },
+    {
+        "course_code": "UMT308",
+        "course_name": "THEORY OF MACHINES"
+    },
+    {
+        "course_code": "UMT403",
+        "course_name": "STRESS ANALYSIS AND MECHANICAL DESIGN"
+    },
+    {
+        "course_code": "UMT404",
+        "course_name": "Data Structures"
+    },
+    {
+        "course_code": "UMT503",
+        "course_name": "AUTOMATIC CONTROL SYSTEMS"
+    },
+    {
+        "course_code": "UMT506",
+        "course_name": "AI for Mechatronics Engineering"
+    },
+    {
+        "course_code": "UMT507",
+        "course_name": "Robotics Engineering"
+    },
+    {
+        "course_code": "UMT602",
+        "course_name": "Signals, Systems and Processing"
+    },
+    {
+        "course_code": "UMT603",
+        "course_name": "Thermofluids Engineering"
+    },
+    {
+        "course_code": "UMT604",
+        "course_name": "Precision Manufacturing for Electronic Devices"
+    },
+    {
+        "course_code": "UMT698",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UMT699",
+        "course_name": "GROUP PROJECT"
+    },
+    {
+        "course_code": "UMT700",
+        "course_name": "PRJ"
+    },
+    {
+        "course_code": "UMT701",
+        "course_name": "IC Engines and Automotive Systems"
+    },
+    {
+        "course_code": "UMT802",
+        "course_name": "INDUSTRIAL AUTOMATION"
+    },
+    {
+        "course_code": "UMT893",
+        "course_name": "CAPSTONE PROJECT (STARTS)"
+    },
+    {
+        "course_code": "UNC302",
+        "course_name": "OBJECT ORIENTED PROGRAMMING"
+    },
+    {
+        "course_code": "UNC303",
+        "course_name": "COMPUTER AND COMMUNICATION NETWORKS"
+    },
+    {
+        "course_code": "UNC304",
+        "course_name": "DISCRETE MATHEMATICS"
+    },
+    {
+        "course_code": "UNC305",
+        "course_name": "DISCRETE MATHEMATICS"
+    },
+    {
+        "course_code": "UNC401",
+        "course_name": "DATA STRUCTURES"
+    },
+    {
+        "course_code": "UNC402",
+        "course_name": "DATA STRUCTURES"
+    },
+    {
+        "course_code": "UNC501",
+        "course_name": "OPERATING SYSTEMS"
+    },
+    {
+        "course_code": "UNC503",
+        "course_name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING"
+    },
+    {
+        "course_code": "UNC512",
+        "course_name": "AUGMENTED AND VIRTUAL REALITY"
+    },
+    {
+        "course_code": "UNC513",
+        "course_name": "SOFTWARE ENGINEERING"
+    },
+    {
+        "course_code": "UNC514",
+        "course_name": "DATA SCIENCE FUNDAMENTALS"
+    },
+    {
+        "course_code": "UNC515",
+        "course_name": "OPERATING SYSTEMS"
+    },
+    {
+        "course_code": "UNC602",
+        "course_name": "DATABASE MANAGEMENT SYSTEMS"
+    },
+    {
+        "course_code": "UNC741",
+        "course_name": "PARALLEL & DISTRIBUTED COMPUTING"
+    },
+    {
+        "course_code": "UNC801",
+        "course_name": "DATA SCIENCE for ENGINEERS"
+    },
+    {
+        "course_code": "UPH010",
+        "course_name": "PHYSICS WITH CALCULUS-I"
+    },
+    {
+        "course_code": "UPH011",
+        "course_name": "PHYSICS WITH CALCULUS-II"
+    },
+    {
+        "course_code": "UPH012",
+        "course_name": "Biophysics and Biomaterials"
+    },
+    {
+        "course_code": "UPH013",
+        "course_name": "APPLIED PHYSICS"
+    },
+    {
+        "course_code": "UPH014",
+        "course_name": "PHYSICS FOR COMPIUTING SCIENCE"
+    },
+    {
+        "course_code": "UPH064",
+        "course_name": "NANO SCIENCE AND NANO- MATERIALS"
+    },
+    {
+        "course_code": "UPH401",
+        "course_name": "ELECTRICAL AND ELECTRONIC ENGINEERING MATERIALS"
+    },
+    {
+        "course_code": "URA301",
+        "course_name": "SMART MATERIALS FOR ROBOTICS"
+    },
+    {
+        "course_code": "URA302",
+        "course_name": "PYTHON PROGRAMMING"
+    },
+    {
+        "course_code": "URA401",
+        "course_name": "DATA SCIENCE"
+    },
+    {
+        "course_code": "URA402",
+        "course_name": "ROBOTICS SENSORS AND ACTUATORS"
+    },
+    {
+        "course_code": "URA411",
+        "course_name": "INDUSTRIAL SMART SENSORS"
+    },
+    {
+        "course_code": "URA412",
+        "course_name": "OPTIMIZATION IN ENGINEERING DESIGN"
+    },
+    {
+        "course_code": "URA413",
+        "course_name": "FINITE ELEMENT METHODS"
+    },
+    {
+        "course_code": "URA414",
+        "course_name": "ADDITIVE MANUFACTURING"
+    },
+    {
+        "course_code": "URA415",
+        "course_name": "OPERATING SYSTEMS"
+    },
+    {
+        "course_code": "URA416",
+        "course_name": "HUMAN-MACHINE INTERFACE"
+    },
+    {
+        "course_code": "URA417",
+        "course_name": "VEHICLE SAFETY ENGINEERING"
+    },
+    {
+        "course_code": "URA504",
+        "course_name": "Smart Factory Systems and Manufacturing Execution Systems"
+    },
+    {
+        "course_code": "URA601",
+        "course_name": "ROBOTIC-SYSTEMS SIMULATION"
+    },
+    {
+        "course_code": "URA621",
+        "course_name": "INDUSTRIAL ROBOTICS"
+    },
+    {
+        "course_code": "URA622",
+        "course_name": "MOBILE ROBOTICS"
+    },
+    {
+        "course_code": "URA623",
+        "course_name": "CONDITION MONITORING OF ROTATING MACHINERY"
+    },
+    {
+        "course_code": "URA624",
+        "course_name": "IOT ENABLED AUTOMATION AND MACHINE LEARNING"
+    },
+    {
+        "course_code": "URA625",
+        "course_name": "ADVANCED HUMAN MACHINE INTERFACE"
+    },
+    {
+        "course_code": "URA626",
+        "course_name": "Smart Maintenance for Learning Factories"
+    },
+    {
+        "course_code": "URA701",
+        "course_name": "AUTONOMOUS SYSTEMS AND MACHINE VISION L T P Cr"
+    },
+    {
+        "course_code": "URA731",
+        "course_name": "ARTIFICIAL INTELLIGENCE IN PRODUCTION"
+    },
+    {
+        "course_code": "URA732",
+        "course_name": "VEHICLE DYNAMICS"
+    },
+    {
+        "course_code": "URA733",
+        "course_name": "INDUSTRY"
+    },
+    {
+        "course_code": "URA735",
+        "course_name": "AUGMENTED REALITY AND VIRTUAL REALITY"
+    },
+    {
+        "course_code": "URA741",
+        "course_name": "INDUSTRY"
+    },
+    {
+        "course_code": "URA742",
+        "course_name": "IOT AND MACHINE LEARNING IN ROBOTICS"
+    },
+    {
+        "course_code": "URA743",
+        "course_name": "AUTOMOTIVE MECHATRONICS SYSTEMS"
+    },
+    {
+        "course_code": "URA744",
+        "course_name": "DEEP LEARNING"
+    },
+    {
+        "course_code": "URA745",
+        "course_name": "VIRTUAL REALITY"
+    },
+    {
+        "course_code": "URA751",
+        "course_name": "CYBER PHYSICAL SYSTEM"
+    },
+    {
+        "course_code": "URA752",
+        "course_name": "COMPUTER VISION AND AUGMENTED REALITY"
+    },
+    {
+        "course_code": "URA753",
+        "course_name": "ELECTRIC AND HYBRID VEHICLES"
+    },
+    {
+        "course_code": "URA754",
+        "course_name": "BRAKING AND DRIVER ASSISTANCE SYSTEMS"
+    },
+    {
+        "course_code": "UTA003",
+        "course_name": "COMPUTER PROGRAMMING"
+    },
+    {
+        "course_code": "UTA016",
+        "course_name": "Engineering Design Project – I"
+    },
+    {
+        "course_code": "UTA018",
+        "course_name": "OBJECT-ORIENTED PROGRAMMING"
+    },
+    {
+        "course_code": "UTA024",
+        "course_name": "Engineering Design Project II (Edge Computing Design Project)"
+    },
+    {
+        "course_code": "UTA025",
+        "course_name": "INNOVATION & ENTREPRENEURSHIP (3 Self Effort Hour)"
+    },
+    {
+        "course_code": "UTA027",
+        "course_name": "Artificial Intelligence"
+    },
+    {
+        "course_code": "UTA030",
+        "course_name": "ENGINEERING DESIGN PROJECT (BUGGY)"
+    },
+    {
+        "course_code": "UTA035",
+        "course_name": "Engineering Design Project II (Edge Computing Design Project)"
+    },
+    {
+        "course_code": "UTD002",
+        "course_name": "Employability Development Skills"
+    },
+    {
+        "course_code": "UTD003",
+        "course_name": "APTITUDE SKILLS BUILDING"
+    },
+    {
+        "course_code": "UTD004",
+        "course_name": "CAMPUS"
+    },
+    {
+        "course_code": "UVD301",
+        "course_name": "ELECTRONIC DEVICES FOR INTEGRATED CIRCUITS"
+    },
+    {
+        "course_code": "UVD302",
+        "course_name": "SEMICONDUCTOR MATERIALS SYNTHESIS AND CHARACTERIZATIONS"
+    },
+    {
+        "course_code": "UVD401",
+        "course_name": "IC FABRICATION TECHNOLOGY AND PACKAGING"
+    },
+    {
+        "course_code": "UVD501",
+        "course_name": "CMOS DIGITAL INTEGRATED CIRCUITS"
+    },
+    {
+        "course_code": "UVD514",
+        "course_name": "DATA STRUCTURES"
+    },
+    {
+        "course_code": "UVD515",
+        "course_name": "HARDWARE MODELING USING VERILOG"
+    },
+    {
+        "course_code": "UVD601",
+        "course_name": "VLSI VERIFICATION AND TESTING"
+    },
+    {
+        "course_code": "UVD602",
+        "course_name": "ANALOG CMOS DESIGN"
+    },
+    {
+        "course_code": "UVD621",
+        "course_name": "SYSTEM VERILOG"
+    },
+    {
+        "course_code": "UVD626",
+        "course_name": "OPERATING SYSTEM"
+    },
+    {
+        "course_code": "UVD632",
+        "course_name": "HIGH SPEED VLSI DESIGN"
+    },
+    {
+        "course_code": "UVD701",
+        "course_name": "CAD for VLSI"
+    }
+]

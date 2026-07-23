@@ -18,14 +18,14 @@
       "day": "Monday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "UEE744L",
+      "subject": "INDUSTRIAL ELECTRONICS",
       "code": "UEE744L",
       "type": "Lecture",
       "room": "E107",
       "options": [
         {
           "subject_code": "UEE744L",
-          "subject_name": null,
+          "subject_name": "INDUSTRIAL ELECTRONICS",
           "type": "Lecture",
           "place": "E107",
           "teacher": "SP"
@@ -63,14 +63,14 @@
       "day": "Tuesday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "UEE744L",
+      "subject": "INDUSTRIAL ELECTRONICS",
       "code": "UEE744L",
       "type": "Lecture",
       "room": "E107",
       "options": [
         {
           "subject_code": "UEE744L",
-          "subject_name": null,
+          "subject_name": "INDUSTRIAL ELECTRONICS",
           "type": "Lecture",
           "place": "E107",
           "teacher": "SP"
@@ -88,7 +88,7 @@
       "day": "Tuesday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "UMA601T",
+      "subject": "MATHEMATICS FOR SIGNAL PROCESSING",
       "code": "UMA601T",
       "type": "Tutorial",
       "room": "E108",
@@ -98,14 +98,14 @@
       "day": "Wednesday",
       "start_time": "10:30",
       "end_time": "11:20",
-      "subject": "UEE744P",
+      "subject": "INDUSTRIAL ELECTRONICS",
       "code": "UEE744P",
       "type": "Practical",
       "room": "PE(C113)",
       "options": [
         {
           "subject_code": "UEE744P",
-          "subject_name": null,
+          "subject_name": "INDUSTRIAL ELECTRONICS",
           "type": "Practical",
           "place": "PE(C113)",
           "teacher": "SP"
@@ -123,14 +123,14 @@
       "day": "Wednesday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "UEE744P",
+      "subject": "INDUSTRIAL ELECTRONICS",
       "code": "UEE744P",
       "type": "Practical",
       "room": "PE(C113)",
       "options": [
         {
           "subject_code": "UEE744P",
-          "subject_name": null,
+          "subject_name": "INDUSTRIAL ELECTRONICS",
           "type": "Practical",
           "place": "PE(C113)",
           "teacher": "SP"

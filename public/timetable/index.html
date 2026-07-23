@@ -227,7 +227,7 @@
                 </datalist>
 
                 <input type="text" id="inpVenue" class="glass-input" placeholder="Venue (e.g. LT103)" onkeypress="handleEnter(event)">
-                <input type="text" id="inpCode" class="glass-input" placeholder="Code (Auto-filled)" onkeypress="handleEnter(event)">
+                <input type="text" id="inpCode" class="glass-input" placeholder="Code (Auto-filled)" oninput="autoFillName()" onkeypress="handleEnter(event)">
                 
                 <div class="action-buttons">
                     <button class="action-btn cancel-btn" onclick="resetModal()">Back</button>

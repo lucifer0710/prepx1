@@ -200,6 +200,17 @@ function addSubjectToMap(name, code) {
     allSubjects[cleanName.toUpperCase()] = baseCode;
     allSubjects[cleanName] = baseCode;
 
+    // Code to Subject Name reverse lookup mapping
+    const codeUpper = baseCode.toUpperCase();
+    allSubjects["CODE_" + codeUpper] = cleanName;
+    allSubjects["CODE_" + code.trim().toUpperCase()] = cleanName;
+
+    if (codeUpper.startsWith("ME")) {
+        allSubjects["CODE_U" + codeUpper] = cleanName;
+    } else if (codeUpper.startsWith("UME")) {
+        allSubjects["CODE_" + codeUpper.slice(1)] = cleanName;
+    }
+
     // Deduplicate in subjectDisplayNames case-insensitively
     let existingName = null;
     for (const dName of subjectDisplayNames) {
@@ -224,20 +235,40 @@ function initSubjectsData() {
         addSubjectToMap(name, code);
     }
 
-    fetch('subjects.json')
+    fetch('all_courses.json')
         .then(response => {
             if (response.ok) return response.json();
-            throw new Error("Could not load subjects.json");
+            throw new Error("Could not load all_courses.json");
         })
-        .then(data => {
-            for (const [name, code] of Object.entries(data)) {
-                addSubjectToMap(name, code);
+        .then(courses => {
+            if (Array.isArray(courses)) {
+                courses.forEach(item => {
+                    if (item && item.course_name && item.course_code) {
+                        addSubjectToMap(item.course_name, item.course_code);
+                    }
+                });
             }
-            populateSubjectDatalist();
         })
         .catch(err => {
-            console.log("Using built-in subject database:", err);
-            populateSubjectDatalist();
+            console.log("all_courses.json notice:", err);
+        })
+        .finally(() => {
+            fetch('subjects.json')
+                .then(response => {
+                    if (response.ok) return response.json();
+                    throw new Error("Could not load subjects.json");
+                })
+                .then(data => {
+                    for (const [name, code] of Object.entries(data)) {
+                        addSubjectToMap(name, code);
+                    }
+                })
+                .catch(err => {
+                    console.log("Using built-in subject database:", err);
+                })
+                .finally(() => {
+                    populateSubjectDatalist();
+                });
         });
 }
 
@@ -265,17 +296,36 @@ function populateBatchDatalist(batches) {
     });
 }
 
-// --- Subject Code Lookup Helper ---
+// --- Subject Code & Name Lookup Helpers ---
 function getSubjectCode(subjectName, type) {
     if (!subjectName) return "";
     const clean = subjectName.trim();
     const normKey = clean.toLowerCase().replace(/[^a-z0-9]/g, "");
 
     let baseCode = predefinedCodes[clean] || predefinedCodes[clean.toUpperCase()] || allSubjects[normKey] || allSubjects[clean.toUpperCase()] || allSubjects[clean];
-    return baseCode || "";
+    if (baseCode) return baseCode;
+
+    let codeKey = clean.toUpperCase();
+    if (codeKey.length > 3 && /[LPT]$/i.test(codeKey)) {
+        codeKey = codeKey.slice(0, -1);
+    }
+    if (allSubjects["CODE_" + codeKey]) {
+        return codeKey;
+    }
+
+    return "";
 }
 
-// --- Auto-fill Code Function ---
+function getSubjectNameFromCode(code) {
+    if (!code) return "";
+    let cleanCode = code.trim().toUpperCase();
+    if (cleanCode.length > 3 && /[LPT]$/i.test(cleanCode)) {
+        cleanCode = cleanCode.slice(0, -1);
+    }
+    return allSubjects["CODE_" + cleanCode] || allSubjects["CODE_" + code.trim().toUpperCase()] || "";
+}
+
+// --- Auto-fill Functions ---
 function autoFillCode() {
     const inputName = document.getElementById('inpName');
     const inputCode = document.getElementById('inpCode');
@@ -295,6 +345,19 @@ function autoFillCode() {
             inputCode.placeholder = "Enter subject code";
         } else {
             inputCode.placeholder = "Code (Auto-filled)";
+        }
+    }
+}
+
+function autoFillName() {
+    const inputName = document.getElementById('inpName');
+    const inputCode = document.getElementById('inpCode');
+    const codeVal = inputCode.value.trim();
+
+    if (codeVal) {
+        const matchedName = getSubjectNameFromCode(codeVal);
+        if (matchedName && (!inputName.value.trim() || inputName.placeholder.includes("Auto-filled"))) {
+            inputName.value = matchedName;
         }
     }
 }
@@ -626,10 +689,20 @@ function renderBatchData(data) {
         const slot = gridChildren[index];
         if (!slot) return;
 
-        const rawSubject = classObj.subject || '';
-        const rawCode = classObj.code || '';
-        const rawRoom = classObj.room || '';
+        let rawSubject = (classObj.subject || '').trim();
+        let rawCode = (classObj.code || '').trim();
+        const rawRoom = (classObj.room || '').trim();
         const type = classObj.type || 'Lecture';
+
+        // Fallback dynamic resolution if subject is missing or equal to code
+        if ((!rawSubject || rawSubject === rawCode || rawSubject === rawCode.slice(0, -1)) && rawCode) {
+            const resolvedName = getSubjectNameFromCode(rawCode);
+            if (resolvedName) rawSubject = resolvedName;
+        }
+        if (!rawCode && rawSubject) {
+            const resolvedCode = getSubjectCode(rawSubject, type);
+            if (resolvedCode) rawCode = resolvedCode;
+        }
 
         // Check if options array exists and has items > 1
         const hasExplicitOptions = Array.isArray(classObj.options) && classObj.options.length > 1;
@@ -641,7 +714,7 @@ function renderBatchData(data) {
             "APPLIED CHEMISTRY/CHEMISTRY"
         ];
         const isSingleAlias = singleSubjectAliases.some(
-            alias => rawSubject.trim().toUpperCase() === alias.toUpperCase()
+            alias => rawSubject.toUpperCase() === alias.toUpperCase()
         );
         const isSlashMultiElective = !isSingleAlias && rawSubject && rawSubject.includes('/') && codeParts.length > 1;
 
@@ -649,12 +722,21 @@ function renderBatchData(data) {
             let options = [];
             if (hasExplicitOptions) {
                 options = classObj.options.map(opt => {
-                    let c = (opt.subject_code || '').trim();
+                    let s = (opt.subject_name || opt.subject || '').trim();
+                    let c = (opt.subject_code || opt.code || '').trim();
+                    if ((!s || s === c || s === c.slice(0, -1)) && c) {
+                        const resName = getSubjectNameFromCode(c);
+                        if (resName) s = resName;
+                    }
+                    if (!c && s) {
+                        const resCode = getSubjectCode(s, opt.type || type);
+                        if (resCode) c = resCode;
+                    }
                     if (c && c.length > 3 && /[LPT]$/i.test(c)) {
                         c = c.slice(0, -1);
                     }
                     return {
-                        subject: (opt.subject_name || opt.subject_code || 'Elective').trim(),
+                        subject: s || c || 'Elective',
                         code: c,
                         room: (opt.place || opt.room || '').trim(),
                         type: opt.type || type
@@ -665,12 +747,21 @@ function renderBatchData(data) {
                 const rooms = rawRoom.split('/');
                 const subjects = rawSubject.split('/');
                 options = subjects.map((sub, i) => {
+                    let s = sub.trim();
                     let c = (codes[i] || '').trim().replace(/\(.*?\)/g, '').trim();
+                    if ((!s || s === c || s === c.slice(0, -1)) && c) {
+                        const resName = getSubjectNameFromCode(c);
+                        if (resName) s = resName;
+                    }
+                    if (!c && s) {
+                        const resCode = getSubjectCode(s, type);
+                        if (resCode) c = resCode;
+                    }
                     if (c && c.length > 3 && /[LPT]$/i.test(c)) {
                         c = c.slice(0, -1);
                     }
                     return {
-                        subject: sub.trim(),
+                        subject: s || c || 'Elective',
                         code: c,
                         room: (rooms[i] || '').trim(),
                         type: type

@@ -8,7 +8,7 @@
       "day": "Monday",
       "start_time": "08:00",
       "end_time": "08:50",
-      "subject": "UNC602P",
+      "subject": "DATABASE MANAGEMENT SYSTEMS",
       "code": "UNC602P",
       "type": "Practical",
       "room": "C211",
@@ -18,7 +18,7 @@
       "day": "Monday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "UNC602P",
+      "subject": "DATABASE MANAGEMENT SYSTEMS",
       "code": "UNC602P",
       "type": "Practical",
       "room": "C211",
@@ -83,7 +83,7 @@
         },
         {
           "subject_code": "UNC602P",
-          "subject_name": null,
+          "subject_name": "DATABASE MANAGEMENT SYSTEMS",
           "type": "Practical",
           "place": "SE-2",
           "teacher": "JYT"
@@ -143,7 +143,7 @@
         },
         {
           "subject_code": "UNC602P",
-          "subject_name": null,
+          "subject_name": "DATABASE MANAGEMENT SYSTEMS",
           "type": "Practical",
           "place": "SE-2",
           "teacher": "JYT"
@@ -364,7 +364,7 @@
         },
         {
           "subject_code": "UNC602L",
-          "subject_name": null,
+          "subject_name": "DATABASE MANAGEMENT SYSTEMS",
           "type": "Lecture",
           "place": "B303",
           "teacher": "AVY"
@@ -445,7 +445,7 @@
         },
         {
           "subject_code": "UEC638L",
-          "subject_name": null,
+          "subject_name": "VLSI TESTING AND VERIFICATION",
           "type": "Lecture",
           "place": "E203",
           "teacher": "KSS"
@@ -456,7 +456,7 @@
       "day": "Tuesday",
       "start_time": "11:20",
       "end_time": "12:10",
-      "subject": "UEC640L",
+      "subject": "IOT BASED SYSTEMS",
       "code": "UEC640L",
       "type": "Lecture",
       "room": "B303",
@@ -496,21 +496,21 @@
       "day": "Tuesday",
       "start_time": "15:30",
       "end_time": "16:20",
-      "subject": "UNC602P",
+      "subject": "DATABASE MANAGEMENT SYSTEMS",
       "code": "UNC602P",
       "type": "Practical",
       "room": "C211",
       "options": [
         {
           "subject_code": "UNC602P",
-          "subject_name": null,
+          "subject_name": "DATABASE MANAGEMENT SYSTEMS",
           "type": "Practical",
           "place": "C211",
           "teacher": "AVY"
         },
         {
           "subject_code": "UEC644P",
-          "subject_name": null,
+          "subject_name": "ANALOG IC DESIGN",
           "type": "Practical",
           "place": "C334",
           "teacher": "KSS"
@@ -521,21 +521,21 @@
       "day": "Tuesday",
       "start_time": "16:20",
       "end_time": "17:10",
-      "subject": "UNC602P",
+      "subject": "DATABASE MANAGEMENT SYSTEMS",
       "code": "UNC602P",
       "type": "Practical",
       "room": "C211",
       "options": [
         {
           "subject_code": "UNC602P",
-          "subject_name": null,
+          "subject_name": "DATABASE MANAGEMENT SYSTEMS",
           "type": "Practical",
           "place": "C211",
           "teacher": "AVY"
         },
         {
           "subject_code": "UEC644P",
-          "subject_name": null,
+          "subject_name": "ANALOG IC DESIGN",
           "type": "Practical",
           "place": "C334",
           "teacher": "KSS"
@@ -566,7 +566,7 @@
       "day": "Wednesday",
       "start_time": "08:00",
       "end_time": "08:50",
-      "subject": "UME625L",
+      "subject": "ALTERNATIVE FUELS FOR VEHICLE POWERTRAIN",
       "code": "UME625L",
       "type": "Lecture",
       "room": "F301",
@@ -590,7 +590,7 @@
         },
         {
           "subject_code": "UEC638P",
-          "subject_name": null,
+          "subject_name": "VLSI TESTING AND VERIFICATION",
           "type": "Practical",
           "place": "C334",
           "teacher": "SUK"
@@ -615,7 +615,7 @@
         },
         {
           "subject_code": "UEC638P",
-          "subject_name": null,
+          "subject_name": "VLSI TESTING AND VERIFICATION",
           "type": "Practical",
           "place": "C334",
           "teacher": "SUK"
@@ -626,7 +626,7 @@
       "day": "Wednesday",
       "start_time": "13:50",
       "end_time": "14:40",
-      "subject": "UEC640P",
+      "subject": "IOT BASED SYSTEMS",
       "code": "UEC640P",
       "type": "Practical",
       "room": "C210",
@@ -636,7 +636,7 @@
       "day": "Wednesday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "UEC640P",
+      "subject": "IOT BASED SYSTEMS",
       "code": "UEC640P",
       "type": "Practical",
       "room": "C210",
@@ -742,7 +742,7 @@
         },
         {
           "subject_code": "UEC638L",
-          "subject_name": null,
+          "subject_name": "VLSI TESTING AND VERIFICATION",
           "type": "Lecture",
           "place": "E203",
           "teacher": "SUK"
@@ -802,7 +802,7 @@
         },
         {
           "subject_code": "UNC602L",
-          "subject_name": null,
+          "subject_name": "DATABASE MANAGEMENT SYSTEMS",
           "type": "Lecture",
           "place": "B303",
           "teacher": "AVY"
@@ -820,7 +820,7 @@
       "day": "Thursday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "UEC640L",
+      "subject": "IOT BASED SYSTEMS",
       "code": "UEC640L",
       "type": "Lecture",
       "room": "B303",
@@ -830,7 +830,7 @@
       "day": "Thursday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "UME625L",
+      "subject": "ALTERNATIVE FUELS FOR VEHICLE POWERTRAIN",
       "code": "UME625L",
       "type": "Lecture",
       "room": "F301",
@@ -840,7 +840,7 @@
       "day": "Friday",
       "start_time": "08:50",
       "end_time": "09:40",
-      "subject": "UME625L",
+      "subject": "ALTERNATIVE FUELS FOR VEHICLE POWERTRAIN",
       "code": "UME625L",
       "type": "Lecture",
       "room": "F301",

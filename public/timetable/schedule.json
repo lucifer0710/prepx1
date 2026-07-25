@@ -40634,6 +40634,12 @@
         "LT303 UCS321P",
         "AI for Engineers",
         "Practical"
+      ],
+      "08:00 AM": [
+        "UCS320L",
+        "LT301 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Thursday": {
@@ -40808,6 +40814,12 @@
         "LT303 UCS321P",
         "AI for Engineers",
         "Practical"
+      ],
+      "08:00 AM": [
+        "UCS320L",
+        "LT301 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Thursday": {
@@ -41006,6 +41018,12 @@
         "DBMS-1 LAB",
         "UCS31",
         "Practical"
+      ],
+      "08:00 AM": [
+        "UCS320L",
+        "LT301 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Thursday": {
@@ -41192,6 +41210,12 @@
         "DBMS-2 LAB",
         "Database Management Systems",
         "Practical"
+      ],
+      "08:00 AM": [
+        "UCS320L",
+        "LT301 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Thursday": {
@@ -41378,6 +41402,12 @@
         "NS-1 LAB",
         "Computer Networks",
         "Practical"
+      ],
+      "08:00 AM": [
+        "UCS320L",
+        "LT301 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Thursday": {
@@ -41514,6 +41544,12 @@
         "DS-1 LAB",
         "Design and Analysis of Algorithms",
         "Practical"
+      ],
+      "01:00 PM": [
+        "UCS320L",
+        "LT302 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Wednesday": {
@@ -41700,6 +41736,12 @@
         "G203(NA-1) LAB",
         "Probability and Statistics",
         "Practical"
+      ],
+      "01:00 PM": [
+        "UCS320L",
+        "LT302 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Wednesday": {
@@ -41886,6 +41928,12 @@
         "G204(NA-2) LAB",
         "Probability and Statistics",
         "Practical"
+      ],
+      "01:00 PM": [
+        "UCS320L",
+        "LT302 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Wednesday": {
@@ -42072,6 +42120,12 @@
         "G201(PG) LAB",
         "Probability and Statistics",
         "Practical"
+      ],
+      "01:00 PM": [
+        "UCS320L",
+        "LT302 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Wednesday": {
@@ -42246,6 +42300,12 @@
         "DS-2 LAB",
         "Design and Analysis of Algorithms",
         "Practical"
+      ],
+      "01:00 PM": [
+        "UCS320L",
+        "LT302 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Wednesday": {
@@ -42564,6 +42624,12 @@
         "SD(L501) LAB",
         "Probability and Statistics",
         "Practical"
+      ],
+      "01:00 PM": [
+        "UCS320L",
+        "LT302 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     }
   },
@@ -42750,6 +42816,12 @@
         "DS-2 LAB",
         "Design and Analysis of Algorithms",
         "Practical"
+      ],
+      "01:00 PM": [
+        "UCS320L",
+        "LT302 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     }
   },
@@ -42936,6 +43008,12 @@
         "L209/B203 LAB",
         "Engineering Design Project II",
         "Practical"
+      ],
+      "01:00 PM": [
+        "UCS320L",
+        "LT302 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     }
   },
@@ -43122,6 +43200,12 @@
         "PL-5 LAB",
         "Database Management Systems",
         "Practical"
+      ],
+      "01:00 PM": [
+        "UCS320L",
+        "LT302 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     }
   },
@@ -43308,6 +43392,12 @@
         "DS-2 LAB",
         "Design and Analysis of Algorithms",
         "Practical"
+      ],
+      "01:00 PM": [
+        "UCS320L",
+        "LT302 (Alternate : Week 2)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     }
   },
@@ -45760,9 +45850,9 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UHU005L",
-        "F102",
-        "Humanities for Engineers",
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ],
       "01:50 PM": [
@@ -45832,6 +45922,12 @@
         null,
         "CAPSTONEPROJEC",
         "Tutorial"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     },
     "Friday": {
@@ -45982,9 +46078,9 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UHU005L",
-        "F102",
-        "Humanities for Engineers",
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ],
       "01:50 PM": [
@@ -46068,10 +46164,10 @@
         "Tutorial"
       ],
       "08:00 AM": [
-        "UME513P",
-        "DOM LAB",
-        "DYNAMICS AND VIBRATIONS",
-        "Practical"
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ],
       "08:50 AM": [
         "UME513P",
@@ -46246,9 +46342,9 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UHU005L",
-        "F102",
-        "Humanities for Engineers",
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ],
       "01:50 PM": [
@@ -46336,6 +46432,12 @@
         "E301",
         "REFRIGERATION AND AIR CONDITIONING",
         "Tutorial"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     },
     "Friday": {
@@ -46422,9 +46524,9 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UME723L",
-        "F105",
-        "FLUID MACHINES",
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ],
       "01:50 PM": [
@@ -46493,6 +46595,12 @@
         "UME723L",
         "F105",
         "FLUID MACHINES",
+        "Lecture"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     },
@@ -46674,9 +46782,9 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UME723L",
-        "F105",
-        "FLUID MACHINES",
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ],
       "01:50 PM": [
@@ -46745,6 +46853,12 @@
         "UME723L",
         "F105",
         "FLUID MACHINES",
+        "Lecture"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     },
@@ -46926,9 +47040,9 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UME723L",
-        "F105",
-        "FLUID MACHINES",
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ],
       "08:50 AM": [
@@ -47006,10 +47120,10 @@
         "Lecture"
       ],
       "08:00 AM": [
-        "UME719P",
-        "RAC LAB",
-        "REFRIGERATION AND AIR CONDITIONING",
-        "Practical"
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ],
       "08:50 AM": [
         "UME719P",
@@ -47196,10 +47310,10 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UMT602T",
-        "E105",
-        "UMT602",
-        "Tutorial"
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ],
       "01:50 PM": [
         "UMT802P",
@@ -47261,6 +47375,12 @@
         "UME625L/UCS622L/URA621L/URA743L/URA624L",
         "F301/F105/F314/F302/F315",
         "UME625 / CONVERSATIONAL AI: ACCELERATED DATA SCIENCE [ADVAN / URA621 / URA743 / URA624",
+        "Lecture"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     },
@@ -47424,10 +47544,10 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UMT602T",
-        "E105",
-        "UMT602",
-        "Tutorial"
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ],
       "03:30 PM": [
         "UMT602P",
@@ -47489,6 +47609,12 @@
         "UME625L/UCS622L/URA621L/URA743L/URA624L",
         "F301/F105/F314/F302/F315",
         "UME625 / CONVERSATIONAL AI: ACCELERATED DATA SCIENCE [ADVAN / URA621 / URA743 / URA624",
+        "Lecture"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     },
@@ -47664,10 +47790,10 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UMT602T",
-        "E105",
-        "UMT602",
-        "Tutorial"
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ],
       "03:30 PM": [
         "UMT602P",
@@ -47741,6 +47867,12 @@
         "UME625L/UCS622L/URA621L/URA743L/URA624L",
         "F301/F105/F314/F302/F315",
         "UME625 / CONVERSATIONAL AI: ACCELERATED DATA SCIENCE [ADVAN / URA621 / URA743 / URA624",
+        "Lecture"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     },
@@ -48032,14 +48164,20 @@
         "MTX LAB",
         "UMT503",
         "Practical"
+      ],
+      "12:10 PM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     },
     "Thursday": {
       "08:00 AM": [
-        "UCS532P",
-        "LAB",
-        "Computer Vision",
-        "Practical"
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ],
       "08:50 AM": [
         "UCS532P",
@@ -48218,6 +48356,12 @@
         "F105/F314/F302/F315",
         "CONVERSATIONAL AI: ACCELERATED DATA SCIENCE [ADVAN / URA621 / URA743 / URA624",
         "Lecture"
+      ],
+      "12:10 PM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     },
     "Thursday": {
@@ -48252,10 +48396,10 @@
         "Tutorial"
       ],
       "08:00 AM": [
-        "URA601P",
-        "CAM LAB",
-        "URA601",
-        "Practical"
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ],
       "08:50 AM": [
         "URA601P",
@@ -48464,6 +48608,12 @@
         "CAM LAB",
         "URA601",
         "Practical"
+      ],
+      "12:10 PM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     },
     "Thursday": {
@@ -48496,6 +48646,12 @@
         null,
         "CAPSTONEPROJEC",
         "Tutorial"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     },
     "Friday": {
@@ -48668,6 +48824,12 @@
         "F210",
         "CHEMICAL REACTION ENGINEERING-II",
         "Lecture"
+      ],
+      "12:10 PM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     },
     "Thursday": {
@@ -48699,6 +48861,12 @@
         "UCH605L",
         "F211",
         "PROCESS UTILITY AND INDUSTRIAL SAFETY",
+        "Lecture"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     },
@@ -48844,10 +49012,10 @@
         "Practical"
       ],
       "12:10 PM": [
-        "UCH612P",
-        "B112 LAB",
-        "UCH612",
-        "Practical"
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     },
     "Thursday": {
@@ -48880,6 +49048,12 @@
         "F210",
         "UCH602",
         "Tutorial"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     },
     "Friday": {
@@ -49006,9 +49180,9 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UBT619L",
-        "B309",
-        "UBT619",
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     },
@@ -49035,6 +49209,12 @@
         "UHU005L",
         "B304",
         "Humanities for Engineers",
+        "Lecture"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     },
@@ -49150,9 +49330,9 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UBT619L",
-        "B309",
-        "UBT619",
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     },
@@ -49179,6 +49359,12 @@
         "UHU005L",
         "B304",
         "Humanities for Engineers",
+        "Lecture"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     }
@@ -49256,9 +49442,9 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UBT619L",
-        "B309",
-        "UBT619",
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ],
       "03:30 PM": [
@@ -49310,6 +49496,12 @@
         "E307 LAB",
         "Humanities for Engineers",
         "Practical"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     }
   },
@@ -49386,9 +49578,9 @@
         "Lecture"
       ],
       "12:10 PM": [
-        "UBT619L",
-        "B309",
-        "UBT619",
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
         "Lecture"
       ]
     },
@@ -49428,6 +49620,12 @@
         "II LAB",
         "UBT407",
         "Practical"
+      ],
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     },
     "Friday": {
@@ -50624,6 +50822,18 @@
         "B208",
         "UMA601T",
         "Lecture"
+      ],
+      "03:30 PM": [
+        "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
+        "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
+        "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
+        "Practical"
+      ],
+      "04:20 PM": [
+        "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
+        "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
+        "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
+        "Practical"
       ]
     }
   },
@@ -50828,6 +51038,18 @@
         "E302",
         "MATHEMATICS FOR SIGNAL PROCESSING",
         "Tutorial"
+      ],
+      "03:30 PM": [
+        "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
+        "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
+        "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
+        "Practical"
+      ],
+      "04:20 PM": [
+        "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
+        "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
+        "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
+        "Practical"
       ]
     }
   },
@@ -51031,6 +51253,18 @@
         "ULC602P",
         "I&C/PSP LAB",
         "DIGITAL MEASUREMENT AND PROTECTION",
+        "Practical"
+      ],
+      "03:30 PM": [
+        "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
+        "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
+        "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
+        "Practical"
+      ],
+      "04:20 PM": [
+        "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
+        "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
+        "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
         "Practical"
       ]
     }
@@ -51236,6 +51470,18 @@
         "E303 LAB",
         "Humanities for Engineers",
         "Practical"
+      ],
+      "03:30 PM": [
+        "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
+        "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
+        "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
+        "Practical"
+      ],
+      "04:20 PM": [
+        "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
+        "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
+        "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
+        "Practical"
       ]
     }
   },
@@ -51439,6 +51685,18 @@
         "ULC601P",
         "IOT LAB",
         "Machine Learning Techniques",
+        "Practical"
+      ],
+      "03:30 PM": [
+        "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
+        "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
+        "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
+        "Practical"
+      ],
+      "04:20 PM": [
+        "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
+        "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
+        "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
         "Practical"
       ]
     }
@@ -70754,6 +71012,24 @@
         "E312",
         "Theory of Computation",
         "Tutorial"
+      ]
+    }
+  },
+  "3W14": {
+    "Wednesday": {
+      "12:10 PM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
+      ]
+    },
+    "Thursday": {
+      "08:00 AM": [
+        "UCS002L/UTD004L/UHU016L/UMA069L",
+        "LT101/LT102/B303/F201",
+        "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+        "Lecture"
       ]
     }
   }

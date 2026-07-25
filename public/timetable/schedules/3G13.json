@@ -153,11 +153,40 @@
       "day": "Wednesday",
       "start_time": "12:10",
       "end_time": "13:00",
-      "subject": "Graph Theory and Applications",
-      "code": "UMA069L",
+      "subject": "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+      "code": "UCS002L/UTD004L/UHU016L/UMA069L",
       "type": "Lecture",
       "room": "LT101/LT102/B303/F201",
-      "options": []
+      "options": [
+        {
+          "subject_code": "UCS002L",
+          "subject_name": "Introduction To Cyber Security",
+          "type": "Lecture",
+          "place": "LT101",
+          "teacher": null
+        },
+        {
+          "subject_code": "UTD004L",
+          "subject_name": "Campus 2 Corporate",
+          "type": "Lecture",
+          "place": "LT102",
+          "teacher": null
+        },
+        {
+          "subject_code": "UHU016L",
+          "subject_name": "Introductory Course In French",
+          "type": "Lecture",
+          "place": "B303",
+          "teacher": null
+        },
+        {
+          "subject_code": "UMA069L",
+          "subject_name": "Graph Theory And Applications",
+          "type": "Lecture",
+          "place": "F201",
+          "teacher": null
+        }
+      ]
     },
     {
       "day": "Wednesday",
@@ -193,11 +222,40 @@
       "day": "Thursday",
       "start_time": "08:00",
       "end_time": "08:50",
-      "subject": "Graph Theory and Applications",
-      "code": "UMA069L",
+      "subject": "Introduction To Cyber Security / Campus 2 Corporate / Introductory Course In French / Graph Theory And Applications",
+      "code": "UCS002L/UTD004L/UHU016L/UMA069L",
       "type": "Lecture",
       "room": "LT101/LT102/B303/F201",
-      "options": []
+      "options": [
+        {
+          "subject_code": "UCS002L",
+          "subject_name": "Introduction To Cyber Security",
+          "type": "Lecture",
+          "place": "LT101",
+          "teacher": null
+        },
+        {
+          "subject_code": "UTD004L",
+          "subject_name": "Campus 2 Corporate",
+          "type": "Lecture",
+          "place": "LT102",
+          "teacher": null
+        },
+        {
+          "subject_code": "UHU016L",
+          "subject_name": "Introductory Course In French",
+          "type": "Lecture",
+          "place": "B303",
+          "teacher": null
+        },
+        {
+          "subject_code": "UMA069L",
+          "subject_name": "Graph Theory And Applications",
+          "type": "Lecture",
+          "place": "F201",
+          "teacher": null
+        }
+      ]
     },
     {
       "day": "Thursday",

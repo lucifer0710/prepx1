@@ -2794,5 +2794,9 @@
     {
         "course_code": "UVD701",
         "course_name": "CAD for VLSI"
+    },
+    {
+        "course_code": "ULC512",
+        "course_name": "Cloud Computing"
     }
 ]

@@ -23394,10 +23394,10 @@
     },
     "Wednesday": {
       "08:00 AM": [
-        "FIRSTWEEKONWARDSALTERNATEWEEK",
-        "",
-        "FIRSTWEEKONWARDSALTERNATEWEEK",
-        ""
+        "UCS320L",
+        "LT102 (Alternate : Week 1)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ],
       "08:50 AM": [
         "UTA018L",
@@ -67969,8 +67969,8 @@
     "Wednesday": {
       "08:00 AM": [
         "UCS320L",
-        "LT102",
-        "SUSTAINABLE GREEN COMPUTING",
+        "LT102 (Alternate : Week 1)",
+        "Introduction to Sustainable Green Computing",
         "Lecture"
       ],
       "08:50 AM": [
@@ -68143,8 +68143,8 @@
     "Wednesday": {
       "08:00 AM": [
         "UCS320L",
-        "LT102",
-        "SUSTAINABLE GREEN COMPUTING",
+        "LT102 (Alternate : Week 1)",
+        "Introduction to Sustainable Green Computing",
         "Lecture"
       ],
       "08:50 AM": [
@@ -68335,8 +68335,8 @@
     "Wednesday": {
       "08:00 AM": [
         "UCS320L",
-        "LT102",
-        "SUSTAINABLE GREEN COMPUTING",
+        "LT102 (Alternate : Week 1)",
+        "Introduction to Sustainable Green Computing",
         "Lecture"
       ],
       "08:50 AM": [
@@ -68515,8 +68515,8 @@
     "Wednesday": {
       "08:00 AM": [
         "UCS320L",
-        "LT102",
-        "SUSTAINABLE GREEN COMPUTING",
+        "LT102 (Alternate : Week 1)",
+        "Introduction to Sustainable Green Computing",
         "Lecture"
       ],
       "08:50 AM": [
@@ -68701,8 +68701,8 @@
     "Wednesday": {
       "08:00 AM": [
         "UCS320L",
-        "LT102",
-        "SUSTAINABLE GREEN COMPUTING",
+        "LT102 (Alternate : Week 1)",
+        "Introduction to Sustainable Green Computing",
         "Lecture"
       ],
       "08:50 AM": [
@@ -68920,6 +68920,12 @@
         "SS-2(L202) LAB",
         "OPERATING SYSTEMS",
         "Practical"
+      ],
+      "08:00 AM": [
+        "UCS320L",
+        "LT102 (Alternate : Week 1)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Thursday": {
@@ -69037,8 +69043,8 @@
     "Wednesday": {
       "08:00 AM": [
         "UCS320L",
-        "LT403",
-        "SUSTAINABLE GREEN COMPUTING",
+        "LT102 (Alternate : Week 1)",
+        "Introduction to Sustainable Green Computing",
         "Lecture"
       ],
       "08:50 AM": [
@@ -69250,6 +69256,12 @@
         "PL-4(L011) LAB",
         "OBJECT ORIENTED PROGRAMMING",
         "Practical"
+      ],
+      "08:00 AM": [
+        "UCS320L",
+        "LT102 (Alternate : Week 1)",
+        "Introduction to Sustainable Green Computing",
+        "Lecture"
       ]
     },
     "Thursday": {

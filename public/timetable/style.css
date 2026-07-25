@@ -327,6 +327,7 @@ h1 {
 .tag.practical { background-color: var(--tag-orange); color: black; }
 .tag.tutorial { background-color: var(--tag-purple); }
 .tag.code { background-color: var(--tag-red); }
+.tag.alternate { background-color: #0284c7; color: white; text-transform: none; }
 
 /* --- Elective Slot (in grid) --- */
 .slot.elective-slot {

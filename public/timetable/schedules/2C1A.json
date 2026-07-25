@@ -1,0 +1,18 @@
+{
+  "batch": "2C1A",
+  "semester": {
+    "label": "ODD 26-27"
+  },
+  "classes": [
+    {
+      "day": "Wednesday",
+      "start_time": "08:00",
+      "end_time": "08:50",
+      "subject": "Introduction to Sustainable Green Computing",
+      "code": "UCS320L",
+      "type": "Lecture",
+      "room": "LT102 (Alternate : Week 1)",
+      "options": []
+    }
+  ]
+}

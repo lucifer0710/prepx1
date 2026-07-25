@@ -98,10 +98,10 @@
       "day": "Wednesday",
       "start_time": "08:00",
       "end_time": "08:50",
-      "subject": null,
-      "code": null,
-      "type": "Unknown",
-      "room": "FIRST WEEK ONWARDS ALTERNATE WEEK",
+      "subject": "Introduction to Sustainable Green Computing",
+      "code": "UCS320L",
+      "type": "Lecture",
+      "room": "LT102 (Alternate : Week 1)",
       "options": []
     },
     {

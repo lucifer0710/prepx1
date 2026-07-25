@@ -358,23 +358,37 @@
       "day": "Friday",
       "start_time": "14:40",
       "end_time": "15:30",
-      "subject": "ULC512P",
-      "code": "ULC512P",
+      "subject": "Cloud Computing(G1)/Cloud Computing(G2)/ULC513(G1)/ULC513(G2)",
+      "code": "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2)",
       "type": "Practical",
-      "room": "PSS(H220)",
+      "room": "PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323)",
       "options": [
         {
-          "subject_code": "ULC512P",
-          "subject_name": null,
+          "subject_code": "ULC512P(G1)",
+          "subject_name": "Cloud Computing(G1)",
           "type": "Practical",
           "place": "PSS(H220)",
           "teacher": "MDL"
         },
         {
-          "subject_code": "ULC513P",
-          "subject_name": null,
+          "subject_code": "ULC512P(G2)",
+          "subject_name": "Cloud Computing(G2)",
           "type": "Practical",
           "place": "NETWORK(H223)",
+          "teacher": "MDL"
+        },
+        {
+          "subject_code": "ULC513P(G1)",
+          "subject_name": "ULC513(G1)",
+          "type": "Practical",
+          "place": "IOT(D206B)",
+          "teacher": "DND"
+        },
+        {
+          "subject_code": "ULC513P(G2)",
+          "subject_name": "ULC513(G2)",
+          "type": "Practical",
+          "place": "BMC(C323)",
           "teacher": "DND"
         }
       ]

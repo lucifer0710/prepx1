@@ -364,15 +364,60 @@ function autoFillName() {
 
 // --- Modal Functions ---
 function openModal(slotElement) {
-    if (slotElement.classList.contains('filled')) return;
     currentSlot = slotElement;
     document.getElementById('entryModal').style.display = 'flex';
     resetModal();
+
+    if (slotElement.classList.contains('filled')) {
+        const subjEl = slotElement.querySelector('.subject-name');
+        const roomEl = slotElement.querySelector('.room-number');
+        const codeTag = slotElement.querySelector('.tag.code');
+        const typeTag = slotElement.querySelector('.tag:not(.code):not(.alternate)');
+        const altTag = slotElement.querySelector('.tag.alternate');
+
+        const subj = subjEl ? subjEl.innerText.trim() : '';
+        const roomRaw = roomEl ? (roomEl.getAttribute('data-raw-room') || roomEl.innerText.trim()) : '';
+        const { room: cleanRoom, alternateText } = parseAlternateWeekInfo(roomRaw, subj);
+        const code = codeTag ? codeTag.innerText.trim() : '';
+        const type = typeTag ? typeTag.innerText.trim() : 'Lecture';
+        
+        selectedType = type;
+        document.getElementById('modalTitle').innerText = 'Edit ' + type;
+        document.getElementById('typeSelection').style.display = 'none';
+        document.getElementById('dataForm').style.display = 'flex';
+
+        const inpName = document.getElementById('inpName');
+        const inpVenue = document.getElementById('inpVenue');
+        const inpCode = document.getElementById('inpCode');
+
+        if (inpName) inpName.value = subj;
+        if (inpVenue) inpVenue.value = cleanRoom;
+        if (inpCode) inpCode.value = code;
+
+        const effectiveAlt = altTag ? altTag.innerText.trim() : alternateText;
+        if (effectiveAlt === 'Alternate : Week 1') {
+            const chk1 = document.getElementById('chkAltWeek1');
+            if (chk1) chk1.checked = true;
+        } else if (effectiveAlt === 'Alternate : Week 2') {
+            const chk2 = document.getElementById('chkAltWeek2');
+            if (chk2) chk2.checked = true;
+        }
+    }
 }
 
 function closeModal() {
     document.getElementById('entryModal').style.display = 'none';
     currentSlot = null;
+}
+
+function toggleAltWeek(selected) {
+    const chk1 = document.getElementById('chkAltWeek1');
+    const chk2 = document.getElementById('chkAltWeek2');
+    if (selected === 'week1' && chk1 && chk1.checked) {
+        if (chk2) chk2.checked = false;
+    } else if (selected === 'week2' && chk2 && chk2.checked) {
+        if (chk1) chk1.checked = false;
+    }
 }
 
 function showAlert(message) {
@@ -408,6 +453,12 @@ function resetModal() {
         inpCode.value = '';
         inpCode.placeholder = "Code (Auto-filled)";
     }
+
+    const chk1 = document.getElementById('chkAltWeek1');
+    const chk2 = document.getElementById('chkAltWeek2');
+    if (chk1) chk1.checked = false;
+    if (chk2) chk2.checked = false;
+
     lastAutoFilledCode = '';
 }
 
@@ -459,8 +510,16 @@ function parseAlternateWeekInfo(roomStr, subjectStr) {
     return { room, alternateText };
 }
 
-function buildSlotInnerHTML(displaySubject, rawRoom, type, code) {
-    const { room: cleanRoom, alternateText } = parseAlternateWeekInfo(rawRoom, displaySubject);
+function buildSlotInnerHTML(displaySubject, rawRoom, type, code, explicitAltText) {
+    let { room: cleanRoom, alternateText } = parseAlternateWeekInfo(rawRoom, displaySubject);
+    if (explicitAltText) {
+        alternateText = explicitAltText;
+    }
+    
+    let finalRoom = cleanRoom;
+    if (alternateText && !rawRoom.includes("Alternate")) {
+        finalRoom = cleanRoom ? `${cleanRoom} (${alternateText})` : `(${alternateText})`;
+    }
 
     let finalSubject = displaySubject;
     if (finalSubject.toUpperCase().includes("ALTERNATEFROM") || finalSubject.toUpperCase().includes("FIRSTWEEKONWARDS")) {
@@ -473,7 +532,7 @@ function buildSlotInnerHTML(displaySubject, rawRoom, type, code) {
         <div class="delete-btn" onclick="clearSlot(event, this.parentElement)">×</div>
         <div class="subject-info">
             <div class="subject-name" title="${finalSubject}">${finalSubject}</div>
-            ${cleanRoom ? `<div class="room-number">${cleanRoom}</div>` : ''}
+            ${cleanRoom ? `<div class="room-number" data-raw-room="${finalRoom}">${cleanRoom}</div>` : ''}
         </div>
         <div class="tags">
             <span class="tag ${tagClass}">${type || 'Lecture'}</span>
@@ -491,12 +550,18 @@ function saveSlot() {
     if (!name) { showAlert("Please enter or select a subject name."); return; }
     if (!code) { showAlert("Please enter a subject code."); return; }
 
-    const htmlContent = buildSlotInnerHTML(name, venue, selectedType, code);
+    const chk1 = document.getElementById('chkAltWeek1');
+    const chk2 = document.getElementById('chkAltWeek2');
+    let altWeekText = '';
+    if (chk1 && chk1.checked) altWeekText = 'Alternate : Week 1';
+    if (chk2 && chk2.checked) altWeekText = 'Alternate : Week 2';
+
+    const htmlContent = buildSlotInnerHTML(name, venue, selectedType, code, altWeekText);
 
     currentSlot.innerHTML = htmlContent;
     currentSlot.classList.remove('empty');
     currentSlot.classList.add('filled');
-    currentSlot.removeAttribute('onclick');
+    currentSlot.setAttribute('onclick', 'openModal(this)');
 
     closeModal();
     resetDownloadButton();

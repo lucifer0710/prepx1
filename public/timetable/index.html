@@ -229,6 +229,17 @@
                 <input type="text" id="inpVenue" class="glass-input" placeholder="Venue (e.g. LT103)" onkeypress="handleEnter(event)">
                 <input type="text" id="inpCode" class="glass-input" placeholder="Code (Auto-filled)" oninput="autoFillName()" onkeypress="handleEnter(event)">
                 
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="chkAltWeek1" onchange="toggleAltWeek('week1')">
+                        <span>Alternate : Week 1</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="chkAltWeek2" onchange="toggleAltWeek('week2')">
+                        <span>Alternate : Week 2</span>
+                    </label>
+                </div>
+                
                 <div class="action-buttons">
                     <button class="action-btn cancel-btn" onclick="resetModal()">Back</button>
                     <button class="action-btn save-btn" onclick="saveSlot()">Save</button>

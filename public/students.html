@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Data</title>
+    <!-- Load SheetJS to parse and render the Excel file -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', Roboto, sans-serif;
+            background-color: #f8fafc;
+            color: #333;
+            padding: 40px 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #0f172a;
+        }
+        #search-container {
+            width: 100%;
+            max-width: 1000px;
+            margin-bottom: 20px;
+        }
+        #searchInput {
+            width: 100%;
+            padding: 14px 20px;
+            font-size: 16px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            box-sizing: border-box;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease;
+        }
+        #searchInput:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+        #table-container {
+            width: 100%;
+            max-width: 1000px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            overflow-x: auto;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th {
+            background-color: #f1f5f9;
+            font-weight: 600;
+            color: #475569;
+        }
+        /* Default hover for uncolored rows */
+        tr:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <h2>Students Data</h2>
+    
+    <div id="search-container">
+        <input type="text" id="searchInput" placeholder="Search for a student, roll number, or batch...">
+    </div>
+
+    <div id="table-container">Loading data...</div>
+
+    <script>
+        // Fetch the actual Excel file we put in the public directory
+        fetch('/students.xlsx')
+            .then(res => {
+                if (!res.ok) throw new Error("File not found");
+                return res.arrayBuffer();
+            })
+            .then(ab => {
+                // Parse the array buffer into an Excel workbook
+                const workbook = XLSX.read(ab, { type: 'array' });
+                // Get the first sheet
+                const firstSheetName = workbook.SheetNames[0];
+                const worksheet = workbook.Sheets[firstSheetName];
+                // Convert the sheet to an HTML table
+                const htmlStr = XLSX.utils.sheet_to_html(worksheet);
+                
+                // Inject the HTML table into our page
+                document.getElementById('table-container').innerHTML = htmlStr;
+
+                // Color code the rows based on the batch and set up search
+                const rows = document.querySelectorAll('#table-container table tr');
+                
+                for (let i = 0; i < rows.length; i++) { // Include first row as data
+                    const text = rows[i].textContent.toLowerCase();
+                    
+                    // Apply light background colors for specific batches
+                    if (text.includes('2c31')) {
+                        rows[i].style.backgroundColor = '#ffe5e5'; // Light Red
+                    } else if (text.includes('2c32')) {
+                        rows[i].style.backgroundColor = '#ffebd6'; // Light Orange
+                    } else if (text.includes('2c33')) {
+                        rows[i].style.backgroundColor = '#fffae6'; // Light Yellow
+                    } else if (text.includes('2c34')) {
+                        rows[i].style.backgroundColor = '#e6f9ec'; // Light Green
+                    } else if (text.includes('2c35')) {
+                        rows[i].style.backgroundColor = '#e6f0ff'; // Light Blue
+                    }
+                }
+
+                // Add search functionality
+                document.getElementById('searchInput').addEventListener('keyup', function() {
+                    const filter = this.value.toLowerCase();
+                    
+                    for (let i = 0; i < rows.length; i++) {
+                        const rowText = rows[i].textContent.toLowerCase();
+                        if (rowText.includes(filter)) {
+                            rows[i].style.display = '';
+                        } else {
+                            rows[i].style.display = 'none';
+                        }
+                    }
+                });
+
+            })
+            .catch(err => {
+                console.error(err);
+                document.getElementById('table-container').innerText = 'Error loading Excel data. Please ensure the file exists.';
+            });
+    </script>
+</body>
+</html>

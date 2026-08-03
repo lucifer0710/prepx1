@@ -103,7 +103,7 @@
 
     <script>
         // Fetch the actual Excel file we put in the public directory
-        fetch('/students.xlsx')
+        fetch('/students1.xlsx')
             .then(res => {
                 if (!res.ok) throw new Error("File not found");
                 return res.arrayBuffer();

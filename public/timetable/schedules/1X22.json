@@ -24,6 +24,26 @@
       "room": "H222/C201",
       "options": []
     },
+      {
+      "day": "Monday",
+      "start_time": "15:30",
+      "end_time": "16:20",
+      "subject": "Programming for Problem Solving",
+      "code": "UES103P",
+      "type": "Practical",
+      "room": "PL-1(L007)",
+      "options": []
+    },
+    {
+      "day": "Monday",
+      "start_time": "16:20",
+      "end_time": "17:10",
+      "subject": "Programming for Problem Solving",
+      "code": "UES103P",
+      "type": "Practical",
+      "room": "PL-1(L007)",
+      "options": []
+    },
     {
       "day": "Monday",
       "start_time": "17:10",
@@ -172,26 +192,6 @@
       "code": "UES013L",
       "type": "Lecture",
       "room": "T105",
-      "options": []
-    },
-    {
-      "day": "Wednesday",
-      "start_time": "15:30",
-      "end_time": "16:20",
-      "subject": "Programming for Problem Solving",
-      "code": "UES103P",
-      "type": "Practical",
-      "room": "PL-1(L007)",
-      "options": []
-    },
-    {
-      "day": "Wednesday",
-      "start_time": "16:20",
-      "end_time": "17:10",
-      "subject": "Programming for Problem Solving",
-      "code": "UES103P",
-      "type": "Practical",
-      "room": "PL-1(L007)",
       "options": []
     },
     {

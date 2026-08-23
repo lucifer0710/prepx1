@@ -185,7 +185,6 @@ window.onload = function () {
     if (savedBatch) {
         loadBatch(savedBatch);
     }
-};
 
     if (!sessionStorage.getItem('timetableDisclaimerShown')) {
         showAlert("Please once verify your timetable with the official Excel sheet, as this site is a student-led project and not anything official.");

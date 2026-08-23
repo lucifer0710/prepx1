@@ -187,6 +187,11 @@ window.onload = function () {
     }
 };
 
+    if (!sessionStorage.getItem('timetableDisclaimerShown')) {
+        showAlert("Please once verify your timetable with the official Excel sheet, as this site is a student-led project and not anything official.");
+        sessionStorage.setItem('timetableDisclaimerShown', 'true');
+    }
+};
 function addSubjectToMap(name, code) {
     if (!name || !code) return;
     const cleanName = name.trim();

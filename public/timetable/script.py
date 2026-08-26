@@ -219,7 +219,7 @@ def initSubjectsData():
     def on_courses_loaded(req):
         if req.status == 200 or req.status == 0:
             try:
-                courses = json.loads(req.text)
+                courses = json.loads(req.responseText)
                 if isinstance(courses, list):
                     for item in courses:
                         if item and item.get('course_name') and item.get('course_code'):
@@ -232,7 +232,7 @@ def initSubjectsData():
         def on_subjects_loaded(req):
             if req.status == 200 or req.status == 0:
                 try:
-                    data = json.loads(req.text)
+                    data = json.loads(req.responseText)
                     for name, code in data.items():
                         addSubjectToMap(name, code)
                 except:
@@ -709,7 +709,7 @@ def loadBatch(batchName):
     def on_batch_loaded(req):
         if req.status == 200 or req.status == 0:
             try:
-                data = json.loads(req.text)
+                data = json.loads(req.responseText)
                 selectBtn = document.getElementById('selectBatchBtn')
                 if selectBtn:
                     selectBtn.innerText = "Batch: " + batchName

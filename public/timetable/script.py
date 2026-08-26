@@ -868,7 +868,7 @@ def window_onload(*args):
         showAlert("Please once verify your timetable with the official Excel sheet, as this site is a student-led project and not anything official.")
         window.sessionStorage.setItem('timetableDisclaimerShown', 'true')
 
-window.onload()
+window_onload()
 
 # Bind to window
 window.openBatchModal = openBatchModal

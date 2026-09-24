@@ -57,6 +57,55 @@ function toggleCard(header) {
             });
         }
 
+        function showToast(message) {
+            let toast = document.getElementById('app-toast');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'app-toast';
+                toast.className = 'app-toast';
+                document.body.appendChild(toast);
+            }
+
+            toast.innerHTML = `
+                <span class="app-toast-icon">ℹ️</span>
+                <span class="app-toast-msg">${message}</span>
+                <button class="app-toast-close">&times;</button>
+            `;
+
+            toast.querySelector('.app-toast-close').onclick = () => {
+                toast.classList.remove('show');
+            };
+
+            void toast.offsetWidth;
+            toast.classList.add('show');
+
+            if (window._toastTimeout) {
+                clearTimeout(window._toastTimeout);
+            }
+            window._toastTimeout = setTimeout(() => {
+                toast.classList.remove('show');
+            }, 5000);
+        }
+
+        function openNoticeModal() {
+            const modal = document.getElementById('notice-modal');
+            if (modal) {
+                modal.style.display = 'flex';
+                modal.offsetHeight;
+                modal.classList.add('show');
+            }
+        }
+
+        function closeNoticeModal() {
+            const modal = document.getElementById('notice-modal');
+            if (modal) {
+                modal.classList.remove('show');
+                setTimeout(() => {
+                    modal.style.display = 'none';
+                }, 300);
+            }
+        }
+
         function openLink(driveLink, action) {
             if (driveLink === 'YOUR_DRIVE_LINK_HERE') {
                 alert('Please add your Google Drive link for this subject!');
@@ -66,6 +115,11 @@ function toggleCard(header) {
             if (action === 'view') {
                 window.open(driveLink, '_blank');
             } else if (action === 'download') {
+                // Folder links (e.g. Semester 3 subjects) cannot be directly downloaded as single files
+                if (driveLink.includes('/drive/folders/')) {
+                    openNoticeModal(driveLink);
+                    return;
+                }
                 const fileId = extractFileId(driveLink);
                 if (fileId) {
                     window.open(`https://drive.google.com/uc?export=download&id=${fileId}`, '_blank');
@@ -86,6 +140,9 @@ function toggleCard(header) {
         function openTimetable() {
     window.open('/timetable/', '_blank');
 }
+window.showToast = showToast;
+window.openNoticeModal = openNoticeModal;
+window.closeNoticeModal = closeNoticeModal;
 window.toggleCard = toggleCard;
 window.filterContent = filterContent;
 window.openLink = openLink;

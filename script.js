@@ -106,6 +106,25 @@ function toggleCard(header) {
             }
         }
 
+        function openUpiModal() {
+            const modal = document.getElementById('upi-modal');
+            if (modal) {
+                modal.style.display = 'flex';
+                modal.offsetHeight;
+                modal.classList.add('show');
+            }
+        }
+
+        function closeUpiModal() {
+            const modal = document.getElementById('upi-modal');
+            if (modal) {
+                modal.classList.remove('show');
+                setTimeout(() => {
+                    modal.style.display = 'none';
+                }, 300);
+            }
+        }
+
         function openLink(driveLink, action) {
             if (driveLink === 'YOUR_DRIVE_LINK_HERE') {
                 alert('Please add your Google Drive link for this subject!');
@@ -143,6 +162,8 @@ function toggleCard(header) {
 window.showToast = showToast;
 window.openNoticeModal = openNoticeModal;
 window.closeNoticeModal = closeNoticeModal;
+window.openUpiModal = openUpiModal;
+window.closeUpiModal = closeUpiModal;
 window.toggleCard = toggleCard;
 window.filterContent = filterContent;
 window.openLink = openLink;

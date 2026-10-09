@@ -834,3 +834,13 @@ h1 {
 .app-toast-close:hover {
     color: #fff;
 }
+
+/* --- CONTRIBUTORS LIST MODAL --- */
+.contributors-list {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.contributors-list::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
